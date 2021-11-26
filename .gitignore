@@ -1,3 +1,5 @@
 nlp_env/
+models/
 .idea/
 .vscode/
+.ipynb_checkpoints/
