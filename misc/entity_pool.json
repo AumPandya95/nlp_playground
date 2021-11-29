@@ -1,15 +1,6 @@
-{
-    "currency": [],
-    "sales": [],
+{   
+    "DATE": ["date"],
+    "PERSON": ["name", "head", ""],
+    "ORGANISATION": [""],
     ""
-}
-
-
-
-
-"Total Profit in the last 12 months": {
-    "sales": "Total Profit generated in the last 12 months",
-    "currency": "Total Profit incurred in the last 12 months",
-    "target": "Total Profit set in the last 12 months",
-    "achievement": "Total Profit achieved in the last 12 months"
 }
