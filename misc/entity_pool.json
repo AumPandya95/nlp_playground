@@ -1,6 +1,10 @@
 {   
-    "DATE": ["date"],
-    "PERSON": ["name", "head", ""],
-    "ORGANISATION": [""],
-    ""
+    "person": {head, name},
+    "organisation": {},
+    "date": {},
+    "currency": {},
+    "location": {},
+    "product": {service} 
 }
+
+[person, product]
