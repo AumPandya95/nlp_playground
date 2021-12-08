@@ -3,3 +3,4 @@ models/
 .idea/
 .vscode/
 .ipynb_checkpoints/
+data/entity_recognition_datasets/
