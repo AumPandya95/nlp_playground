@@ -1,0 +1,22 @@
+Approach
+	0. Create a corpus
+	1. Extract word from column
+	2. Model based entity recognition
+		- Worked
+			break
+		- Didnt work
+			continue
+	3. Extract sub-words
+
+Approach 1
+	1. Lookup sub-words in the corpus
+	2. If we find the subword directly, output the entity
+	3. If not found, then search the most similar words in the corpus
+	4. Extract and output the entity
+
+Approach 2
+	1. Lookup sub-words in the corpus
+	2. If we find the subword directly, output the entity
+	3. If not found, then a semantic similarity between the sub-word and all words in the corpus
+	4. Sort and filter based on a threshold like 0.65
+	5. Extract and output the entity
