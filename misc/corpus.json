@@ -1,0 +1,4402 @@
+{
+    "categorical_column_objects": [
+        {
+            "id": 1,
+            "name": "Region",
+            "entity": "Location",
+            "singular": "Region",
+            "plural": "Regions"
+        },
+        {
+            "id": 2,
+            "name": "Region Name",
+            "entity": "Location",
+            "singular": "Region",
+            "plural": "Regions"
+        },
+        {
+            "id": 3,
+            "name": "Regions",
+            "entity": "Location",
+            "singular": "Region",
+            "plural": "Regions"
+        },
+        {
+            "id": 4,
+            "name": "Division Name",
+            "entity": "Default",
+            "singular": "Division",
+            "plural": "Divisions"
+        },
+        {
+            "id": 5,
+            "name": "Division",
+            "entity": "Default",
+            "singular": "Division",
+            "plural": "Divisions"
+        },
+        {
+            "id": 6,
+            "name": "Divisions",
+            "entity": "Default",
+            "singular": "Division",
+            "plural": "Divisions"
+        },
+        {
+            "id": 7,
+            "name": "Zone",
+            "entity": "Location",
+            "singular": "Zone",
+            "plural": "Zones"
+        },
+        {
+            "id": 8,
+            "name": "Zones",
+            "entity": "Location",
+            "singular": "Zone",
+            "plural": "Zones"
+        },
+        {
+            "id": 9,
+            "name": "Zone Name",
+            "entity": "Location",
+            "singular": "Zone",
+            "plural": "Zones"
+        },
+        {
+            "id": 10,
+            "name": "Country",
+            "entity": "Location",
+            "singular": "Country",
+            "plural": "Countries"
+        },
+        {
+            "id": 11,
+            "name": "Countries",
+            "entity": "Location",
+            "singular": "Country",
+            "plural": "Countries"
+        },
+        {
+            "id": 12,
+            "name": "Country Name",
+            "entity": "Location",
+            "singular": "Country",
+            "plural": "Countries"
+        },
+        {
+            "id": 13,
+            "name": "State",
+            "entity": "Location",
+            "singular": "State",
+            "plural": "States"
+        },
+        {
+            "id": 14,
+            "name": "States",
+            "entity": "Location",
+            "singular": "State",
+            "plural": "States"
+        },
+        {
+            "id": 15,
+            "name": "State Name",
+            "entity": "Location",
+            "singular": "State",
+            "plural": "States"
+        },
+        {
+            "id": 16,
+            "name": "Branch",
+            "entity": "Location",
+            "singular": "Branch",
+            "plural": "Branch"
+        },
+        {
+            "id": 17,
+            "name": "Branch Name",
+            "entity": "Location",
+            "singular": "Branch",
+            "plural": "Branch"
+        },
+        {
+            "id": 18,
+            "name": "Sub Branch",
+            "entity": "Location",
+            "singular": "Sub Branch",
+            "plural": "Sub Branch"
+        },
+        {
+            "id": 19,
+            "name": "Territory Name",
+            "entity": "Location",
+            "singular": "Territory",
+            "plural": "Territories"
+        },
+        {
+            "id": 20,
+            "name": "Territory",
+            "entity": "Location",
+            "singular": "Territory",
+            "plural": "Territories"
+        },
+        {
+            "id": 21,
+            "name": "Territories",
+            "entity": "Location",
+            "singular": "Territory",
+            "plural": "Territories"
+        },
+        {
+            "id": 22,
+            "name": "Area Name",
+            "entity": "Location",
+            "singular": "Area",
+            "plural": "Areas"
+        },
+        {
+            "id": 23,
+            "name": "Area",
+            "entity": "Location",
+            "singular": "Area",
+            "plural": "Areas"
+        },
+        {
+            "id": 24,
+            "name": "Areas",
+            "entity": "Location",
+            "singular": "Area",
+            "plural": "Areas"
+        },
+        {
+            "id": 25,
+            "name": "City Name",
+            "entity": "Location",
+            "singular": "City",
+            "plural": "Cities"
+        },
+        {
+            "id": 26,
+            "name": "City",
+            "entity": "Location",
+            "singular": "City",
+            "plural": "Cities"
+        },
+        {
+            "id": 27,
+            "name": "Cities",
+            "entity": "Location",
+            "singular": "City",
+            "plural": "Cities"
+        },
+        {
+            "id": 28,
+            "name": "Brand",
+            "entity": "Product",
+            "singular": "Brand",
+            "plural": "Brands"
+        },
+        {
+            "id": 29,
+            "name": "Brand Name",
+            "entity": "Product",
+            "singular": "Brand",
+            "plural": "Brands"
+        },
+        {
+            "id": 30,
+            "name": "Brands",
+            "entity": "Product",
+            "singular": "Brand",
+            "plural": "Brands"
+        },
+        {
+            "id": 31,
+            "name": "Sub Brand",
+            "entity": "Product",
+            "singular": "Sub Brand",
+            "plural": "Sub Brands"
+        },
+        {
+            "id": 32,
+            "name": "Sub Brand Name",
+            "entity": "Product",
+            "singular": "Sub Brand",
+            "plural": "Sub Brands"
+        },
+        {
+            "id": 33,
+            "name": "Sub Brands",
+            "entity": "Product",
+            "singular": "Sub Brand",
+            "plural": "Sub Brands"
+        },
+        {
+            "id": 34,
+            "name": "Category",
+            "entity": "Product",
+            "singular": "Category",
+            "plural": "Categories"
+        },
+        {
+            "id": 35,
+            "name": "Category Name",
+            "entity": "Product",
+            "singular": "Category",
+            "plural": "Categories"
+        },
+        {
+            "id": 36,
+            "name": "Categories",
+            "entity": "Product",
+            "singular": "Category",
+            "plural": "Categories"
+        },
+        {
+            "id": 37,
+            "name": "Sub Category",
+            "entity": "Product",
+            "singular": "Sub Category",
+            "plural": "Sub Categories"
+        },
+        {
+            "id": 38,
+            "name": "Sub Category Name",
+            "entity": "Product",
+            "singular": "Sub Category",
+            "plural": "Sub Categories"
+        },
+        {
+            "id": 39,
+            "name": "Sub Categories",
+            "entity": "Product",
+            "singular": "Sub Category",
+            "plural": "Sub Categories"
+        },
+        {
+            "id": 40,
+            "name": "Employee Name",
+            "entity": "Person",
+            "singular": "Employee ",
+            "plural": "Employees "
+        },
+        {
+            "id": 41,
+            "name": "Employee ",
+            "entity": "Person",
+            "singular": "Employee ",
+            "plural": "Employees "
+        },
+        {
+            "id": 42,
+            "name": "Employees ",
+            "entity": "Person",
+            "singular": "Employee ",
+            "plural": "Employees "
+        },
+        {
+            "id": 43,
+            "name": "Supplier Name",
+            "entity": "Person",
+            "singular": "Supplier",
+            "plural": "Suppliers"
+        },
+        {
+            "id": 44,
+            "name": "Supplier",
+            "entity": "Person",
+            "singular": "Supplier",
+            "plural": "Suppliers"
+        },
+        {
+            "id": 45,
+            "name": "Suppliers",
+            "entity": "Person",
+            "singular": "Supplier",
+            "plural": "Suppliers"
+        },
+        {
+            "id": 46,
+            "name": "Supplier's",
+            "entity": "Person",
+            "singular": "Supplier",
+            "plural": "Suppliers"
+        },
+        {
+            "id": 47,
+            "name": "Vendor Name",
+            "entity": "Person",
+            "singular": "Vendor",
+            "plural": "Vendors"
+        },
+        {
+            "id": 48,
+            "name": "Vendor",
+            "entity": "Person",
+            "singular": "Vendor",
+            "plural": "Vendors"
+        },
+        {
+            "id": 49,
+            "name": "Vendors",
+            "entity": "Person",
+            "singular": "Vendor",
+            "plural": "Vendors"
+        },
+        {
+            "id": 50,
+            "name": "Distributor Name",
+            "entity": "Person",
+            "singular": "Distributor",
+            "plural": "Distributors"
+        },
+        {
+            "id": 51,
+            "name": "Distributor",
+            "entity": "Person",
+            "singular": "Distributor",
+            "plural": "Distributors"
+        },
+        {
+            "id": 52,
+            "name": "Distributors",
+            "entity": "Person",
+            "singular": "Distributor",
+            "plural": "Distributors"
+        },
+        {
+            "id": 53,
+            "name": "Headquarter Name",
+            "entity": "Location",
+            "singular": "Headquarter",
+            "plural": "Headquarters"
+        },
+        {
+            "id": 54,
+            "name": "Headquarter",
+            "entity": "Location",
+            "singular": "Headquarter",
+            "plural": "Headquarters"
+        },
+        {
+            "id": 55,
+            "name": "Headquarter's",
+            "entity": "Location",
+            "singular": "Headquarter",
+            "plural": "Headquarters"
+        },
+        {
+            "id": 56,
+            "name": "Headquarters",
+            "entity": "Location",
+            "singular": "Headquarter",
+            "plural": "Headquarters"
+        },
+        {
+            "id": 57,
+            "name": "HQ Name",
+            "entity": "Location",
+            "singular": "HQ Name",
+            "plural": "HQ Names"
+        },
+        {
+            "id": 58,
+            "name": "HQ",
+            "entity": "Location",
+            "singular": "HQ",
+            "plural": "HQ's"
+        },
+        {
+            "id": 59,
+            "name": "Plant Name",
+            "entity": "Location",
+            "singular": "Plant",
+            "plural": "Plants"
+        },
+        {
+            "id": 60,
+            "name": "Plant",
+            "entity": "Location",
+            "singular": "Plant",
+            "plural": "Plants"
+        },
+        {
+            "id": 61,
+            "name": "SKU",
+            "entity": "Product",
+            "singular": "SKU",
+            "plural": "SKU's"
+        },
+        {
+            "id": 62,
+            "name": "SKU's",
+            "entity": "Product",
+            "singular": "SKU",
+            "plural": "SKU's"
+        },
+        {
+            "id": 63,
+            "name": "Team",
+            "entity": "Category",
+            "singular": "Team",
+            "plural": "Teams"
+        },
+        {
+            "id": 64,
+            "name": "Market Name",
+            "entity": "Default",
+            "singular": "Market",
+            "plural": "Markets"
+        },
+        {
+            "id": 65,
+            "name": "Market",
+            "entity": "Default",
+            "singular": "Market",
+            "plural": "Markets"
+        },
+        {
+            "id": 66,
+            "name": "Markets",
+            "entity": "Default",
+            "singular": "Market",
+            "plural": "Markets"
+        },
+        {
+            "id": 67,
+            "name": "Target Market",
+            "entity": "Default",
+            "singular": "Target Market",
+            "plural": "Target Markets"
+        },
+        {
+            "id": 68,
+            "name": "Company Name",
+            "entity": "Category",
+            "singular": "Company",
+            "plural": "Companies"
+        },
+        {
+            "id": 69,
+            "name": "Company",
+            "entity": "Category",
+            "singular": "Company",
+            "plural": "Companies"
+        },
+        {
+            "id": 70,
+            "name": "Companies",
+            "entity": "Category",
+            "singular": "Company",
+            "plural": "Companies"
+        },
+        {
+            "id": 71,
+            "name": "Company Type",
+            "entity": "Category",
+            "singular": "Company Type",
+            "plural": "Company Types"
+        },
+        {
+            "id": 72,
+            "name": "Material Name",
+            "entity": "Product",
+            "singular": "Material ",
+            "plural": "Materials"
+        },
+        {
+            "id": 73,
+            "name": "Material ",
+            "entity": "Product",
+            "singular": "Material ",
+            "plural": "Materials"
+        },
+        {
+            "id": 74,
+            "name": "Materials",
+            "entity": "Product",
+            "singular": "Material ",
+            "plural": "Materials"
+        },
+        {
+            "id": 75,
+            "name": "Product Name",
+            "entity": "Product",
+            "singular": "Product",
+            "plural": "Products"
+        },
+        {
+            "id": 76,
+            "name": "Product",
+            "entity": "Product",
+            "singular": "Product",
+            "plural": "Products"
+        },
+        {
+            "id": 77,
+            "name": "Products",
+            "entity": "Product",
+            "singular": "Product",
+            "plural": "Products"
+        },
+        {
+            "id": 78,
+            "name": "Product Type",
+            "entity": "Product",
+            "singular": "Product Type",
+            "plural": "Product Types"
+        },
+        {
+            "id": 79,
+            "name": "Business",
+            "entity": "Category",
+            "singular": "Business",
+            "plural": "Business's"
+        },
+        {
+            "id": 80,
+            "name": "Business Name",
+            "entity": "Category",
+            "singular": "Business",
+            "plural": "Business's"
+        },
+        {
+            "id": 81,
+            "name": "Business Type",
+            "entity": "Category",
+            "singular": "Business Type",
+            "plural": "Business Type's"
+        },
+        {
+            "id": 82,
+            "name": "Channel Name",
+            "entity": "Category",
+            "singular": "Channel",
+            "plural": "Channels"
+        },
+        {
+            "id": 83,
+            "name": "Channel",
+            "entity": "Category",
+            "singular": "Channel",
+            "plural": "Channels"
+        },
+        {
+            "id": 84,
+            "name": "Channels",
+            "entity": "Category",
+            "singular": "Channel",
+            "plural": "Channels"
+        },
+        {
+            "id": 85,
+            "name": "Department Name",
+            "entity": "Category",
+            "singular": "Department",
+            "plural": "Departments"
+        },
+        {
+            "id": 86,
+            "name": "Department",
+            "entity": "Category",
+            "singular": "Department",
+            "plural": "Departments"
+        },
+        {
+            "id": 87,
+            "name": "Departments",
+            "entity": "Category",
+            "singular": "Department",
+            "plural": "Departments"
+        },
+        {
+            "id": 88,
+            "name": "Department Type",
+            "entity": "Category",
+            "singular": "Department Type",
+            "plural": "Department Types"
+        },
+        {
+            "id": 89,
+            "name": "Department Types",
+            "entity": "Category",
+            "singular": "Department Type",
+            "plural": "Department Types"
+        },
+        {
+            "id": 90,
+            "name": "Vertical Name",
+            "entity": "Default",
+            "singular": "Vertical",
+            "plural": "Verticals"
+        },
+        {
+            "id": 91,
+            "name": "Vertical",
+            "entity": "Default",
+            "singular": "Vertical",
+            "plural": "Verticals"
+        },
+        {
+            "id": 92,
+            "name": "Verticals",
+            "entity": "Default",
+            "singular": "Vertical",
+            "plural": "Verticals"
+        },
+        {
+            "id": 93,
+            "name": "District Name",
+            "entity": "Location",
+            "singular": "District",
+            "plural": "Districts"
+        },
+        {
+            "id": 94,
+            "name": "District",
+            "entity": "Location",
+            "singular": "District",
+            "plural": "Districts"
+        },
+        {
+            "id": 95,
+            "name": "Districts",
+            "entity": "Location",
+            "singular": "District",
+            "plural": "Districts"
+        },
+        {
+            "id": 96,
+            "name": "Cluster Name",
+            "entity": "Default",
+            "singular": "Cluster",
+            "plural": "Clusters"
+        },
+        {
+            "id": 97,
+            "name": "Cluster",
+            "entity": "Default",
+            "singular": "Cluster",
+            "plural": "Clusters"
+        },
+        {
+            "id": 98,
+            "name": "Clusters",
+            "entity": "Default",
+            "singular": "Cluster",
+            "plural": "Clusters"
+        },
+        {
+            "id": 99,
+            "name": "Circle Name",
+            "entity": "Default",
+            "singular": "Circle",
+            "plural": "Circle's"
+        },
+        {
+            "id": 100,
+            "name": "Circle",
+            "entity": "Default",
+            "singular": "Circle",
+            "plural": "Circle's"
+        },
+        {
+            "id": 101,
+            "name": "Circles",
+            "entity": "Default",
+            "singular": "Circle",
+            "plural": "Circle's"
+        },
+        {
+            "id": 102,
+            "name": "Circle's",
+            "entity": "Default",
+            "singular": "Circle",
+            "plural": "Circle's"
+        },
+        {
+            "id": 103,
+            "name": "Zonal Head",
+            "entity": "Person",
+            "singular": "Zonal Head",
+            "plural": "Zonal Heads"
+        },
+        {
+            "id": 104,
+            "name": "Zonal Head's",
+            "entity": "Person",
+            "singular": "Zonal Head",
+            "plural": "Zonal Heads"
+        },
+        {
+            "id": 105,
+            "name": "Zonal Heads",
+            "entity": "Person",
+            "singular": "Zonal Head",
+            "plural": "Zonal Heads"
+        },
+        {
+            "id": 106,
+            "name": "Zone Head",
+            "entity": "Person",
+            "singular": "Zone Head",
+            "plural": "Zone Heads"
+        },
+        {
+            "id": 107,
+            "name": "Zone Head's",
+            "entity": "Person",
+            "singular": "Zone Head",
+            "plural": "Zone Heads"
+        },
+        {
+            "id": 108,
+            "name": "Zone Heads",
+            "entity": "Person",
+            "singular": "Zone Head",
+            "plural": "Zone Heads"
+        },
+        {
+            "id": 109,
+            "name": "Zonal Manager",
+            "entity": "Person",
+            "singular": "Zonal Manager",
+            "plural": "Zonal Managers"
+        },
+        {
+            "id": 110,
+            "name": "Zonal Managers",
+            "entity": "Person",
+            "singular": "Zonal Manager",
+            "plural": "Zonal Managers"
+        },
+        {
+            "id": 111,
+            "name": "Zonal Manager's",
+            "entity": "Person",
+            "singular": "Zonal Manager",
+            "plural": "Zonal Managers"
+        },
+        {
+            "id": 112,
+            "name": "Zone Manager",
+            "entity": "Person",
+            "singular": "Zone Manager",
+            "plural": "Zone Managers"
+        },
+        {
+            "id": 113,
+            "name": "Zone Managers",
+            "entity": "Person",
+            "singular": "Zone Manager",
+            "plural": "Zone Managers"
+        },
+        {
+            "id": 114,
+            "name": "Zone Manager's",
+            "entity": "Person",
+            "singular": "Zone Manager",
+            "plural": "Zone Managers"
+        },
+        {
+            "id": 115,
+            "name": "Regional Head",
+            "entity": "Person",
+            "singular": "Regional Head",
+            "plural": "Regional Heads"
+        },
+        {
+            "id": 116,
+            "name": "Regional Heads",
+            "entity": "Person",
+            "singular": "Regional Head",
+            "plural": "Regional Heads"
+        },
+        {
+            "id": 117,
+            "name": "Regional Head's",
+            "entity": "Person",
+            "singular": "Regional Head",
+            "plural": "Regional Heads"
+        },
+        {
+            "id": 118,
+            "name": "Regional Manager",
+            "entity": "Person",
+            "singular": "Regional Manager",
+            "plural": "Regional Managers"
+        },
+        {
+            "id": 119,
+            "name": "Regional Managers",
+            "entity": "Person",
+            "singular": "Regional Manager",
+            "plural": "Regional Managers"
+        },
+        {
+            "id": 120,
+            "name": "Regional Manager's",
+            "entity": "Person",
+            "singular": "Regional Manager",
+            "plural": "Regional Managers"
+        },
+        {
+            "id": 121,
+            "name": "Region Head",
+            "entity": "Person",
+            "singular": "Region Head",
+            "plural": "Region Heads"
+        },
+        {
+            "id": 122,
+            "name": "Region Heads",
+            "entity": "Person",
+            "singular": "Region Head",
+            "plural": "Region Heads"
+        },
+        {
+            "id": 123,
+            "name": "Region Head's",
+            "entity": "Person",
+            "singular": "Region Head",
+            "plural": "Region Heads"
+        },
+        {
+            "id": 124,
+            "name": "Region Manager",
+            "entity": "Person",
+            "singular": "Region Manager",
+            "plural": "Region Managers"
+        },
+        {
+            "id": 125,
+            "name": "Region Managers",
+            "entity": "Person",
+            "singular": "Region Manager",
+            "plural": "Region Managers"
+        },
+        {
+            "id": 126,
+            "name": "Region Manager's",
+            "entity": "Person",
+            "singular": "Region Manager",
+            "plural": "Region Managers"
+        },
+        {
+            "id": 127,
+            "name": "Circle Head",
+            "entity": "Person",
+            "singular": "Circle Head",
+            "plural": "Circle Heads"
+        },
+        {
+            "id": 128,
+            "name": "Circle Heads",
+            "entity": "Person",
+            "singular": "Circle Head",
+            "plural": "Circle Heads"
+        },
+        {
+            "id": 129,
+            "name": "Circle Head's",
+            "entity": "Person",
+            "singular": "Circle Head",
+            "plural": "Circle Heads"
+        },
+        {
+            "id": 130,
+            "name": "Manager Name",
+            "entity": "Person",
+            "singular": "Manager",
+            "plural": "Managers"
+        },
+        {
+            "id": 131,
+            "name": "Manager",
+            "entity": "Person",
+            "singular": "Manager",
+            "plural": "Managers"
+        },
+        {
+            "id": 132,
+            "name": "Managers",
+            "entity": "Person",
+            "singular": "Manager",
+            "plural": "Managers"
+        },
+        {
+            "id": 133,
+            "name": "Manager Type",
+            "entity": "Designation",
+            "singular": "Manager Type",
+            "plural": "Manager Types"
+        },
+        {
+            "id": 134,
+            "name": "Manager Types",
+            "entity": "Designation",
+            "singular": "Manager Type",
+            "plural": "Manager Types"
+        },
+        {
+            "id": 135,
+            "name": "Cluster Head",
+            "entity": "Person",
+            "singular": "Cluster Head",
+            "plural": "Cluster Heads"
+        },
+        {
+            "id": 136,
+            "name": "Cluster Heads",
+            "entity": "Person",
+            "singular": "Cluster Head",
+            "plural": "Cluster Heads"
+        },
+        {
+            "id": 137,
+            "name": "Business Unit",
+            "entity": "Default",
+            "singular": "Business Unit",
+            "plural": "Business Unit's"
+        },
+        {
+            "id": 138,
+            "name": "BU",
+            "entity": "Default",
+            "singular": "BU",
+            "plural": "BU's"
+        },
+        {
+            "id": 139,
+            "name": "BU's",
+            "entity": "Default",
+            "singular": "BU",
+            "plural": "BU's"
+        },
+        {
+            "id": 140,
+            "name": "Supervisor",
+            "entity": "Person",
+            "singular": "Supervisor",
+            "plural": "Supervisors"
+        },
+        {
+            "id": 141,
+            "name": "Supervisor Name",
+            "entity": "Person",
+            "singular": "Supervisor",
+            "plural": "Supervisors"
+        },
+        {
+            "id": 142,
+            "name": "Supervisors",
+            "entity": "Person",
+            "singular": "Supervisor",
+            "plural": "Supervisors"
+        },
+        {
+            "id": 143,
+            "name": "Process Name",
+            "entity": "Product",
+            "singular": "Process ",
+            "plural": "Processes"
+        },
+        {
+            "id": 144,
+            "name": "Process",
+            "entity": "Category",
+            "singular": "Process ",
+            "plural": "Processes"
+        },
+        {
+            "id": 145,
+            "name": "Processes",
+            "entity": "Category",
+            "singular": "Process ",
+            "plural": "Processes"
+        },
+        {
+            "id": 146,
+            "name": "Sub Process Name",
+            "entity": "Category",
+            "singular": "Sub Process",
+            "plural": "Sub Processes"
+        },
+        {
+            "id": 147,
+            "name": "Sub Process",
+            "entity": "Category",
+            "singular": "Sub Process",
+            "plural": "Sub Processes"
+        },
+        {
+            "id": 148,
+            "name": "Sub Processes",
+            "entity": "Category",
+            "singular": "Sub Process",
+            "plural": "Sub Processes"
+        },
+        {
+            "id": 149,
+            "name": "Location Name",
+            "entity": "Location",
+            "singular": "Location",
+            "plural": "Locations"
+        },
+        {
+            "id": 150,
+            "name": "Location ",
+            "entity": "Location",
+            "singular": "Location",
+            "plural": "Locations"
+        },
+        {
+            "id": 151,
+            "name": "Locations",
+            "entity": "Location",
+            "singular": "Location",
+            "plural": "Locations"
+        },
+        {
+            "id": 152,
+            "name": "HR Name",
+            "entity": "Person",
+            "singular": "HR",
+            "plural": "HR's"
+        },
+        {
+            "id": 153,
+            "name": "HR",
+            "entity": "Person",
+            "singular": "HR",
+            "plural": "HR's"
+        },
+        {
+            "id": 154,
+            "name": "RM Name",
+            "entity": "Person",
+            "singular": "RM",
+            "plural": "RM's"
+        },
+        {
+            "id": 155,
+            "name": "RM",
+            "entity": "Person",
+            "singular": "RM",
+            "plural": "RM's"
+        },
+        {
+            "id": 156,
+            "name": "AM Name",
+            "entity": "Person",
+            "singular": "AM",
+            "plural": "AM's"
+        },
+        {
+            "id": 157,
+            "name": "AM",
+            "entity": "Person",
+            "singular": "AM",
+            "plural": "AM's"
+        },
+        {
+            "id": 158,
+            "name": "ZM Name",
+            "entity": "Person",
+            "singular": "ZM",
+            "plural": "ZM's"
+        },
+        {
+            "id": 159,
+            "name": "ZM",
+            "entity": "Person",
+            "singular": "ZM",
+            "plural": "ZM's"
+        },
+        {
+            "id": 160,
+            "name": "BM Name",
+            "entity": "Person",
+            "singular": "BM",
+            "plural": "BM's"
+        },
+        {
+            "id": 161,
+            "name": "BM",
+            "entity": "Person",
+            "singular": "BM",
+            "plural": "BM's"
+        },
+        {
+            "id": 162,
+            "name": "TM Name",
+            "entity": "Person",
+            "singular": "TM",
+            "plural": "TM's"
+        },
+        {
+            "id": 163,
+            "name": "TM",
+            "entity": "Person",
+            "singular": "TM",
+            "plural": "TM's"
+        },
+        {
+            "id": 164,
+            "name": "SM",
+            "entity": "Person",
+            "singular": "SM",
+            "plural": "SM's"
+        },
+        {
+            "id": 165,
+            "name": "Business Group",
+            "entity": "Category",
+            "singular": "Business Group",
+            "plural": "Business Groups"
+        },
+        {
+            "id": 166,
+            "name": "Business Groups",
+            "entity": "Category",
+            "singular": "Business Group",
+            "plural": "Business Groups"
+        },
+        {
+            "id": 167,
+            "name": "Business Type",
+            "entity": "Category",
+            "singular": "Business Type",
+            "plural": "Business Types"
+        },
+        {
+            "id": 168,
+            "name": "Business Types",
+            "entity": "Category",
+            "singular": "Business Type",
+            "plural": "Business Types"
+        },
+        {
+            "id": 169,
+            "name": "Business Model",
+            "entity": "Category",
+            "singular": "Business Model",
+            "plural": "Business Models"
+        },
+        {
+            "id": 170,
+            "name": "Business Models",
+            "entity": "Category",
+            "singular": "Business Model",
+            "plural": "Business Models"
+        },
+        {
+            "id": 171,
+            "name": "Operating Model",
+            "entity": "Category",
+            "singular": "Operating Model",
+            "plural": "Operating Models"
+        },
+        {
+            "id": 172,
+            "name": "Operating Models",
+            "entity": "Category",
+            "singular": "Operating Model",
+            "plural": "Operating Models"
+        },
+        {
+            "id": 173,
+            "name": "Operational Model",
+            "entity": "Category",
+            "singular": "Operational Model",
+            "plural": "Operational Models"
+        },
+        {
+            "id": 174,
+            "name": "Operational Models",
+            "entity": "Category",
+            "singular": "Operational Model",
+            "plural": "Operational Models"
+        },
+        {
+            "id": 175,
+            "name": "Service Name",
+            "entity": "Category",
+            "singular": "Service",
+            "plural": "Services"
+        },
+        {
+            "id": 176,
+            "name": "Service",
+            "entity": "Category",
+            "singular": "Service",
+            "plural": "Services"
+        },
+        {
+            "id": 177,
+            "name": "Services",
+            "entity": "Category",
+            "singular": "Service",
+            "plural": "Services"
+        },
+        {
+            "id": 178,
+            "name": "Service's",
+            "entity": "Category",
+            "singular": "Service",
+            "plural": "Services"
+        },
+        {
+            "id": 179,
+            "name": "Service Type",
+            "entity": "Category",
+            "singular": "Service Type",
+            "plural": "Service Types"
+        },
+        {
+            "id": 180,
+            "name": "Service Types",
+            "entity": "Category",
+            "singular": "Service Type",
+            "plural": "Service Types"
+        },
+        {
+            "id": 181,
+            "name": "Service Region Name",
+            "entity": "Location",
+            "singular": "Service Region",
+            "plural": "Service Regions"
+        },
+        {
+            "id": 182,
+            "name": "Service Region",
+            "entity": "Location",
+            "singular": "Service Region",
+            "plural": "Service Regions"
+        },
+        {
+            "id": 183,
+            "name": "Service Regions",
+            "entity": "Location",
+            "singular": "Service Region",
+            "plural": "Service Regions"
+        },
+        {
+            "id": 184,
+            "name": "Service Resource",
+            "entity": "Category",
+            "singular": "Service Resource",
+            "plural": "Service Resources"
+        },
+        {
+            "id": 185,
+            "name": "Service Resources",
+            "entity": "Category",
+            "singular": "Service Resource",
+            "plural": "Service Resources"
+        },
+        {
+            "id": 186,
+            "name": "Priority",
+            "entity": "Category",
+            "singular": "Priority",
+            "plural": "Priorities"
+        },
+        {
+            "id": 187,
+            "name": "Priorities",
+            "entity": "Category",
+            "singular": "Priority",
+            "plural": "Priorities"
+        },
+        {
+            "id": 188,
+            "name": "Coordinator",
+            "entity": "Person",
+            "singular": "Coordinator",
+            "plural": "Coordinator's"
+        },
+        {
+            "id": 189,
+            "name": "Coordinator Name",
+            "entity": "Person",
+            "singular": "Coordinator",
+            "plural": "Coordinator's"
+        },
+        {
+            "id": 190,
+            "name": "Coordinators",
+            "entity": "Person",
+            "singular": "Coordinator",
+            "plural": "Coordinator's"
+        },
+        {
+            "id": 191,
+            "name": "Coordinator's",
+            "entity": "Person",
+            "singular": "Coordinator",
+            "plural": "Coordinator's"
+        },
+        {
+            "id": 192,
+            "name": "Customer",
+            "entity": "Person",
+            "singular": "Customer",
+            "plural": "Customers"
+        },
+        {
+            "id": 193,
+            "name": "Customer Name",
+            "entity": "Person",
+            "singular": "Customer",
+            "plural": "Customers"
+        },
+        {
+            "id": 194,
+            "name": "Customers",
+            "entity": "Person",
+            "singular": "Customer",
+            "plural": "Customers"
+        },
+        {
+            "id": 195,
+            "name": "Customer Segment",
+            "entity": "Category",
+            "singular": "Customer Segment",
+            "plural": "Customer Segments"
+        },
+        {
+            "id": 196,
+            "name": "Customer Segments",
+            "entity": "Category",
+            "singular": "Customer Segment",
+            "plural": "Customer Segments"
+        },
+        {
+            "id": 197,
+            "name": "Type of Customer",
+            "entity": "Category",
+            "singular": "Type of Customer",
+            "plural": "Type of Customers"
+        },
+        {
+            "id": 198,
+            "name": "Type of Customers",
+            "entity": "Category",
+            "singular": "Type of Customer",
+            "plural": "Type of Customers"
+        },
+        {
+            "id": 199,
+            "name": "Customer Type",
+            "entity": "Category",
+            "singular": "Customer Type",
+            "plural": "Customer Types"
+        },
+        {
+            "id": 200,
+            "name": "Customer Types",
+            "entity": "Category",
+            "singular": "Customer Type",
+            "plural": "Customer Types"
+        },
+        {
+            "id": 201,
+            "name": "Consumer Name",
+            "entity": "Person",
+            "singular": "Consumer",
+            "plural": "Consumers"
+        },
+        {
+            "id": 202,
+            "name": "Consumer",
+            "entity": "Person",
+            "singular": "Consumer",
+            "plural": "Consumers"
+        },
+        {
+            "id": 203,
+            "name": "Consumers",
+            "entity": "Person",
+            "singular": "Consumer",
+            "plural": "Consumers"
+        },
+        {
+            "id": 204,
+            "name": "Consumer Type",
+            "entity": "Category",
+            "singular": "Consumer Type",
+            "plural": "Consumers Types"
+        },
+        {
+            "id": 205,
+            "name": "Consumers Types",
+            "entity": "Category",
+            "singular": "Consumer Type",
+            "plural": "Consumers Types"
+        },
+        {
+            "id": 206,
+            "name": "Defect Type",
+            "entity": "Product",
+            "singular": "Defect Type",
+            "plural": "Defect Types"
+        },
+        {
+            "id": 207,
+            "name": "Defect Types",
+            "entity": "Product",
+            "singular": "Defect Type",
+            "plural": "Defect Types"
+        },
+        {
+            "id": 208,
+            "name": "Defect",
+            "entity": "Product",
+            "singular": "Defect",
+            "plural": "Defects"
+        },
+        {
+            "id": 209,
+            "name": "Defect Name",
+            "entity": "Product",
+            "singular": "Defect",
+            "plural": "Defects"
+        },
+        {
+            "id": 210,
+            "name": "Defects",
+            "entity": "Product",
+            "singular": "Defect",
+            "plural": "Defects"
+        },
+        {
+            "id": 211,
+            "name": "Defect Location",
+            "entity": "Location",
+            "singular": "Defect Location",
+            "plural": "Defect Locations"
+        },
+        {
+            "id": 212,
+            "name": "Defect Locations",
+            "entity": "Location",
+            "singular": "Defect Location",
+            "plural": "Defect Locations"
+        },
+        {
+            "id": 213,
+            "name": "Client",
+            "entity": "Person",
+            "singular": "Client",
+            "plural": "Clients"
+        },
+        {
+            "id": 214,
+            "name": "Client Name",
+            "entity": "Person",
+            "singular": "Client",
+            "plural": "Clients"
+        },
+        {
+            "id": 215,
+            "name": "Clients",
+            "entity": "Person",
+            "singular": "Client",
+            "plural": "Clients"
+        },
+        {
+            "id": 216,
+            "name": "Client Type",
+            "entity": "Category",
+            "singular": "Client Type",
+            "plural": "Client Types"
+        },
+        {
+            "id": 217,
+            "name": "Client Types",
+            "entity": "Category",
+            "singular": "Client Type",
+            "plural": "Client Types"
+        },
+        {
+            "id": 218,
+            "name": "Stockist",
+            "entity": "Person",
+            "singular": "Stockist",
+            "plural": "Stockists"
+        },
+        {
+            "id": 219,
+            "name": "Stockist Name",
+            "entity": "Person",
+            "singular": "Stockist",
+            "plural": "Stockists"
+        },
+        {
+            "id": 220,
+            "name": "Stockists",
+            "entity": "Person",
+            "singular": "Stockist",
+            "plural": "Stockists"
+        },
+        {
+            "id": 221,
+            "name": "Retailer ",
+            "entity": "Person",
+            "singular": "Retailer ",
+            "plural": "Retailers"
+        },
+        {
+            "id": 222,
+            "name": "Retailers",
+            "entity": "Person",
+            "singular": "Retailer ",
+            "plural": "Retailers"
+        },
+        {
+            "id": 223,
+            "name": "Delivery Centre",
+            "entity": "Location",
+            "singular": "Delivery Centre",
+            "plural": "Delivery Centres"
+        },
+        {
+            "id": 224,
+            "name": "Delivery Centres",
+            "entity": "Location",
+            "singular": "Delivery Centre",
+            "plural": "Delivery Centres"
+        },
+        {
+            "id": 225,
+            "name": "Agency",
+            "entity": "Category",
+            "singular": "Agency",
+            "plural": "Agencies"
+        },
+        {
+            "id": 226,
+            "name": "Agencies",
+            "entity": "Category",
+            "singular": "Agency",
+            "plural": "Agencies"
+        },
+        {
+            "id": 227,
+            "name": "Bank",
+            "entity": "Category",
+            "singular": "Bank",
+            "plural": "Banks"
+        },
+        {
+            "id": 228,
+            "name": "Banks",
+            "entity": "Category",
+            "singular": "Bank",
+            "plural": "Banks"
+        },
+        {
+            "id": 229,
+            "name": "Bank Name",
+            "entity": "Category",
+            "singular": "Bank",
+            "plural": "Banks"
+        },
+        {
+            "id": 230,
+            "name": "Bank Type",
+            "entity": "Category",
+            "singular": "Bank Type",
+            "plural": "Bank Types"
+        },
+        {
+            "id": 231,
+            "name": "Bank Types",
+            "entity": "Category",
+            "singular": "Bank Type",
+            "plural": "Bank Types"
+        },
+        {
+            "id": 232,
+            "name": "Account Name",
+            "entity": "Category",
+            "singular": "Account Name",
+            "plural": "Account Names"
+        },
+        {
+            "id": 233,
+            "name": "Account Names",
+            "entity": "Category",
+            "singular": "Account Name",
+            "plural": "Account Names"
+        },
+        {
+            "id": 234,
+            "name": "Account Type",
+            "entity": "Category",
+            "singular": "Account Type",
+            "plural": "Account Types"
+        },
+        {
+            "id": 235,
+            "name": "Account Types",
+            "entity": "Category",
+            "singular": "Account Type",
+            "plural": "Account Types"
+        },
+        {
+            "id": 236,
+            "name": "Loan Type",
+            "entity": "Category",
+            "singular": "Loan Type",
+            "plural": "Loan Types"
+        },
+        {
+            "id": 237,
+            "name": "Loan Types",
+            "entity": "Category",
+            "singular": "Loan Type",
+            "plural": "Loan Types"
+        },
+        {
+            "id": 238,
+            "name": "Defaulter Name",
+            "entity": "Person",
+            "singular": "Defaulter",
+            "plural": "Defaulters"
+        },
+        {
+            "id": 239,
+            "name": "Defaulter",
+            "entity": "Person",
+            "singular": "Defaulter",
+            "plural": "Defaulters"
+        },
+        {
+            "id": 240,
+            "name": "Defaulters",
+            "entity": "Person",
+            "singular": "Defaulter",
+            "plural": "Defaulters"
+        },
+        {
+            "id": 241,
+            "name": "Phone Type",
+            "entity": "Product",
+            "singular": "Phone Type",
+            "plural": "Phone Types"
+        },
+        {
+            "id": 242,
+            "name": "Phone Types",
+            "entity": "Product",
+            "singular": "Phone Type",
+            "plural": "Phone Types"
+        },
+        {
+            "id": 243,
+            "name": "Phone Model",
+            "entity": "Product",
+            "singular": "Phone Model",
+            "plural": "Phone Models"
+        },
+        {
+            "id": 244,
+            "name": "Phone Models",
+            "entity": "Product",
+            "singular": "Phone Model",
+            "plural": "Phone Models"
+        },
+        {
+            "id": 245,
+            "name": "Item",
+            "entity": "Product",
+            "singular": "Item ",
+            "plural": "Items"
+        },
+        {
+            "id": 246,
+            "name": "Items",
+            "entity": "Product",
+            "singular": "Item ",
+            "plural": "Items"
+        },
+        {
+            "id": 247,
+            "name": "Item Name",
+            "entity": "Product",
+            "singular": "Item Name",
+            "plural": "Item Names"
+        },
+        {
+            "id": 248,
+            "name": "Item Names",
+            "entity": "Product",
+            "singular": "Item Name",
+            "plural": "Item Names"
+        },
+        {
+            "id": 249,
+            "name": "Item Type",
+            "entity": "Product",
+            "singular": "Item Type",
+            "plural": "Item Types"
+        },
+        {
+            "id": 250,
+            "name": "Item Types",
+            "entity": "Product",
+            "singular": "Item Type",
+            "plural": "Item Types"
+        },
+        {
+            "id": 251,
+            "name": "Medical Representative",
+            "entity": "Person",
+            "singular": "Medical Representative",
+            "plural": "Medical Representatives"
+        },
+        {
+            "id": 252,
+            "name": "Medical Representatives",
+            "entity": "Person",
+            "singular": "Medical Representative",
+            "plural": "Medical Representatives"
+        },
+        {
+            "id": 253,
+            "name": "MR",
+            "entity": "Person",
+            "singular": "MR ",
+            "plural": "MR's"
+        },
+        {
+            "id": 254,
+            "name": "MR's",
+            "entity": "Person",
+            "singular": "MR ",
+            "plural": "MR's"
+        },
+        {
+            "id": 255,
+            "name": "MR Name",
+            "entity": "Person",
+            "singular": "MR ",
+            "plural": "MR's"
+        },
+        {
+            "id": 256,
+            "name": "Branch Manager",
+            "entity": "Person",
+            "singular": "Branch Manager",
+            "plural": "Branch Managers"
+        },
+        {
+            "id": 257,
+            "name": "Branch Managers",
+            "entity": "Person",
+            "singular": "Branch Manager",
+            "plural": "Branch Managers"
+        },
+        {
+            "id": 258,
+            "name": "Relationship Manager",
+            "entity": "Person",
+            "singular": "Relationship Manager",
+            "plural": "Relationship Managers"
+        },
+        {
+            "id": 259,
+            "name": "Relationship Managers",
+            "entity": "Person",
+            "singular": "Relationship Manager",
+            "plural": "Relationship Managers"
+        },
+        {
+            "id": 260,
+            "name": "Store Name",
+            "entity": "Category",
+            "singular": "Store",
+            "plural": "Stores"
+        },
+        {
+            "id": 261,
+            "name": "Store",
+            "entity": "Category",
+            "singular": "Store",
+            "plural": "Stores"
+        },
+        {
+            "id": 262,
+            "name": "Stores",
+            "entity": "Category",
+            "singular": "Store",
+            "plural": "Stores"
+        },
+        {
+            "id": 263,
+            "name": "Agreement",
+            "entity": "Category",
+            "singular": "Agreement",
+            "plural": "Agreements"
+        },
+        {
+            "id": 264,
+            "name": "Agreements",
+            "entity": "Category",
+            "singular": "Agreement",
+            "plural": "Agreements"
+        },
+        {
+            "id": 265,
+            "name": "Agreement Type",
+            "entity": "Category",
+            "singular": "Agreement Type",
+            "plural": "Agreement Types"
+        },
+        {
+            "id": 266,
+            "name": "Agreement Types",
+            "entity": "Category",
+            "singular": "Agreement Type",
+            "plural": "Agreement Types"
+        },
+        {
+            "id": 267,
+            "name": "Industry",
+            "entity": "Category",
+            "singular": "Industry",
+            "plural": "Industries"
+        },
+        {
+            "id": 268,
+            "name": "Industries",
+            "entity": "Category",
+            "singular": "Industry",
+            "plural": "Industries"
+        },
+        {
+            "id": 269,
+            "name": "Industry Name",
+            "entity": "Category",
+            "singular": "Industry",
+            "plural": "Industries"
+        },
+        {
+            "id": 270,
+            "name": "Industry Type",
+            "entity": "Category",
+            "singular": "Industry Type",
+            "plural": "Industry Types"
+        },
+        {
+            "id": 271,
+            "name": "Industry Types",
+            "entity": "Category",
+            "singular": "Industry Type",
+            "plural": "Industry Types"
+        },
+        {
+            "id": 272,
+            "name": "Mode of Transport",
+            "entity": "Category",
+            "singular": "Mode of Transport",
+            "plural": "Modes of Transport"
+        },
+        {
+            "id": 273,
+            "name": "Modes of Transport",
+            "entity": "Category",
+            "singular": "Mode of Transport",
+            "plural": "Modes of Transport"
+        },
+        {
+            "id": 274,
+            "name": "Travel Mode",
+            "entity": "Category",
+            "singular": "Travel Mode",
+            "plural": "Travel Modes"
+        },
+        {
+            "id": 275,
+            "name": "Travel Modes",
+            "entity": "Category",
+            "singular": "Travel Mode",
+            "plural": "Travel Modes"
+        },
+        {
+            "id": 276,
+            "name": "Mode of Travel",
+            "entity": "Category",
+            "singular": "Mode of Travel",
+            "plural": "Mode of Travel"
+        },
+        {
+            "id": 277,
+            "name": "Transaction Type",
+            "entity": "Category",
+            "singular": "Transaction Type",
+            "plural": "Transaction Types"
+        },
+        {
+            "id": 278,
+            "name": "Type of Transaction",
+            "entity": "Category",
+            "singular": "Type of Transaction",
+            "plural": "Type of Transactions"
+        },
+        {
+            "id": 279,
+            "name": "Gender",
+            "entity": "Category",
+            "singular": "Gender",
+            "plural": "Gender"
+        },
+        {
+            "id": 280,
+            "name": "Age Group",
+            "entity": "Category",
+            "singular": "Age Group",
+            "plural": "Age Groups"
+        },
+        {
+            "id": 281,
+            "name": "Age Groups",
+            "entity": "Category",
+            "singular": "Age Group",
+            "plural": "Age Groups"
+        },
+        {
+            "id": 282,
+            "name": "Customer Age Group",
+            "entity": "Category",
+            "singular": "Customer Age Group",
+            "plural": "Customer Age Groups"
+        },
+        {
+            "id": 283,
+            "name": "Customer Age Groups",
+            "entity": "Category",
+            "singular": "Customer Age Group",
+            "plural": "Customer Age Groups"
+        },
+        {
+            "id": 284,
+            "name": "Contractor Name",
+            "entity": "Person",
+            "singular": "Contractor",
+            "plural": "Contractors"
+        },
+        {
+            "id": 285,
+            "name": "Contractor",
+            "entity": "Person",
+            "singular": "Contractor",
+            "plural": "Contractors"
+        },
+        {
+            "id": 286,
+            "name": "Contractors",
+            "entity": "Person",
+            "singular": "Contractor",
+            "plural": "Contractors"
+        },
+        {
+            "id": 287,
+            "name": "Visit Type",
+            "entity": "Category",
+            "singular": "Visit Type",
+            "plural": "Visit Type"
+        },
+        {
+            "id": 288,
+            "name": "Type of Visit",
+            "entity": "Category",
+            "singular": "Type of Visit",
+            "plural": "Type of Visit"
+        },
+        {
+            "id": 289,
+            "name": "Invoice No.",
+            "entity": "Category",
+            "singular": "Invoice No.",
+            "plural": "Invoice No's"
+        },
+        {
+            "id": 290,
+            "name": "Invoice Number",
+            "entity": "Category",
+            "singular": "Invoice Number",
+            "plural": "Invoice Number"
+        },
+        {
+            "id": 291,
+            "name": "Inventory",
+            "entity": "Product",
+            "singular": "Inventory",
+            "plural": "Inventories"
+        },
+        {
+            "id": 292,
+            "name": "Inventories",
+            "entity": "Product",
+            "singular": "Inventory",
+            "plural": "Inventories"
+        },
+        {
+            "id": 293,
+            "name": "Inventory Name",
+            "entity": "Product",
+            "singular": "Inventory",
+            "plural": "Inventories"
+        },
+        {
+            "id": 294,
+            "name": "Ticket Type",
+            "entity": "Category",
+            "singular": "Ticket Type",
+            "plural": "Ticket Types"
+        },
+        {
+            "id": 295,
+            "name": "Ticket Types",
+            "entity": "Category",
+            "singular": "Ticket Type",
+            "plural": "Ticket Types"
+        },
+        {
+            "id": 296,
+            "name": "Content Type",
+            "entity": "Category",
+            "singular": "Content Type",
+            "plural": "Content Types"
+        },
+        {
+            "id": 297,
+            "name": "Content Types",
+            "entity": "Category",
+            "singular": "Content Type",
+            "plural": "Content Types"
+        },
+        {
+            "id": 298,
+            "name": "Executive Name",
+            "entity": "Person",
+            "singular": "Executive",
+            "plural": "Executives"
+        },
+        {
+            "id": 299,
+            "name": "Executive",
+            "entity": "Person",
+            "singular": "Executive",
+            "plural": "Executives"
+        },
+        {
+            "id": 300,
+            "name": "Executives",
+            "entity": "Person",
+            "singular": "Executive",
+            "plural": "Executives"
+        },
+        {
+            "id": 301,
+            "name": "Project ",
+            "entity": "Default",
+            "singular": "Project ",
+            "plural": "Projects"
+        },
+        {
+            "id": 302,
+            "name": "Project Name",
+            "entity": "Default",
+            "singular": "Project ",
+            "plural": "Projects"
+        },
+        {
+            "id": 303,
+            "name": "Projects",
+            "entity": "Default",
+            "singular": "Project ",
+            "plural": "Projects"
+        },
+        {
+            "id": 304,
+            "name": "Organisation Name",
+            "entity": "Category",
+            "singular": "Organisation",
+            "plural": "Organisations"
+        },
+        {
+            "id": 305,
+            "name": "Organisation",
+            "entity": "Category",
+            "singular": "Organisation",
+            "plural": "Organisations"
+        },
+        {
+            "id": 306,
+            "name": "Organisations",
+            "entity": "Category",
+            "singular": "Organisation",
+            "plural": "Organisations"
+        },
+        {
+            "id": 307,
+            "name": "Organization Name",
+            "entity": "Category",
+            "singular": "Organization",
+            "plural": "Organizations"
+        },
+        {
+            "id": 308,
+            "name": "Organization",
+            "entity": "Category",
+            "singular": "Organization",
+            "plural": "Organizations"
+        },
+        {
+            "id": 309,
+            "name": "Organizations",
+            "entity": "Category",
+            "singular": "Organization",
+            "plural": "Organizations"
+        },
+        {
+            "id": 310,
+            "name": "Description",
+            "entity": "Category",
+            "singular": "Description",
+            "plural": "Description"
+        },
+        {
+            "id": 311,
+            "name": "Currency Type",
+            "entity": "Category",
+            "singular": "Currency Type",
+            "plural": "Currency Types"
+        },
+        {
+            "id": 312,
+            "name": "Currency Types",
+            "entity": "Category",
+            "singular": "Currency Type",
+            "plural": "Currency Types"
+        },
+        {
+            "id": 313,
+            "name": "Segment",
+            "entity": "Category",
+            "singular": "Segment",
+            "plural": "Segments"
+        },
+        {
+            "id": 314,
+            "name": "Segments",
+            "entity": "Category",
+            "singular": "Segment",
+            "plural": "Segments"
+        },
+        {
+            "id": 315,
+            "name": "Entity",
+            "entity": "Default",
+            "singular": "Entity",
+            "plural": "Entities"
+        },
+        {
+            "id": 316,
+            "name": "Entities",
+            "entity": "Default",
+            "singular": "Entity",
+            "plural": "Entities"
+        },
+        {
+            "id": 317,
+            "name": "Type of Entity",
+            "entity": "Default",
+            "singular": "Type of Entity",
+            "plural": "Type of Entities"
+        },
+        {
+            "id": 318,
+            "name": "Entity Type",
+            "entity": "Default",
+            "singular": "Entity Type",
+            "plural": "Entity Types"
+        },
+        {
+            "id": 319,
+            "name": "Designation",
+            "entity": "Designation",
+            "singular": "Designation",
+            "plural": "Designations"
+        },
+        {
+            "id": 320,
+            "name": "Designations",
+            "entity": "Designation",
+            "singular": "Designation",
+            "plural": "Designations"
+        },
+        {
+            "id": 321,
+            "name": "Designation Type",
+            "entity": "Designation",
+            "singular": "Designation Type",
+            "plural": "Designation Types"
+        },
+        {
+            "id": 322,
+            "name": "Designation Types",
+            "entity": "Designation",
+            "singular": "Designation Type",
+            "plural": "Designation Types"
+        },
+        {
+            "id": 323,
+            "name": "Type of Designation",
+            "entity": "Designation",
+            "singular": "Type of Designation",
+            "plural": "Type of Designations"
+        },
+        {
+            "id": 324,
+            "name": "Sales Channel",
+            "entity": "Category",
+            "singular": "Sales Channel",
+            "plural": "Sales Channel"
+        },
+        {
+            "id": 325,
+            "name": "Molecule",
+            "entity": "Product",
+            "singular": "Molecule",
+            "plural": "Molecules"
+        },
+        {
+            "id": 326,
+            "name": "Name of Doctor",
+            "entity": "Person",
+            "singular": "Name of Doctor",
+            "plural": "Name of Doctors"
+        },
+        {
+            "id": 327,
+            "name": "Doctor Name",
+            "entity": "Person",
+            "singular": "Doctor Name",
+            "plural": "Doctor Names"
+        },
+        {
+            "id": 328,
+            "name": "Name of Doctors",
+            "entity": "Person",
+            "singular": "Name of Doctor",
+            "plural": "Name of Doctors"
+        },
+        {
+            "id": 329,
+            "name": "Ship Mode",
+            "entity": "Category",
+            "singular": "Ship Mode",
+            "plural": "Ship Mode"
+        },
+        {
+            "id": 330,
+            "name": "Shipping Mode",
+            "entity": "Category",
+            "singular": "Shipping Mode",
+            "plural": "Shipping Mode"
+        },
+        {
+            "id": 331,
+            "name": "Mode of Shipping",
+            "entity": "Category",
+            "singular": "Mode of Shipping",
+            "plural": "Mode of Shipping"
+        },
+        {
+            "id": 332,
+            "name": "Order Priority",
+            "entity": "Category",
+            "singular": "Order Priority",
+            "plural": "Order Priorities"
+        },
+        {
+            "id": 333,
+            "name": "Priority of Orders",
+            "entity": "Category",
+            "singular": "Priority of Order",
+            "plural": "Priority of Orders"
+        },
+        {
+            "id": 334,
+            "name": "Continent",
+            "entity": "Location",
+            "singular": "Continent",
+            "plural": "Continent"
+        },
+        {
+            "id": 335,
+            "name": "Fund Type",
+            "entity": "Category",
+            "singular": "Fund Type",
+            "plural": "Fund Type"
+        },
+        {
+            "id": 336,
+            "name": "Type of Fund",
+            "entity": "Category",
+            "singular": "Type of Fund",
+            "plural": "Type of Fund"
+        },
+        {
+            "id": 337,
+            "name": "Mode of Payment",
+            "entity": "Category",
+            "singular": "Mode of Payment",
+            "plural": "Mode of Payment"
+        },
+        {
+            "id": 338,
+            "name": "Payment Mode",
+            "entity": "Category",
+            "singular": "Payment Mode",
+            "plural": "Payment Mode"
+        },
+        {
+            "id": 339,
+            "name": "Type",
+            "entity": "Category",
+            "singular": "Type",
+            "plural": "Types"
+        },
+        {
+            "id": 340,
+            "name": "Name",
+            "entity": "Category",
+            "singular": "Name",
+            "plural": "Name"
+        },
+        {
+            "id": 341,
+            "name": "Status",
+            "entity": "Category",
+            "singular": "Status",
+            "plural": "Status"
+        },
+        {
+            "id": 342,
+            "name": "Time of Call",
+            "entity": "Category",
+            "singular": "Time of Call",
+            "plural": "Time of Call"
+        },
+        {
+            "id": 343,
+            "name": "Doctor Type",
+            "entity": "Category",
+            "singular": "Doctor Type",
+            "plural": "Doctor Type"
+        },
+        {
+            "id": 344,
+            "name": "Physician Type",
+            "entity": "Category",
+            "singular": "Physician Type",
+            "plural": "Physician Type"
+        }
+    ],
+    "numerical_column_objects": [
+        {
+            "id": 1,
+            "name": "Sales Value",
+            "entity": "Sales",
+            "singular": "Sales Value",
+            "plural": "Sales Value"
+        },
+        {
+            "id": 2,
+            "name": "Sales",
+            "entity": "Sales",
+            "singular": "Sales",
+            "plural": "Sales"
+        },
+        {
+            "id": 3,
+            "name": "Sales Volume",
+            "entity": "Sales",
+            "singular": "Sales Volume",
+            "plural": "Sales Volume"
+        },
+        {
+            "id": 4,
+            "name": "Quantity",
+            "entity": "Sales",
+            "singular": "Quantity",
+            "plural": "Quantities"
+        },
+        {
+            "id": 5,
+            "name": "Qty",
+            "entity": "Sales",
+            "singular": "Qty",
+            "plural": "Qty"
+        },
+        {
+            "id": 6,
+            "name": "Value",
+            "entity": "Currency",
+            "singular": "Value",
+            "plural": "Value"
+        },
+        {
+            "id": 7,
+            "name": "Net Sales",
+            "entity": "Sales",
+            "singular": "Net Sales",
+            "plural": "Net Sales"
+        },
+        {
+            "id": 8,
+            "name": "Target Sales",
+            "entity": "Sales",
+            "singular": "Target Sales",
+            "plural": "Target Sales"
+        },
+        {
+            "id": 9,
+            "name": "Sales Target",
+            "entity": "Sales",
+            "singular": "Sales Target",
+            "plural": "Sales Target"
+        },
+        {
+            "id": 10,
+            "name": "Target",
+            "entity": "Sales",
+            "singular": "Target",
+            "plural": "Target"
+        },
+        {
+            "id": 11,
+            "name": "LY Net Sales",
+            "entity": "Sales",
+            "singular": "LY Net Sales",
+            "plural": "LY Net Sales"
+        },
+        {
+            "id": 12,
+            "name": "Net Sales LY",
+            "entity": "Sales",
+            "singular": "Net Sales LY",
+            "plural": "Net Sales LY"
+        },
+        {
+            "id": 13,
+            "name": "Last Year Net Sales",
+            "entity": "Sales",
+            "singular": "Last Year Net Sales",
+            "plural": "Last Year Net Sales"
+        },
+        {
+            "id": 14,
+            "name": "Achievement",
+            "entity": "Default",
+            "singular": "Achievement",
+            "plural": "Achievement"
+        },
+        {
+            "id": 15,
+            "name": "Achievement(%)",
+            "entity": "Default",
+            "singular": "Achievement(%)",
+            "plural": "Achievement(%)"
+        },
+        {
+            "id": 16,
+            "name": "Ach(%)",
+            "entity": "Default",
+            "singular": "Ach(%)",
+            "plural": "Ach(%)"
+        },
+        {
+            "id": 17,
+            "name": "Ach",
+            "entity": "Default",
+            "singular": "Ach",
+            "plural": "Ach"
+        },
+        {
+            "id": 18,
+            "name": "Growth",
+            "entity": "Default",
+            "singular": "Growth",
+            "plural": "Growth"
+        },
+        {
+            "id": 19,
+            "name": "Growth(%)",
+            "entity": "Default",
+            "singular": "Growth(%)",
+            "plural": "Growth(%)"
+        },
+        {
+            "id": 20,
+            "name": "Decline",
+            "entity": "Default",
+            "singular": "Decline",
+            "plural": "Decline"
+        },
+        {
+            "id": 21,
+            "name": "Decline(%)",
+            "entity": "Default",
+            "singular": "Decline(%)",
+            "plural": "Decline(%)"
+        },
+        {
+            "id": 22,
+            "name": "Change(%)",
+            "entity": "Default",
+            "singular": "Change(%)",
+            "plural": "Change(%)"
+        },
+        {
+            "id": 23,
+            "name": "Change Percent",
+            "entity": "Default",
+            "singular": "Change Percent",
+            "plural": "Change Percent"
+        },
+        {
+            "id": 24,
+            "name": "Percentage Change",
+            "entity": "Default",
+            "singular": "Percentage Change",
+            "plural": "Percentage Change"
+        },
+        {
+            "id": 25,
+            "name": "Percent Change",
+            "entity": "Default",
+            "singular": "Percent Change",
+            "plural": "Percent Change"
+        },
+        {
+            "id": 26,
+            "name": "Primary Sales",
+            "entity": "Sales",
+            "singular": "Primary Sales",
+            "plural": "Primary Sales"
+        },
+        {
+            "id": 27,
+            "name": "Secondary Sales",
+            "entity": "Sales",
+            "singular": "Secondary Sales",
+            "plural": "Secondary Sales"
+        },
+        {
+            "id": 28,
+            "name": "Price",
+            "entity": "Currency",
+            "singular": "Price",
+            "plural": "Price"
+        },
+        {
+            "id": 29,
+            "name": "Cost",
+            "entity": "Currency",
+            "singular": "Cost",
+            "plural": "Cost"
+        },
+        {
+            "id": 30,
+            "name": "Rate",
+            "entity": "Default",
+            "singular": "Rate",
+            "plural": "Rate"
+        },
+        {
+            "id": 31,
+            "name": "Rate(%)",
+            "entity": "Default",
+            "singular": "Rate(%)",
+            "plural": "Rate(%)"
+        },
+        {
+            "id": 32,
+            "name": "Targeted Sales",
+            "entity": "Sales",
+            "singular": "Targeted Sales",
+            "plural": "Targeted Sales"
+        },
+        {
+            "id": 33,
+            "name": "Volume",
+            "entity": "Sales",
+            "singular": "Volume",
+            "plural": "Volume"
+        },
+        {
+            "id": 34,
+            "name": "Targeted Volume",
+            "entity": "Sales",
+            "singular": "Targeted Volume",
+            "plural": "Targeted Volume"
+        },
+        {
+            "id": 35,
+            "name": "Net Amount",
+            "entity": "Currency",
+            "singular": "Net Amount",
+            "plural": "Net Amount"
+        },
+        {
+            "id": 36,
+            "name": "NetAmount",
+            "entity": "Currency",
+            "singular": "NetAmount",
+            "plural": "NetAmount"
+        },
+        {
+            "id": 37,
+            "name": "Amount",
+            "entity": "Currency",
+            "singular": "Amount",
+            "plural": "Amount"
+        },
+        {
+            "id": 38,
+            "name": "Discount",
+            "entity": "Currency",
+            "singular": "Discount",
+            "plural": "Discount"
+        },
+        {
+            "id": 39,
+            "name": "Discount(%)",
+            "entity": "Default",
+            "singular": "Discount(%)",
+            "plural": "Discount(%)"
+        },
+        {
+            "id": 40,
+            "name": "Volume (Tonnes)",
+            "entity": "Sales",
+            "singular": "Volume (Tonnes)",
+            "plural": "Volume (Tonnes)"
+        },
+        {
+            "id": 41,
+            "name": "MS Value",
+            "entity": "Default",
+            "singular": "MS Value",
+            "plural": "MS Value"
+        },
+        {
+            "id": 42,
+            "name": "MS Volume",
+            "entity": "Default",
+            "singular": "MS Volume",
+            "plural": "MS Volume"
+        },
+        {
+            "id": 43,
+            "name": "Number of Stores",
+            "entity": "Default",
+            "singular": "Number of Stores",
+            "plural": "Number of Stores"
+        },
+        {
+            "id": 44,
+            "name": "No of Stores",
+            "entity": "Default",
+            "singular": "No of Stores",
+            "plural": "No of Stores"
+        },
+        {
+            "id": 45,
+            "name": "Sales Volume",
+            "entity": "Default",
+            "singular": "Sales Volume",
+            "plural": "Sales Volume"
+        },
+        {
+            "id": 46,
+            "name": "Numeric Distribution (%)",
+            "entity": "Default",
+            "singular": "Numeric Distribution (%)",
+            "plural": "Numeric Distribution (%)"
+        },
+        {
+            "id": 47,
+            "name": "Numeric Distribution(%)",
+            "entity": "Default",
+            "singular": "Numeric Distribution(%)",
+            "plural": "Numeric Distribution(%)"
+        },
+        {
+            "id": 48,
+            "name": "Numeric Distribution",
+            "entity": "Default",
+            "singular": "Numeric Distribution",
+            "plural": "Numeric Distribution"
+        },
+        {
+            "id": 49,
+            "name": "SAH",
+            "entity": "Default",
+            "singular": "SAH",
+            "plural": "SAH"
+        },
+        {
+            "id": 50,
+            "name": "Share Amongst Handlers",
+            "entity": "Default",
+            "singular": "Share Amongst Handlers",
+            "plural": "Share Amongst Handlers"
+        },
+        {
+            "id": 51,
+            "name": "Share amongst handlers",
+            "entity": "Default",
+            "singular": "Share amongst handlers",
+            "plural": "Share amongst handlers"
+        },
+        {
+            "id": 52,
+            "name": "Weighted Distribution(%)",
+            "entity": "Default",
+            "singular": "Weighted Distribution(%)",
+            "plural": "Weighted Distribution(%)"
+        },
+        {
+            "id": 53,
+            "name": "Weighted Distribution (%)",
+            "entity": "Default",
+            "singular": "Weighted Distribution (%)",
+            "plural": "Weighted Distribution (%)"
+        },
+        {
+            "id": 54,
+            "name": "WtdD Value",
+            "entity": "Default",
+            "singular": "WtdD Value",
+            "plural": "WtdD Value"
+        },
+        {
+            "id": 55,
+            "name": "WtdD Val",
+            "entity": "Default",
+            "singular": "WtdD Val",
+            "plural": "WtdD Val"
+        },
+        {
+            "id": 56,
+            "name": "Wtd Distribution",
+            "entity": "Default",
+            "singular": "Wtd Distribution",
+            "plural": "Wtd Distribution"
+        },
+        {
+            "id": 57,
+            "name": "Wtd Distribution(%)",
+            "entity": "Default",
+            "singular": "Wtd Distribution(%)",
+            "plural": "Wtd Distribution(%)"
+        },
+        {
+            "id": 58,
+            "name": "PDO",
+            "entity": "Sales",
+            "singular": "PDO",
+            "plural": "PDO"
+        },
+        {
+            "id": 59,
+            "name": "Per Dealer Offtake",
+            "entity": "Sales",
+            "singular": "Per Dealer Offtake",
+            "plural": "Per Dealer Offtake"
+        },
+        {
+            "id": 60,
+            "name": "PDO(Kgs)",
+            "entity": "Sales",
+            "singular": "PDO(Kgs)",
+            "plural": "PDO(Kgs)"
+        },
+        {
+            "id": 61,
+            "name": "PDO (Kgs)",
+            "entity": "Sales",
+            "singular": "PDO (Kgs)",
+            "plural": "PDO (Kgs)"
+        },
+        {
+            "id": 62,
+            "name": "PDO(Rs)",
+            "entity": "Currency",
+            "singular": "PDO(Rs)",
+            "plural": "PDO(Rs)"
+        },
+        {
+            "id": 63,
+            "name": "PDO (Rs)",
+            "entity": "Currency",
+            "singular": "PDO (Rs)",
+            "plural": "PDO (Rs)"
+        },
+        {
+            "id": 64,
+            "name": "Average Price",
+            "entity": "Currency",
+            "singular": "Average Price",
+            "plural": "Average Price"
+        },
+        {
+            "id": 65,
+            "name": "Avg Price",
+            "entity": "Currency",
+            "singular": "Avg Price",
+            "plural": "Avg Price"
+        },
+        {
+            "id": 66,
+            "name": "MS Unit",
+            "entity": "Sales",
+            "singular": "MS Unit",
+            "plural": "MS Unit"
+        },
+        {
+            "id": 67,
+            "name": "Delivery Quantity",
+            "entity": "Sales",
+            "singular": "Delivery Quantity",
+            "plural": "Delivery Quantity"
+        },
+        {
+            "id": 68,
+            "name": "Delivery Qty",
+            "entity": "Sales",
+            "singular": "Delivery Qty",
+            "plural": "Delivery Qty"
+        },
+        {
+            "id": 69,
+            "name": "Transactions",
+            "entity": "Default",
+            "singular": "Transaction",
+            "plural": "Transactions"
+        },
+        {
+            "id": 70,
+            "name": "No of Transactions",
+            "entity": "Default",
+            "singular": "No of Transactions",
+            "plural": "No of Transactions"
+        },
+        {
+            "id": 71,
+            "name": "Revenue",
+            "entity": "Currency",
+            "singular": "Revenue",
+            "plural": "Revenue"
+        },
+        {
+            "id": 72,
+            "name": "Revenue Amount",
+            "entity": "Currency",
+            "singular": "Revenue Amount",
+            "plural": "Revenue Amount"
+        },
+        {
+            "id": 73,
+            "name": "Revenue Amt",
+            "entity": "Currency",
+            "singular": "Revenue Amt",
+            "plural": "Revenue Amt"
+        },
+        {
+            "id": 74,
+            "name": "Expense",
+            "entity": "Currency",
+            "singular": "Expense",
+            "plural": "Expense"
+        },
+        {
+            "id": 75,
+            "name": "Expenditure Amount",
+            "entity": "Currency",
+            "singular": "Expenditure Amount",
+            "plural": "Expenditure Amount"
+        },
+        {
+            "id": 76,
+            "name": "Expenditure Amt",
+            "entity": "Currency",
+            "singular": "Expenditure Amt",
+            "plural": "Expenditure Amt"
+        },
+        {
+            "id": 77,
+            "name": "Expense Amt",
+            "entity": "Currency",
+            "singular": "Expense Amt",
+            "plural": "Expense Amt"
+        },
+        {
+            "id": 78,
+            "name": "Premium",
+            "entity": "Currency",
+            "singular": "Premium",
+            "plural": "Premium"
+        },
+        {
+            "id": 79,
+            "name": "Premium Amount",
+            "entity": "Currency",
+            "singular": "Premium Amount",
+            "plural": "Premium Amount"
+        },
+        {
+            "id": 80,
+            "name": "Policies Count",
+            "entity": "Sales",
+            "singular": "Policy Count",
+            "plural": "Policies Count"
+        },
+        {
+            "id": 81,
+            "name": "No of Policies",
+            "entity": "Sales",
+            "singular": "No of Policy",
+            "plural": "No of Policies"
+        },
+        {
+            "id": 82,
+            "name": "Number of Policies",
+            "entity": "Sales",
+            "singular": "Number of Policy",
+            "plural": "Number of Policies"
+        },
+        {
+            "id": 83,
+            "name": "Policies Count For the period",
+            "entity": "Sales",
+            "singular": "Policy Count For the period",
+            "plural": "Policies Count For the period"
+        },
+        {
+            "id": 84,
+            "name": "Policies Count for period",
+            "entity": "Sales",
+            "singular": "Policy Count for period",
+            "plural": "Policies Count for period"
+        },
+        {
+            "id": 85,
+            "name": "Policies Count Upto the period",
+            "entity": "Sales",
+            "singular": "Policy Count Upto the period",
+            "plural": "Policies Count Upto the period"
+        },
+        {
+            "id": 86,
+            "name": "Policies Count upto period",
+            "entity": "Sales",
+            "singular": "Policy Count upto period",
+            "plural": "Policies Count upto period"
+        },
+        {
+            "id": 87,
+            "name": "Premium For the period",
+            "entity": "Currency",
+            "singular": "Premium For the period",
+            "plural": "Premium For the period"
+        },
+        {
+            "id": 88,
+            "name": "Premium Upto the period",
+            "entity": "Currency",
+            "singular": "Premium Upto the period",
+            "plural": "Premium Upto the period"
+        },
+        {
+            "id": 89,
+            "name": "Premium Upto the period",
+            "entity": "Currency",
+            "singular": "Premium upto period",
+            "plural": "Premium upto period"
+        },
+        {
+            "id": 90,
+            "name": "Disbursed Amount",
+            "entity": "Currency",
+            "singular": "Disbursed Amount",
+            "plural": "Disbursed Amount"
+        },
+        {
+            "id": 91,
+            "name": "Disbursed Amt",
+            "entity": "Currency",
+            "singular": "Disbursed Amt",
+            "plural": "Disbursed Amt"
+        },
+        {
+            "id": 92,
+            "name": "Amount Disbursed",
+            "entity": "Currency",
+            "singular": "Amount Disbursed",
+            "plural": "Amount Disbursed"
+        },
+        {
+            "id": 93,
+            "name": "Amount disbursed",
+            "entity": "Currency",
+            "singular": "Amount disbursed",
+            "plural": "Amount disbursed"
+        },
+        {
+            "id": 94,
+            "name": "Weighted IRR",
+            "entity": "Currency",
+            "singular": "Weighted IRR",
+            "plural": "Weighted IRR"
+        },
+        {
+            "id": 95,
+            "name": "Loan Amount",
+            "entity": "Currency",
+            "singular": "Loan Amount",
+            "plural": "Loan Amount"
+        },
+        {
+            "id": 96,
+            "name": "Loan Amt",
+            "entity": "Currency",
+            "singular": "Loan Amt",
+            "plural": "Loan Amt"
+        },
+        {
+            "id": 97,
+            "name": "Resignation Count",
+            "entity": "Default",
+            "singular": "Resignation Count",
+            "plural": "Resignation Count"
+        },
+        {
+            "id": 98,
+            "name": "Resignation count",
+            "entity": "Default",
+            "singular": "Resignation count",
+            "plural": "Resignation count"
+        },
+        {
+            "id": 99,
+            "name": "Hire Count",
+            "entity": "Default",
+            "singular": "Hire Count",
+            "plural": "Hire Count"
+        },
+        {
+            "id": 100,
+            "name": "Hire count",
+            "entity": "Default",
+            "singular": "Hire count",
+            "plural": "Hire count"
+        },
+        {
+            "id": 101,
+            "name": "Budget ",
+            "entity": "Currency",
+            "singular": "Budget ",
+            "plural": "Budget "
+        },
+        {
+            "id": 102,
+            "name": "Budget(Rs)",
+            "entity": "Currency",
+            "singular": "Budget(Rs)",
+            "plural": "Budget(Rs)"
+        },
+        {
+            "id": 103,
+            "name": "Hire Cost",
+            "entity": "Currency",
+            "singular": "Hire Cost",
+            "plural": "Hire Cost"
+        },
+        {
+            "id": 104,
+            "name": "Hiring Cost",
+            "entity": "Currency",
+            "singular": "Hiring Cost",
+            "plural": "Hiring Cost"
+        },
+        {
+            "id": 105,
+            "name": "Hiring cost",
+            "entity": "Currency",
+            "singular": "Hiring cost",
+            "plural": "Hiring cost"
+        },
+        {
+            "id": 106,
+            "name": "Hire Budget",
+            "entity": "Currency",
+            "singular": "Hire Budget",
+            "plural": "Hire Budget"
+        },
+        {
+            "id": 107,
+            "name": "Hiring Budget",
+            "entity": "Currency",
+            "singular": "Hiring Budget",
+            "plural": "Hiring Budget"
+        },
+        {
+            "id": 108,
+            "name": "Hiring budget",
+            "entity": "Currency",
+            "singular": "Hiring budget",
+            "plural": "Hiring budget"
+        },
+        {
+            "id": 109,
+            "name": "No of users",
+            "entity": "Default",
+            "singular": "No of user",
+            "plural": "No of users"
+        },
+        {
+            "id": 110,
+            "name": "User count",
+            "entity": "Default",
+            "singular": "User count",
+            "plural": "User count"
+        },
+        {
+            "id": 111,
+            "name": "Users count",
+            "entity": "Default",
+            "singular": "User count",
+            "plural": "Users count"
+        },
+        {
+            "id": 112,
+            "name": "No of Users",
+            "entity": "Default",
+            "singular": "No of User",
+            "plural": "No of Users"
+        },
+        {
+            "id": 113,
+            "name": "User Count",
+            "entity": "Default",
+            "singular": "User Count",
+            "plural": "User Count"
+        },
+        {
+            "id": 114,
+            "name": "Current Users",
+            "entity": "Default",
+            "singular": "Current User",
+            "plural": "Current Users"
+        },
+        {
+            "id": 115,
+            "name": "Last Year Users",
+            "entity": "Default",
+            "singular": "Last Year User",
+            "plural": "Last Year Users"
+        },
+        {
+            "id": 116,
+            "name": "Target Users",
+            "entity": "Default",
+            "singular": "Target Users",
+            "plural": "Target Users"
+        },
+        {
+            "id": 117,
+            "name": "Budget Amount",
+            "entity": "Currency",
+            "singular": "Budget Amount",
+            "plural": "Budget Amount"
+        },
+        {
+            "id": 118,
+            "name": "Budget Amt",
+            "entity": "Currency",
+            "singular": "Budget Amt",
+            "plural": "Budget Amt"
+        },
+        {
+            "id": 119,
+            "name": "Budget Value",
+            "entity": "Currency",
+            "singular": "Budget Value",
+            "plural": "Budget Value"
+        },
+        {
+            "id": 120,
+            "name": "Income",
+            "entity": "Currency",
+            "singular": "Income",
+            "plural": "Income"
+        },
+        {
+            "id": 121,
+            "name": "Income Amount",
+            "entity": "Currency",
+            "singular": "Income Amount",
+            "plural": "Income Amount"
+        },
+        {
+            "id": 122,
+            "name": "Income Amt",
+            "entity": "Currency",
+            "singular": "Income Amt",
+            "plural": "Income Amt"
+        },
+        {
+            "id": 123,
+            "name": "Operating Income",
+            "entity": "Currency",
+            "singular": "Operating Income",
+            "plural": "Operating Income"
+        },
+        {
+            "id": 124,
+            "name": "Operating income",
+            "entity": "Currency",
+            "singular": "Operating income",
+            "plural": "Operating income"
+        },
+        {
+            "id": 125,
+            "name": "No of Tickets",
+            "entity": "Default",
+            "singular": "No of Tickets",
+            "plural": "No of Tickets"
+        },
+        {
+            "id": 126,
+            "name": "Tickets Count",
+            "entity": "Default",
+            "singular": "Tickets Count",
+            "plural": "Tickets Count"
+        },
+        {
+            "id": 127,
+            "name": "Tickets count",
+            "entity": "Default",
+            "singular": "Tickets count",
+            "plural": "Tickets count"
+        },
+        {
+            "id": 128,
+            "name": "Tickets Raised",
+            "entity": "Default",
+            "singular": "Tickets Raised",
+            "plural": "Tickets Raised"
+        },
+        {
+            "id": 129,
+            "name": "Tickets raised",
+            "entity": "Default",
+            "singular": "Tickets raised",
+            "plural": "Tickets raised"
+        },
+        {
+            "id": 130,
+            "name": "Budgeted FTE Count",
+            "entity": "Default",
+            "singular": "Budgeted FTE Count",
+            "plural": "Budgeted FTE Count"
+        },
+        {
+            "id": 131,
+            "name": "Actual FTE Count",
+            "entity": "Default",
+            "singular": "Actual FTE Count",
+            "plural": "Actual FTE Count"
+        },
+        {
+            "id": 132,
+            "name": "FTE Count",
+            "entity": "Default",
+            "singular": "FTE Count",
+            "plural": "FTE Count"
+        },
+        {
+            "id": 133,
+            "name": "Resolution Time",
+            "entity": "Default",
+            "singular": "Resolution Time",
+            "plural": "Resolution Time"
+        },
+        {
+            "id": 134,
+            "name": "Invoice Amount",
+            "entity": "Currency",
+            "singular": "Invoice Amount",
+            "plural": "Invoice Amount"
+        },
+        {
+            "id": 135,
+            "name": "Invoice Amt",
+            "entity": "Currency",
+            "singular": "Invoice Amt",
+            "plural": "Invoice Amt"
+        },
+        {
+            "id": 136,
+            "name": "Gross Sales",
+            "entity": "Sales",
+            "singular": "Gross Sales",
+            "plural": "Gross Sales"
+        },
+        {
+            "id": 137,
+            "name": "Industry Gross Sales",
+            "entity": "Sales",
+            "singular": "Industry Gross Sales",
+            "plural": "Industry Gross Sales"
+        },
+        {
+            "id": 138,
+            "name": "Industry Net Sales",
+            "entity": "Sales",
+            "singular": "Industry Net Sales",
+            "plural": "Industry Net Sales"
+        },
+        {
+            "id": 139,
+            "name": "AUM",
+            "entity": "Default",
+            "singular": "AUM",
+            "plural": "AUM"
+        },
+        {
+            "id": 140,
+            "name": "Assets Under Management",
+            "entity": "Default",
+            "singular": "Assets Under Management",
+            "plural": "Assets Under Management"
+        },
+        {
+            "id": 141,
+            "name": "Industry AUM",
+            "entity": "Default",
+            "singular": "Industry AUM",
+            "plural": "Industry AUM"
+        },
+        {
+            "id": 142,
+            "name": "Unit Cost",
+            "entity": "Currency",
+            "singular": "Unit Cost",
+            "plural": "Unit Cost"
+        },
+        {
+            "id": 143,
+            "name": "Unit Price",
+            "entity": "Currency",
+            "singular": "Unit Price",
+            "plural": "Unit Price"
+        },
+        {
+            "id": 144,
+            "name": "Quantity Supplied",
+            "entity": "Sales",
+            "singular": "Quantity Supplied",
+            "plural": "Quantity Supplied"
+        },
+        {
+            "id": 145,
+            "name": "Units Purchased",
+            "entity": "Sales",
+            "singular": "Units Purchased",
+            "plural": "Units Purchased"
+        },
+        {
+            "id": 146,
+            "name": "Total Units Purchased",
+            "entity": "Sales",
+            "singular": "Total Units Purchased",
+            "plural": "Total Units Purchased"
+        },
+        {
+            "id": 147,
+            "name": "Units Required",
+            "entity": "Default",
+            "singular": "Units Required",
+            "plural": "Units Required"
+        },
+        {
+            "id": 148,
+            "name": "Total Units Required",
+            "entity": "Default",
+            "singular": "Total Units Required",
+            "plural": "Total Units Required"
+        },
+        {
+            "id": 149,
+            "name": "Units Sold",
+            "entity": "Sales",
+            "singular": "Units Sold",
+            "plural": "Units Sold"
+        },
+        {
+            "id": 150,
+            "name": "Total Units Sold",
+            "entity": "Sales",
+            "singular": "Total Units Sold",
+            "plural": "Total Units Sold"
+        },
+        {
+            "id": 151,
+            "name": "Units in Inventory",
+            "entity": "Sales",
+            "singular": "Units in Inventory",
+            "plural": "Units in Inventory"
+        },
+        {
+            "id": 152,
+            "name": "Inventory Units",
+            "entity": "Sales",
+            "singular": "Inventory Units",
+            "plural": "Inventory Units"
+        },
+        {
+            "id": 153,
+            "name": "Inventory units",
+            "entity": "Sales",
+            "singular": "Inventory units",
+            "plural": "Inventory units"
+        },
+        {
+            "id": 154,
+            "name": "Duration",
+            "entity": "Default",
+            "singular": "Duration",
+            "plural": "Duration"
+        },
+        {
+            "id": 155,
+            "name": "Credit Note",
+            "entity": "Currency",
+            "singular": "Credit Note",
+            "plural": "Credit Notes"
+        },
+        {
+            "id": 156,
+            "name": "Credit Notes",
+            "entity": "Currency",
+            "singular": "Credit Note",
+            "plural": "Credit Notes"
+        },
+        {
+            "id": 157,
+            "name": "Credit Note Qty",
+            "entity": "Sales",
+            "singular": "Credit Note Qty",
+            "plural": "Credit Note Qty"
+        },
+        {
+            "id": 158,
+            "name": "Credit Note Sales",
+            "entity": "Sales",
+            "singular": "Credit Note Sales",
+            "plural": "Credit Note Sales"
+        },
+        {
+            "id": 159,
+            "name": "Credit Note Quantity",
+            "entity": "Sales",
+            "singular": "Credit Note Quantity",
+            "plural": "Credit Note Quantity"
+        },
+        {
+            "id": 160,
+            "name": "Call Duration",
+            "entity": "Default",
+            "singular": "Call Duration",
+            "plural": "Call Duration"
+        },
+        {
+            "id": 161,
+            "name": "No of Calls",
+            "entity": "Default",
+            "singular": "No of Calls",
+            "plural": "No of Calls"
+        },
+        {
+            "id": 162,
+            "name": "Number of Calls",
+            "entity": "Default",
+            "singular": "Number of Calls",
+            "plural": "Number of Calls"
+        },
+        {
+            "id": 163,
+            "name": "Actuals",
+            "entity": "Currency",
+            "singular": "Actuals",
+            "plural": "Actuals"
+        },
+        {
+            "id": 164,
+            "name": "Actual",
+            "entity": "Currency",
+            "singular": "Actual",
+            "plural": "Actual"
+        },
+        {
+            "id": 165,
+            "name": "Variance",
+            "entity": "Currency",
+            "singular": "Variance",
+            "plural": "Variance"
+        },
+        {
+            "id": 166,
+            "name": "Litre",
+            "entity": "Default",
+            "singular": "Litre",
+            "plural": "Litre"
+        },
+        {
+            "id": 167,
+            "name": "Ltr",
+            "entity": "Default",
+            "singular": "Ltr",
+            "plural": "Ltr"
+        },
+        {
+            "id": 168,
+            "name": "Down Payment",
+            "entity": "Currency",
+            "singular": "Down Payment",
+            "plural": "Down Payment"
+        },
+        {
+            "id": 169,
+            "name": "Down payment",
+            "entity": "Currency",
+            "singular": "Down payment",
+            "plural": "Down payment"
+        },
+        {
+            "id": 170,
+            "name": "Tenure",
+            "entity": "Default",
+            "singular": "Tenure",
+            "plural": "Tenure"
+        },
+        {
+            "id": 171,
+            "name": "Net Sales Value",
+            "entity": "Sales",
+            "singular": "Net Sales Value",
+            "plural": "Net Sales Value"
+        },
+        {
+            "id": 172,
+            "name": "Net Sales Qty",
+            "entity": "Sales",
+            "singular": "Net Sales Qty",
+            "plural": "Net Sales Qty"
+        },
+        {
+            "id": 173,
+            "name": "Target Value",
+            "entity": "Sales",
+            "singular": "Target Value",
+            "plural": "Target Value"
+        },
+        {
+            "id": 174,
+            "name": "Target Qty",
+            "entity": "Sales",
+            "singular": "Target Qty",
+            "plural": "Target Qty"
+        },
+        {
+            "id": 175,
+            "name": "Last Yr Value",
+            "entity": "Sales",
+            "singular": "Last Yr Value",
+            "plural": "Last Yr Value"
+        },
+        {
+            "id": 176,
+            "name": "Last Yr Qty",
+            "entity": "Sales",
+            "singular": "Last Yr Qty",
+            "plural": "Last Yr Qty"
+        },
+        {
+            "id": 177,
+            "name": "Credit Note Value",
+            "entity": "Sales",
+            "singular": "Credit Note Value",
+            "plural": "Credit Note Value"
+        },
+        {
+            "id": 178,
+            "name": "MS%",
+            "entity": "Default",
+            "singular": "MS%",
+            "plural": "MS%"
+        },
+        {
+            "id": 179,
+            "name": "Visits/Day",
+            "entity": "Default",
+            "singular": "Visits/Day",
+            "plural": "Visits/Day"
+        },
+        {
+            "id": 180,
+            "name": "Calls/Day",
+            "entity": "Default",
+            "singular": "Calls/Day",
+            "plural": "Calls/Day"
+        },
+        {
+            "id": 181,
+            "name": "No of Doctor Visits",
+            "entity": "Default",
+            "singular": "No of Doctor Visit",
+            "plural": "No of Doctor Visits"
+        },
+        {
+            "id": 182,
+            "name": "Coverage(%)",
+            "entity": "Default",
+            "singular": "Coverage(%)",
+            "plural": "Coverage(%)"
+        },
+        {
+            "id": 183,
+            "name": "Total Coverage(%)",
+            "entity": "Default",
+            "singular": "Total Coverage(%)",
+            "plural": "Total Coverage(%)"
+        },
+        {
+            "id": 184,
+            "name": "Doctor Coverage(%)",
+            "entity": "Default",
+            "singular": "Doctor Coverage(%)",
+            "plural": "Doctor Coverage(%)"
+        },
+        {
+            "id": 185,
+            "name": "Doctor Coverage",
+            "entity": "Default",
+            "singular": "Doctor Coverage",
+            "plural": "Doctor Coverage"
+        },
+        {
+            "id": 186,
+            "name": "Net Cost",
+            "entity": "Currency",
+            "singular": "Net Cost",
+            "plural": "Net Cost"
+        },
+        {
+            "id": 187,
+            "name": "%MS Value",
+            "entity": "Default",
+            "singular": "%MS Value",
+            "plural": "%MS Value"
+        },
+        {
+            "id": 188,
+            "name": "%MS Volume",
+            "entity": "Default",
+            "singular": "%MS Volume",
+            "plural": "%MS Volume"
+        },
+        {
+            "id": 189,
+            "name": "%MS Val",
+            "entity": "Default",
+            "singular": "%MS Val",
+            "plural": "%MS Val"
+        },
+        {
+            "id": 190,
+            "name": "%MS Vol",
+            "entity": "Default",
+            "singular": "%MS Vol",
+            "plural": "%MS Vol"
+        },
+        {
+            "id": 191,
+            "name": "MS Value(%)",
+            "entity": "Default",
+            "singular": "MS Value(%)",
+            "plural": "MS Value(%)"
+        },
+        {
+            "id": 192,
+            "name": "MS Volume(%)",
+            "entity": "Default",
+            "singular": "MS Volume(%)",
+            "plural": "MS Volume(%)"
+        },
+        {
+            "id": 193,
+            "name": "Value Market Share",
+            "entity": "Default",
+            "singular": "Value Market Share",
+            "plural": "Value Market Share"
+        },
+        {
+            "id": 194,
+            "name": "Volume Market Share",
+            "entity": "Default",
+            "singular": "Volume Market Share",
+            "plural": "Volume Market Share"
+        },
+        {
+            "id": 195,
+            "name": "Profit",
+            "entity": "Currency",
+            "singular": "Profit",
+            "plural": "Profit"
+        },
+        {
+            "id": 196,
+            "name": "Shipping Cost",
+            "entity": "Currency",
+            "singular": "Shipping Cost",
+            "plural": "Shipping Cost"
+        },
+        {
+            "id": 197,
+            "name": "Profit(%)",
+            "entity": "Default",
+            "singular": "Profit(%)",
+            "plural": "Profit(%)"
+        },
+        {
+            "id": 198,
+            "name": "Loss",
+            "entity": "Currency",
+            "singular": "Loss",
+            "plural": "Loss"
+        },
+        {
+            "id": 199,
+            "name": "Loss(%)",
+            "entity": "Default",
+            "singular": "Loss(%)",
+            "plural": "Loss(%)"
+        },
+        {
+            "id": 200,
+            "name": "Total Profit",
+            "entity": "Currency",
+            "singular": "Total Profit",
+            "plural": "Total Profit"
+        },
+        {
+            "id": 201,
+            "name": "Total Loss",
+            "entity": "Currency",
+            "singular": "Total Loss",
+            "plural": "Total Loss"
+        },
+        {
+            "id": 202,
+            "name": "Total Shipping Cost",
+            "entity": "Currency",
+            "singular": "Total Shipping Cost",
+            "plural": "Total Shipping Cost"
+        },
+        {
+            "id": 203,
+            "name": "Annual Target",
+            "entity": "Sales",
+            "singular": "Annual Target",
+            "plural": "Annual Target"
+        },
+        {
+            "id": 204,
+            "name": "Taxes",
+            "entity": "Currency",
+            "singular": "Taxes",
+            "plural": "Taxes"
+        },
+        {
+            "id": 205,
+            "name": "Recruitment Cost",
+            "entity": "Currency",
+            "singular": "Recruitment Cost",
+            "plural": "Recruitment Cost"
+        },
+        {
+            "id": 206,
+            "name": "NAV Actuals",
+            "entity": "Currency",
+            "singular": "NAV Actuals",
+            "plural": "NAV Actuals"
+        },
+        {
+            "id": 207,
+            "name": "NAV Target",
+            "entity": "Currency",
+            "singular": "NAV Target",
+            "plural": "NAV Target"
+        },
+        {
+            "id": 208,
+            "name": "NAV",
+            "entity": "Currency",
+            "singular": "NAV",
+            "plural": "NAV"
+        },
+        {
+            "id": 209,
+            "name": "NCIB",
+            "entity": "Currency",
+            "singular": "NCIB",
+            "plural": "NCIB"
+        },
+        {
+            "id": 210,
+            "name": "Inc Val",
+            "entity": "Currency",
+            "singular": "Inc Val",
+            "plural": "Inc Val"
+        },
+        {
+            "id": 211,
+            "name": "Incremental Value",
+            "entity": "Currency",
+            "singular": "Incremental Value",
+            "plural": "Incremental Value"
+        },
+        {
+            "id": 212,
+            "name": "Net Asset Value",
+            "entity": "Currency",
+            "singular": "Net Asset Value",
+            "plural": "Net Asset Value"
+        },
+        {
+            "id": 213,
+            "name": "No of Vehicles",
+            "entity": "Default",
+            "singular": "No of Vehicles",
+            "plural": "No of Vehicles"
+        },
+        {
+            "id": 214,
+            "name": "No of Vehicles Sold",
+            "entity": "Sales",
+            "singular": "No of Vehicles Sold",
+            "plural": "No of Vehicles Sold"
+        },
+        {
+            "id": 215,
+            "name": "No of Vehicles Purchased",
+            "entity": "Default",
+            "singular": "No of Vehicles Purchased",
+            "plural": "No of Vehicles Purchased"
+        },
+        {
+            "id": 216,
+            "name": "Vehicles Sold",
+            "entity": "Sales",
+            "singular": "Vehicle Sold",
+            "plural": "Vehicles Sold"
+        },
+        {
+            "id": 217,
+            "name": "Vehicles Purchased",
+            "entity": "Default",
+            "singular": "Vehicle Purchased",
+            "plural": "Vehicles Purchased"
+        },
+        {
+            "id": 218,
+            "name": "Total Revenue",
+            "entity": "Currency",
+            "singular": "Total Revenue",
+            "plural": "Total Revenue"
+        },
+        {
+            "id": 219,
+            "name": "ROI",
+            "entity": "Currency",
+            "singular": "ROI",
+            "plural": "ROI"
+        },
+        {
+            "id": 220,
+            "name": "Return on Investment",
+            "entity": "Currency",
+            "singular": "Return on Investment",
+            "plural": "Returns on Investment"
+        },
+        {
+            "id": 221,
+            "name": "Return On Investment",
+            "entity": "Currency",
+            "singular": "Return On Investment",
+            "plural": "Returns On Investment"
+        },
+        {
+            "id": 222,
+            "name": "Profit Margin(%)",
+            "entity": "Default",
+            "singular": "Profit Margin(%)",
+            "plural": "Profit Margin(%)"
+        },
+        {
+            "id": 223,
+            "name": "PBT",
+            "entity": "Currency",
+            "singular": "PBT",
+            "plural": "PBT"
+        },
+        {
+            "id": 224,
+            "name": "Profit before Tax",
+            "entity": "Currency",
+            "singular": "Profit before Tax",
+            "plural": "Profit before Tax"
+        },
+        {
+            "id": 225,
+            "name": "Profit Before Tax",
+            "entity": "Currency",
+            "singular": "Profit Before Tax",
+            "plural": "Profit Before Tax"
+        },
+        {
+            "id": 226,
+            "name": "RWA",
+            "entity": "Currency",
+            "singular": "RWA",
+            "plural": "RWA"
+        },
+        {
+            "id": 227,
+            "name": "Risk Weighted Assets",
+            "entity": "Currency",
+            "singular": "Risk Weighted Assets",
+            "plural": "Risk Weighted Assets"
+        },
+        {
+            "id": 228,
+            "name": "Amount Receivable",
+            "entity": "Currency",
+            "singular": "Amount Receivable",
+            "plural": "Amount Receivable"
+        },
+        {
+            "id": 229,
+            "name": "Amount receivable",
+            "entity": "Currency",
+            "singular": "Amount receivable",
+            "plural": "Amount receivable"
+        },
+        {
+            "id": 230,
+            "name": "EBITDA",
+            "entity": "Currency",
+            "singular": "EBITDA",
+            "plural": "EBITDA"
+        },
+        {
+            "id": 231,
+            "name": "Primary Sales Actuals",
+            "entity": "Sales",
+            "singular": "Primary Sales Actuals",
+            "plural": "Primary Sales Actuals"
+        },
+        {
+            "id": 232,
+            "name": "Primary Sales Target",
+            "entity": "Sales",
+            "singular": "Primary Sales Target",
+            "plural": "Primary Sales Target"
+        },
+        {
+            "id": 233,
+            "name": "Secondary Sales Actuals",
+            "entity": "Sales",
+            "singular": "Secondary Sales Actuals",
+            "plural": "Secondary Sales Actuals"
+        },
+        {
+            "id": 234,
+            "name": "Secondary Sales Target",
+            "entity": "Sales",
+            "singular": "Secondary Sales Target",
+            "plural": "Secondary Sales Target"
+        },
+        {
+            "id": 235,
+            "name": "Calls",
+            "entity": "Default",
+            "singular": "Calls",
+            "plural": "Calls"
+        },
+        {
+            "id": 236,
+            "name": "No of Calls",
+            "entity": "Default",
+            "singular": "No of Calls",
+            "plural": "No of Calls"
+        },
+        {
+            "id": 237,
+            "name": "Visits",
+            "entity": "Default",
+            "singular": "Visits",
+            "plural": "Visits"
+        },
+        {
+            "id": 238,
+            "name": "No of Visits",
+            "entity": "Default",
+            "singular": "No of Visits",
+            "plural": "No of Visits"
+        },
+        {
+            "id": 239,
+            "name": "DCA",
+            "entity": "Default",
+            "singular": "DCA",
+            "plural": "DCA"
+        },
+        {
+            "id": 240,
+            "name": "Doctor Call Average",
+            "entity": "Default",
+            "singular": "Doctor Call Average",
+            "plural": "Doctor Call Average"
+        },
+        {
+            "id": 241,
+            "name": "Doctor Call Avg",
+            "entity": "Default",
+            "singular": "Doctor Call Avg",
+            "plural": "Doctor Call Avg"
+        },
+        {
+            "id": 242,
+            "name": "CCA",
+            "entity": "Default",
+            "singular": "CCA",
+            "plural": "CCA"
+        },
+        {
+            "id": 243,
+            "name": "Chemist Call Avg",
+            "entity": "Default",
+            "singular": "Chemist Call Avg",
+            "plural": "Chemist Call Avg"
+        },
+        {
+            "id": 244,
+            "name": "Chemist Call Average",
+            "entity": "Default",
+            "singular": "Chemist Call Average",
+            "plural": "Chemist Call Average"
+        },
+        {
+            "id": 245,
+            "name": "Call Average",
+            "entity": "Default",
+            "singular": "Call Average",
+            "plural": "Call Average"
+        },
+        {
+            "id": 246,
+            "name": "Doctor Visits",
+            "entity": "Default",
+            "singular": "Doctor Visits",
+            "plural": "Doctor Visits"
+        },
+        {
+            "id": 247,
+            "name": "Total Budget",
+            "entity": "Currency",
+            "singular": "Total Budget",
+            "plural": "Total Budget"
+        },
+        {
+            "id": 248,
+            "name": "No of Loans Sanctioned",
+            "entity": "Default",
+            "singular": "No of Loans Sanctioned",
+            "plural": "No of Loans Sanctioned"
+        },
+        {
+            "id": 249,
+            "name": "No of Loans Disbursed",
+            "entity": "Default",
+            "singular": "No of Loans Disbursed",
+            "plural": "No of Loans Disbursed"
+        },
+        {
+            "id": 250,
+            "name": "New SIP Count",
+            "entity": "Default",
+            "singular": "New SIP Count",
+            "plural": "New SIP Count"
+        },
+        {
+            "id": 251,
+            "name": "SIP Count",
+            "entity": "Default",
+            "singular": "SIP Count",
+            "plural": "SIP Count"
+        },
+        {
+            "id": 252,
+            "name": "SIP Sales",
+            "entity": "Currency",
+            "singular": "SIP Sales",
+            "plural": "SIP Sales"
+        },
+        {
+            "id": 253,
+            "name": "Net Asset Cost",
+            "entity": "Currency",
+            "singular": "Net Asset Cost",
+            "plural": "Net Asset Cost"
+        },
+        {
+            "id": 254,
+            "name": "Gross Weight",
+            "entity": "Default",
+            "singular": "Gross Weight",
+            "plural": "Gross Weight"
+        },
+        {
+            "id": 255,
+            "name": "Current Assets",
+            "entity": "Currency",
+            "singular": "Current Assets",
+            "plural": "Current Assets"
+        },
+        {
+            "id": 256,
+            "name": "Current Liabilities",
+            "entity": "Currency",
+            "singular": "Current Liabilities",
+            "plural": "Current Liabilities"
+        },
+        {
+            "id": 257,
+            "name": "Investment Amount",
+            "entity": "Currency",
+            "singular": "Investment Amount",
+            "plural": "Investment Amount"
+        },
+        {
+            "id": 258,
+            "name": "Amount Invested",
+            "entity": "Currency",
+            "singular": "Amount Invested",
+            "plural": "Amount Invested"
+        },
+        {
+            "id": 259,
+            "name": "Net Income",
+            "entity": "Currency",
+            "singular": "Net Income",
+            "plural": "Net Income"
+        },
+        {
+            "id": 260,
+            "name": "No of Meetings",
+            "entity": "Default",
+            "singular": "No of Meetings",
+            "plural": "No of Meetings"
+        },
+        {
+            "id": 261,
+            "name": "Purchase Amount",
+            "entity": "Currency",
+            "singular": "Purchase Amount",
+            "plural": "Purchase Amount"
+        },
+        {
+            "id": 262,
+            "name": "Purchase Amt",
+            "entity": "Currency",
+            "singular": "Purchase Amt",
+            "plural": "Purchase Amt"
+        },
+        {
+            "id": 263,
+            "name": "Exchange Rate",
+            "entity": "Default",
+            "singular": "Exchange Rate",
+            "plural": "Exchange Rate"
+        },
+        {
+            "id": 264,
+            "name": "Amount Spent",
+            "entity": "Currency",
+            "singular": "Amount Spent",
+            "plural": "Amount Spent"
+        },
+        {
+            "id": 265,
+            "name": "TRP",
+            "entity": "Default",
+            "singular": "TRP",
+            "plural": "TRP"
+        },
+        {
+            "id": 266,
+            "name": "GRP",
+            "entity": "Default",
+            "singular": "GRP",
+            "plural": "GRP"
+        },
+        {
+            "id": 267,
+            "name": "Equity",
+            "entity": "Currency",
+            "singular": "Equity",
+            "plural": "Equities"
+        },
+        {
+            "id": 268,
+            "name": "Planned Visits",
+            "entity": "Default",
+            "singular": "Planned Visits",
+            "plural": "Planned Visits"
+        },
+        {
+            "id": 269,
+            "name": "Actual Visits",
+            "entity": "Default",
+            "singular": "Actual Visits",
+            "plural": "Actual Visits"
+        },
+        {
+            "id": 270,
+            "name": "No of Planned Visits",
+            "entity": "Default",
+            "singular": "No of Planned Visits",
+            "plural": "No of Planned Visits"
+        },
+        {
+            "id": 271,
+            "name": "No of Actual Visits",
+            "entity": "Default",
+            "singular": "No of Actual Visits",
+            "plural": "No of Actual Visits"
+        },
+        {
+            "id": 272,
+            "name": "Loan Amount Disbursed",
+            "entity": "Currency",
+            "singular": "Loan Amount Disbursed",
+            "plural": "Loan Amount Disbursed"
+        },
+        {
+            "id": 273,
+            "name": "EMI",
+            "entity": "Currency",
+            "singular": "EMI",
+            "plural": "EMI"
+        },
+        {
+            "id": 274,
+            "name": "Equated Monthly Instalments ",
+            "entity": "Currency",
+            "singular": "Equated Monthly Instalments ",
+            "plural": "Equated Monthly Instalments "
+        },
+        {
+            "id": 275,
+            "name": "Turnover",
+            "entity": "Currency",
+            "singular": "Turnover",
+            "plural": "Turnover"
+        },
+        {
+            "id": 276,
+            "name": "PBIT",
+            "entity": "Currency",
+            "singular": "PBIT",
+            "plural": "PBIT"
+        },
+        {
+            "id": 277,
+            "name": "Profit Before Interest & Taxes",
+            "entity": "Currency",
+            "singular": "Profit Before Interest & Taxes",
+            "plural": "Profit Before Interest & Taxes"
+        },
+        {
+            "id": 278,
+            "name": "EBIT",
+            "entity": "Currency",
+            "singular": "EBIT",
+            "plural": "EBIT"
+        },
+        {
+            "id": 279,
+            "name": "Earnings Before Interest & Taxes",
+            "entity": "Currency",
+            "singular": "Earnings Before Interest & Taxes",
+            "plural": "Earnings Before Interest & Taxes"
+        },
+        {
+            "id": 280,
+            "name": "Finance Cost",
+            "entity": "Currency",
+            "singular": "Finance Cost",
+            "plural": "Finance Cost"
+        },
+        {
+            "id": 281,
+            "name": "Monthly Cost",
+            "entity": "Currency",
+            "singular": "Monthly Cost",
+            "plural": "Monthly Cost"
+        },
+        {
+            "id": 282,
+            "name": "COGS",
+            "entity": "Currency",
+            "singular": "COGS",
+            "plural": "COGS"
+        },
+        {
+            "id": 283,
+            "name": "Cost of Goods Sold",
+            "entity": "Currency",
+            "singular": "Cost of Goods Sold",
+            "plural": "Cost of Goods Sold"
+        },
+        {
+            "id": 284,
+            "name": "Net Turnover",
+            "entity": "Currency",
+            "singular": "Net Turnover",
+            "plural": "Net Turnover"
+        }
+    ]
+}
