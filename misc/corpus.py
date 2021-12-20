@@ -13,7 +13,11 @@ def main(corpus):
         each_dict.pop("singular")
         each_dict.pop("plural")
     
-    return corpus
+    corpus_transformed = []
+    corpus_transformed.extend(cat_corp)
+    corpus_transformed.extend(num_corp)
+    
+    return corpus_transformed
 
 
 if __name__ == "__main__":

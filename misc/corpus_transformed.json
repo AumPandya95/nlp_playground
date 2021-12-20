@@ -1,3146 +1,3142 @@
-{
-    "categorical_column_objects": [
-        {
-            "id": 1,
-            "name": "region",
-            "entity": "Location"
-        },
-        {
-            "id": 2,
-            "name": "name",
-            "entity": "Location"
-        },
-        {
-            "id": 3,
-            "name": "regions",
-            "entity": "Location"
-        },
-        {
-            "id": 4,
-            "name": "division name",
-            "entity": "Default"
-        },
-        {
-            "id": 5,
-            "name": "division",
-            "entity": "Default"
-        },
-        {
-            "id": 6,
-            "name": "divisions",
-            "entity": "Default"
-        },
-        {
-            "id": 7,
-            "name": "zone",
-            "entity": "Location"
-        },
-        {
-            "id": 8,
-            "name": "zones",
-            "entity": "Location"
-        },
-        {
-            "id": 9,
-            "name": "zone name",
-            "entity": "Location"
-        },
-        {
-            "id": 10,
-            "name": "country",
-            "entity": "Location"
-        },
-        {
-            "id": 11,
-            "name": "countries",
-            "entity": "Location"
-        },
-        {
-            "id": 12,
-            "name": "country name",
-            "entity": "Location"
-        },
-        {
-            "id": 13,
-            "name": "state",
-            "entity": "Location"
-        },
-        {
-            "id": 14,
-            "name": "states",
-            "entity": "Location"
-        },
-        {
-            "id": 15,
-            "name": "state name",
-            "entity": "Location"
-        },
-        {
-            "id": 16,
-            "name": "branch",
-            "entity": "Location"
-        },
-        {
-            "id": 17,
-            "name": "branch name",
-            "entity": "Location"
-        },
-        {
-            "id": 18,
-            "name": "sub branch",
-            "entity": "Location"
-        },
-        {
-            "id": 19,
-            "name": "territory name",
-            "entity": "Location"
-        },
-        {
-            "id": 20,
-            "name": "territory",
-            "entity": "Location"
-        },
-        {
-            "id": 21,
-            "name": "territories",
-            "entity": "Location"
-        },
-        {
-            "id": 22,
-            "name": "area name",
-            "entity": "Location"
-        },
-        {
-            "id": 23,
-            "name": "area",
-            "entity": "Location"
-        },
-        {
-            "id": 24,
-            "name": "areas",
-            "entity": "Location"
-        },
-        {
-            "id": 25,
-            "name": "city name",
-            "entity": "Location"
-        },
-        {
-            "id": 26,
-            "name": "city",
-            "entity": "Location"
-        },
-        {
-            "id": 27,
-            "name": "cities",
-            "entity": "Location"
-        },
-        {
-            "id": 28,
-            "name": "brand",
-            "entity": "Product"
-        },
-        {
-            "id": 29,
-            "name": "brand name",
-            "entity": "Product"
-        },
-        {
-            "id": 30,
-            "name": "brands",
-            "entity": "Product"
-        },
-        {
-            "id": 31,
-            "name": "sub brand",
-            "entity": "Product"
-        },
-        {
-            "id": 32,
-            "name": "sub brand name",
-            "entity": "Product"
-        },
-        {
-            "id": 33,
-            "name": "sub brands",
-            "entity": "Product"
-        },
-        {
-            "id": 34,
-            "name": "category",
-            "entity": "Product"
-        },
-        {
-            "id": 35,
-            "name": "category name",
-            "entity": "Product"
-        },
-        {
-            "id": 36,
-            "name": "categories",
-            "entity": "Product"
-        },
-        {
-            "id": 37,
-            "name": "sub category",
-            "entity": "Product"
-        },
-        {
-            "id": 38,
-            "name": "sub category name",
-            "entity": "Product"
-        },
-        {
-            "id": 39,
-            "name": "sub categories",
-            "entity": "Product"
-        },
-        {
-            "id": 40,
-            "name": "employee name",
-            "entity": "Person"
-        },
-        {
-            "id": 41,
-            "name": "employee ",
-            "entity": "Person"
-        },
-        {
-            "id": 42,
-            "name": "employees ",
-            "entity": "Person"
-        },
-        {
-            "id": 43,
-            "name": "supplier name",
-            "entity": "Person"
-        },
-        {
-            "id": 44,
-            "name": "supplier",
-            "entity": "Person"
-        },
-        {
-            "id": 45,
-            "name": "suppliers",
-            "entity": "Person"
-        },
-        {
-            "id": 46,
-            "name": "supplier's",
-            "entity": "Person"
-        },
-        {
-            "id": 47,
-            "name": "vendor name",
-            "entity": "Person"
-        },
-        {
-            "id": 48,
-            "name": "vendor",
-            "entity": "Person"
-        },
-        {
-            "id": 49,
-            "name": "vendors",
-            "entity": "Person"
-        },
-        {
-            "id": 50,
-            "name": "distributor name",
-            "entity": "Person"
-        },
-        {
-            "id": 51,
-            "name": "distributor",
-            "entity": "Person"
-        },
-        {
-            "id": 52,
-            "name": "distributors",
-            "entity": "Person"
-        },
-        {
-            "id": 53,
-            "name": "headquarter name",
-            "entity": "Location"
-        },
-        {
-            "id": 54,
-            "name": "headquarter",
-            "entity": "Location"
-        },
-        {
-            "id": 55,
-            "name": "headquarter's",
-            "entity": "Location"
-        },
-        {
-            "id": 56,
-            "name": "headquarters",
-            "entity": "Location"
-        },
-        {
-            "id": 57,
-            "name": "hq name",
-            "entity": "Location"
-        },
-        {
-            "id": 58,
-            "name": "hq",
-            "entity": "Location"
-        },
-        {
-            "id": 59,
-            "name": "plant name",
-            "entity": "Location"
-        },
-        {
-            "id": 60,
-            "name": "plant",
-            "entity": "Location"
-        },
-        {
-            "id": 61,
-            "name": "sku",
-            "entity": "Product"
-        },
-        {
-            "id": 62,
-            "name": "sku's",
-            "entity": "Product"
-        },
-        {
-            "id": 63,
-            "name": "team",
-            "entity": "Category"
-        },
-        {
-            "id": 64,
-            "name": "market name",
-            "entity": "Default"
-        },
-        {
-            "id": 65,
-            "name": "market",
-            "entity": "Default"
-        },
-        {
-            "id": 66,
-            "name": "markets",
-            "entity": "Default"
-        },
-        {
-            "id": 67,
-            "name": "target market",
-            "entity": "Default"
-        },
-        {
-            "id": 68,
-            "name": "company name",
-            "entity": "Category"
-        },
-        {
-            "id": 69,
-            "name": "company",
-            "entity": "Category"
-        },
-        {
-            "id": 70,
-            "name": "companies",
-            "entity": "Category"
-        },
-        {
-            "id": 71,
-            "name": "company type",
-            "entity": "Category"
-        },
-        {
-            "id": 72,
-            "name": "material name",
-            "entity": "Product"
-        },
-        {
-            "id": 73,
-            "name": "material ",
-            "entity": "Product"
-        },
-        {
-            "id": 74,
-            "name": "materials",
-            "entity": "Product"
-        },
-        {
-            "id": 75,
-            "name": "product name",
-            "entity": "Product"
-        },
-        {
-            "id": 76,
-            "name": "product",
-            "entity": "Product"
-        },
-        {
-            "id": 77,
-            "name": "products",
-            "entity": "Product"
-        },
-        {
-            "id": 78,
-            "name": "product type",
-            "entity": "Product"
-        },
-        {
-            "id": 79,
-            "name": "business",
-            "entity": "Category"
-        },
-        {
-            "id": 80,
-            "name": "business name",
-            "entity": "Category"
-        },
-        {
-            "id": 81,
-            "name": "business type",
-            "entity": "Category"
-        },
-        {
-            "id": 82,
-            "name": "channel name",
-            "entity": "Category"
-        },
-        {
-            "id": 83,
-            "name": "channel",
-            "entity": "Category"
-        },
-        {
-            "id": 84,
-            "name": "channels",
-            "entity": "Category"
-        },
-        {
-            "id": 85,
-            "name": "department name",
-            "entity": "Category"
-        },
-        {
-            "id": 86,
-            "name": "department",
-            "entity": "Category"
-        },
-        {
-            "id": 87,
-            "name": "departments",
-            "entity": "Category"
-        },
-        {
-            "id": 88,
-            "name": "department type",
-            "entity": "Category"
-        },
-        {
-            "id": 89,
-            "name": "department types",
-            "entity": "Category"
-        },
-        {
-            "id": 90,
-            "name": "vertical name",
-            "entity": "Default"
-        },
-        {
-            "id": 91,
-            "name": "vertical",
-            "entity": "Default"
-        },
-        {
-            "id": 92,
-            "name": "verticals",
-            "entity": "Default"
-        },
-        {
-            "id": 93,
-            "name": "district name",
-            "entity": "Location"
-        },
-        {
-            "id": 94,
-            "name": "district",
-            "entity": "Location"
-        },
-        {
-            "id": 95,
-            "name": "districts",
-            "entity": "Location"
-        },
-        {
-            "id": 96,
-            "name": "cluster name",
-            "entity": "Default"
-        },
-        {
-            "id": 97,
-            "name": "cluster",
-            "entity": "Default"
-        },
-        {
-            "id": 98,
-            "name": "clusters",
-            "entity": "Default"
-        },
-        {
-            "id": 99,
-            "name": "circle name",
-            "entity": "Default"
-        },
-        {
-            "id": 100,
-            "name": "circle",
-            "entity": "Default"
-        },
-        {
-            "id": 101,
-            "name": "circles",
-            "entity": "Default"
-        },
-        {
-            "id": 102,
-            "name": "circle's",
-            "entity": "Default"
-        },
-        {
-            "id": 103,
-            "name": "zonal head",
-            "entity": "Person"
-        },
-        {
-            "id": 104,
-            "name": "zonal head's",
-            "entity": "Person"
-        },
-        {
-            "id": 105,
-            "name": "zonal heads",
-            "entity": "Person"
-        },
-        {
-            "id": 106,
-            "name": "zone head",
-            "entity": "Person"
-        },
-        {
-            "id": 107,
-            "name": "zone head's",
-            "entity": "Person"
-        },
-        {
-            "id": 108,
-            "name": "zone heads",
-            "entity": "Person"
-        },
-        {
-            "id": 109,
-            "name": "zonal manager",
-            "entity": "Person"
-        },
-        {
-            "id": 110,
-            "name": "zonal managers",
-            "entity": "Person"
-        },
-        {
-            "id": 111,
-            "name": "zonal manager's",
-            "entity": "Person"
-        },
-        {
-            "id": 112,
-            "name": "zone manager",
-            "entity": "Person"
-        },
-        {
-            "id": 113,
-            "name": "zone managers",
-            "entity": "Person"
-        },
-        {
-            "id": 114,
-            "name": "zone manager's",
-            "entity": "Person"
-        },
-        {
-            "id": 115,
-            "name": "regional head",
-            "entity": "Person"
-        },
-        {
-            "id": 116,
-            "name": "regional heads",
-            "entity": "Person"
-        },
-        {
-            "id": 117,
-            "name": "regional head's",
-            "entity": "Person"
-        },
-        {
-            "id": 118,
-            "name": "regional manager",
-            "entity": "Person"
-        },
-        {
-            "id": 119,
-            "name": "regional managers",
-            "entity": "Person"
-        },
-        {
-            "id": 120,
-            "name": "regional manager's",
-            "entity": "Person"
-        },
-        {
-            "id": 121,
-            "name": "region head",
-            "entity": "Person"
-        },
-        {
-            "id": 122,
-            "name": "region heads",
-            "entity": "Person"
-        },
-        {
-            "id": 123,
-            "name": "region head's",
-            "entity": "Person"
-        },
-        {
-            "id": 124,
-            "name": "region manager",
-            "entity": "Person"
-        },
-        {
-            "id": 125,
-            "name": "region managers",
-            "entity": "Person"
-        },
-        {
-            "id": 126,
-            "name": "region manager's",
-            "entity": "Person"
-        },
-        {
-            "id": 127,
-            "name": "circle head",
-            "entity": "Person"
-        },
-        {
-            "id": 128,
-            "name": "circle heads",
-            "entity": "Person"
-        },
-        {
-            "id": 129,
-            "name": "circle head's",
-            "entity": "Person"
-        },
-        {
-            "id": 130,
-            "name": "manager name",
-            "entity": "Person"
-        },
-        {
-            "id": 131,
-            "name": "manager",
-            "entity": "Person"
-        },
-        {
-            "id": 132,
-            "name": "managers",
-            "entity": "Person"
-        },
-        {
-            "id": 133,
-            "name": "manager type",
-            "entity": "Designation"
-        },
-        {
-            "id": 134,
-            "name": "manager types",
-            "entity": "Designation"
-        },
-        {
-            "id": 135,
-            "name": "cluster head",
-            "entity": "Person"
-        },
-        {
-            "id": 136,
-            "name": "cluster heads",
-            "entity": "Person"
-        },
-        {
-            "id": 137,
-            "name": "business unit",
-            "entity": "Default"
-        },
-        {
-            "id": 138,
-            "name": "bu",
-            "entity": "Default"
-        },
-        {
-            "id": 139,
-            "name": "bu's",
-            "entity": "Default"
-        },
-        {
-            "id": 140,
-            "name": "supervisor",
-            "entity": "Person"
-        },
-        {
-            "id": 141,
-            "name": "supervisor name",
-            "entity": "Person"
-        },
-        {
-            "id": 142,
-            "name": "supervisors",
-            "entity": "Person"
-        },
-        {
-            "id": 143,
-            "name": "process name",
-            "entity": "Product"
-        },
-        {
-            "id": 144,
-            "name": "process",
-            "entity": "Category"
-        },
-        {
-            "id": 145,
-            "name": "processes",
-            "entity": "Category"
-        },
-        {
-            "id": 146,
-            "name": "sub process name",
-            "entity": "Category"
-        },
-        {
-            "id": 147,
-            "name": "sub process",
-            "entity": "Category"
-        },
-        {
-            "id": 148,
-            "name": "sub processes",
-            "entity": "Category"
-        },
-        {
-            "id": 149,
-            "name": "location name",
-            "entity": "Location"
-        },
-        {
-            "id": 150,
-            "name": "location ",
-            "entity": "Location"
-        },
-        {
-            "id": 151,
-            "name": "locations",
-            "entity": "Location"
-        },
-        {
-            "id": 152,
-            "name": "hr name",
-            "entity": "Person"
-        },
-        {
-            "id": 153,
-            "name": "hr",
-            "entity": "Person"
-        },
-        {
-            "id": 154,
-            "name": "rm name",
-            "entity": "Person"
-        },
-        {
-            "id": 155,
-            "name": "rm",
-            "entity": "Person"
-        },
-        {
-            "id": 156,
-            "name": "am name",
-            "entity": "Person"
-        },
-        {
-            "id": 157,
-            "name": "am",
-            "entity": "Person"
-        },
-        {
-            "id": 158,
-            "name": "zm name",
-            "entity": "Person"
-        },
-        {
-            "id": 159,
-            "name": "zm",
-            "entity": "Person"
-        },
-        {
-            "id": 160,
-            "name": "bm name",
-            "entity": "Person"
-        },
-        {
-            "id": 161,
-            "name": "bm",
-            "entity": "Person"
-        },
-        {
-            "id": 162,
-            "name": "tm name",
-            "entity": "Person"
-        },
-        {
-            "id": 163,
-            "name": "tm",
-            "entity": "Person"
-        },
-        {
-            "id": 164,
-            "name": "sm",
-            "entity": "Person"
-        },
-        {
-            "id": 165,
-            "name": "business group",
-            "entity": "Category"
-        },
-        {
-            "id": 166,
-            "name": "business groups",
-            "entity": "Category"
-        },
-        {
-            "id": 167,
-            "name": "business type",
-            "entity": "Category"
-        },
-        {
-            "id": 168,
-            "name": "business types",
-            "entity": "Category"
-        },
-        {
-            "id": 169,
-            "name": "business model",
-            "entity": "Category"
-        },
-        {
-            "id": 170,
-            "name": "business models",
-            "entity": "Category"
-        },
-        {
-            "id": 171,
-            "name": "operating model",
-            "entity": "Category"
-        },
-        {
-            "id": 172,
-            "name": "operating models",
-            "entity": "Category"
-        },
-        {
-            "id": 173,
-            "name": "operational model",
-            "entity": "Category"
-        },
-        {
-            "id": 174,
-            "name": "operational models",
-            "entity": "Category"
-        },
-        {
-            "id": 175,
-            "name": "service name",
-            "entity": "Category"
-        },
-        {
-            "id": 176,
-            "name": "service",
-            "entity": "Category"
-        },
-        {
-            "id": 177,
-            "name": "services",
-            "entity": "Category"
-        },
-        {
-            "id": 178,
-            "name": "service's",
-            "entity": "Category"
-        },
-        {
-            "id": 179,
-            "name": "service type",
-            "entity": "Category"
-        },
-        {
-            "id": 180,
-            "name": "service types",
-            "entity": "Category"
-        },
-        {
-            "id": 181,
-            "name": "service region name",
-            "entity": "Location"
-        },
-        {
-            "id": 182,
-            "name": "service region",
-            "entity": "Location"
-        },
-        {
-            "id": 183,
-            "name": "service regions",
-            "entity": "Location"
-        },
-        {
-            "id": 184,
-            "name": "service resource",
-            "entity": "Category"
-        },
-        {
-            "id": 185,
-            "name": "service resources",
-            "entity": "Category"
-        },
-        {
-            "id": 186,
-            "name": "priority",
-            "entity": "Category"
-        },
-        {
-            "id": 187,
-            "name": "priorities",
-            "entity": "Category"
-        },
-        {
-            "id": 188,
-            "name": "coordinator",
-            "entity": "Person"
-        },
-        {
-            "id": 189,
-            "name": "coordinator name",
-            "entity": "Person"
-        },
-        {
-            "id": 190,
-            "name": "coordinators",
-            "entity": "Person"
-        },
-        {
-            "id": 191,
-            "name": "coordinator's",
-            "entity": "Person"
-        },
-        {
-            "id": 192,
-            "name": "customer",
-            "entity": "Person"
-        },
-        {
-            "id": 193,
-            "name": "customer name",
-            "entity": "Person"
-        },
-        {
-            "id": 194,
-            "name": "customers",
-            "entity": "Person"
-        },
-        {
-            "id": 195,
-            "name": "customer segment",
-            "entity": "Category"
-        },
-        {
-            "id": 196,
-            "name": "customer segments",
-            "entity": "Category"
-        },
-        {
-            "id": 197,
-            "name": "type of customer",
-            "entity": "Category"
-        },
-        {
-            "id": 198,
-            "name": "type of customers",
-            "entity": "Category"
-        },
-        {
-            "id": 199,
-            "name": "customer type",
-            "entity": "Category"
-        },
-        {
-            "id": 200,
-            "name": "customer types",
-            "entity": "Category"
-        },
-        {
-            "id": 201,
-            "name": "consumer name",
-            "entity": "Person"
-        },
-        {
-            "id": 202,
-            "name": "consumer",
-            "entity": "Person"
-        },
-        {
-            "id": 203,
-            "name": "consumers",
-            "entity": "Person"
-        },
-        {
-            "id": 204,
-            "name": "consumer type",
-            "entity": "Category"
-        },
-        {
-            "id": 205,
-            "name": "consumers types",
-            "entity": "Category"
-        },
-        {
-            "id": 206,
-            "name": "defect type",
-            "entity": "Product"
-        },
-        {
-            "id": 207,
-            "name": "defect types",
-            "entity": "Product"
-        },
-        {
-            "id": 208,
-            "name": "defect",
-            "entity": "Product"
-        },
-        {
-            "id": 209,
-            "name": "defect name",
-            "entity": "Product"
-        },
-        {
-            "id": 210,
-            "name": "defects",
-            "entity": "Product"
-        },
-        {
-            "id": 211,
-            "name": "defect location",
-            "entity": "Location"
-        },
-        {
-            "id": 212,
-            "name": "defect locations",
-            "entity": "Location"
-        },
-        {
-            "id": 213,
-            "name": "client",
-            "entity": "Person"
-        },
-        {
-            "id": 214,
-            "name": "client name",
-            "entity": "Person"
-        },
-        {
-            "id": 215,
-            "name": "clients",
-            "entity": "Person"
-        },
-        {
-            "id": 216,
-            "name": "client type",
-            "entity": "Category"
-        },
-        {
-            "id": 217,
-            "name": "client types",
-            "entity": "Category"
-        },
-        {
-            "id": 218,
-            "name": "stockist",
-            "entity": "Person"
-        },
-        {
-            "id": 219,
-            "name": "stockist name",
-            "entity": "Person"
-        },
-        {
-            "id": 220,
-            "name": "stockists",
-            "entity": "Person"
-        },
-        {
-            "id": 221,
-            "name": "retailer ",
-            "entity": "Person"
-        },
-        {
-            "id": 222,
-            "name": "retailers",
-            "entity": "Person"
-        },
-        {
-            "id": 223,
-            "name": "delivery centre",
-            "entity": "Location"
-        },
-        {
-            "id": 224,
-            "name": "delivery centres",
-            "entity": "Location"
-        },
-        {
-            "id": 225,
-            "name": "agency",
-            "entity": "Category"
-        },
-        {
-            "id": 226,
-            "name": "agencies",
-            "entity": "Category"
-        },
-        {
-            "id": 227,
-            "name": "bank",
-            "entity": "Category"
-        },
-        {
-            "id": 228,
-            "name": "banks",
-            "entity": "Category"
-        },
-        {
-            "id": 229,
-            "name": "bank name",
-            "entity": "Category"
-        },
-        {
-            "id": 230,
-            "name": "bank type",
-            "entity": "Category"
-        },
-        {
-            "id": 231,
-            "name": "bank types",
-            "entity": "Category"
-        },
-        {
-            "id": 232,
-            "name": "account name",
-            "entity": "Category"
-        },
-        {
-            "id": 233,
-            "name": "account names",
-            "entity": "Category"
-        },
-        {
-            "id": 234,
-            "name": "account type",
-            "entity": "Category"
-        },
-        {
-            "id": 235,
-            "name": "account types",
-            "entity": "Category"
-        },
-        {
-            "id": 236,
-            "name": "loan type",
-            "entity": "Category"
-        },
-        {
-            "id": 237,
-            "name": "loan types",
-            "entity": "Category"
-        },
-        {
-            "id": 238,
-            "name": "defaulter name",
-            "entity": "Person"
-        },
-        {
-            "id": 239,
-            "name": "defaulter",
-            "entity": "Person"
-        },
-        {
-            "id": 240,
-            "name": "defaulters",
-            "entity": "Person"
-        },
-        {
-            "id": 241,
-            "name": "phone type",
-            "entity": "Product"
-        },
-        {
-            "id": 242,
-            "name": "phone types",
-            "entity": "Product"
-        },
-        {
-            "id": 243,
-            "name": "phone model",
-            "entity": "Product"
-        },
-        {
-            "id": 244,
-            "name": "phone models",
-            "entity": "Product"
-        },
-        {
-            "id": 245,
-            "name": "item",
-            "entity": "Product"
-        },
-        {
-            "id": 246,
-            "name": "items",
-            "entity": "Product"
-        },
-        {
-            "id": 247,
-            "name": "item name",
-            "entity": "Product"
-        },
-        {
-            "id": 248,
-            "name": "item names",
-            "entity": "Product"
-        },
-        {
-            "id": 249,
-            "name": "item type",
-            "entity": "Product"
-        },
-        {
-            "id": 250,
-            "name": "item types",
-            "entity": "Product"
-        },
-        {
-            "id": 251,
-            "name": "medical representative",
-            "entity": "Person"
-        },
-        {
-            "id": 252,
-            "name": "medical representatives",
-            "entity": "Person"
-        },
-        {
-            "id": 253,
-            "name": "mr",
-            "entity": "Person"
-        },
-        {
-            "id": 254,
-            "name": "mr's",
-            "entity": "Person"
-        },
-        {
-            "id": 255,
-            "name": "mr name",
-            "entity": "Person"
-        },
-        {
-            "id": 256,
-            "name": "branch manager",
-            "entity": "Person"
-        },
-        {
-            "id": 257,
-            "name": "branch managers",
-            "entity": "Person"
-        },
-        {
-            "id": 258,
-            "name": "relationship manager",
-            "entity": "Person"
-        },
-        {
-            "id": 259,
-            "name": "relationship managers",
-            "entity": "Person"
-        },
-        {
-            "id": 260,
-            "name": "store name",
-            "entity": "Category"
-        },
-        {
-            "id": 261,
-            "name": "store",
-            "entity": "Category"
-        },
-        {
-            "id": 262,
-            "name": "stores",
-            "entity": "Category"
-        },
-        {
-            "id": 263,
-            "name": "agreement",
-            "entity": "Category"
-        },
-        {
-            "id": 264,
-            "name": "agreements",
-            "entity": "Category"
-        },
-        {
-            "id": 265,
-            "name": "agreement type",
-            "entity": "Category"
-        },
-        {
-            "id": 266,
-            "name": "agreement types",
-            "entity": "Category"
-        },
-        {
-            "id": 267,
-            "name": "industry",
-            "entity": "Category"
-        },
-        {
-            "id": 268,
-            "name": "industries",
-            "entity": "Category"
-        },
-        {
-            "id": 269,
-            "name": "industry name",
-            "entity": "Category"
-        },
-        {
-            "id": 270,
-            "name": "industry type",
-            "entity": "Category"
-        },
-        {
-            "id": 271,
-            "name": "industry types",
-            "entity": "Category"
-        },
-        {
-            "id": 272,
-            "name": "mode of transport",
-            "entity": "Category"
-        },
-        {
-            "id": 273,
-            "name": "modes of transport",
-            "entity": "Category"
-        },
-        {
-            "id": 274,
-            "name": "travel mode",
-            "entity": "Category"
-        },
-        {
-            "id": 275,
-            "name": "travel modes",
-            "entity": "Category"
-        },
-        {
-            "id": 276,
-            "name": "mode of travel",
-            "entity": "Category"
-        },
-        {
-            "id": 277,
-            "name": "transaction type",
-            "entity": "Category"
-        },
-        {
-            "id": 278,
-            "name": "type of transaction",
-            "entity": "Category"
-        },
-        {
-            "id": 279,
-            "name": "gender",
-            "entity": "Category"
-        },
-        {
-            "id": 280,
-            "name": "age group",
-            "entity": "Category"
-        },
-        {
-            "id": 281,
-            "name": "age groups",
-            "entity": "Category"
-        },
-        {
-            "id": 282,
-            "name": "customer age group",
-            "entity": "Category"
-        },
-        {
-            "id": 283,
-            "name": "customer age groups",
-            "entity": "Category"
-        },
-        {
-            "id": 284,
-            "name": "contractor name",
-            "entity": "Person"
-        },
-        {
-            "id": 285,
-            "name": "contractor",
-            "entity": "Person"
-        },
-        {
-            "id": 286,
-            "name": "contractors",
-            "entity": "Person"
-        },
-        {
-            "id": 287,
-            "name": "visit type",
-            "entity": "Category"
-        },
-        {
-            "id": 288,
-            "name": "type of visit",
-            "entity": "Category"
-        },
-        {
-            "id": 289,
-            "name": "invoice no.",
-            "entity": "Category"
-        },
-        {
-            "id": 290,
-            "name": "invoice number",
-            "entity": "Category"
-        },
-        {
-            "id": 291,
-            "name": "inventory",
-            "entity": "Product"
-        },
-        {
-            "id": 292,
-            "name": "inventories",
-            "entity": "Product"
-        },
-        {
-            "id": 293,
-            "name": "inventory name",
-            "entity": "Product"
-        },
-        {
-            "id": 294,
-            "name": "ticket type",
-            "entity": "Category"
-        },
-        {
-            "id": 295,
-            "name": "ticket types",
-            "entity": "Category"
-        },
-        {
-            "id": 296,
-            "name": "content type",
-            "entity": "Category"
-        },
-        {
-            "id": 297,
-            "name": "content types",
-            "entity": "Category"
-        },
-        {
-            "id": 298,
-            "name": "executive name",
-            "entity": "Person"
-        },
-        {
-            "id": 299,
-            "name": "executive",
-            "entity": "Person"
-        },
-        {
-            "id": 300,
-            "name": "executives",
-            "entity": "Person"
-        },
-        {
-            "id": 301,
-            "name": "project ",
-            "entity": "Default"
-        },
-        {
-            "id": 302,
-            "name": "project name",
-            "entity": "Default"
-        },
-        {
-            "id": 303,
-            "name": "projects",
-            "entity": "Default"
-        },
-        {
-            "id": 304,
-            "name": "organisation name",
-            "entity": "Category"
-        },
-        {
-            "id": 305,
-            "name": "organisation",
-            "entity": "Category"
-        },
-        {
-            "id": 306,
-            "name": "organisations",
-            "entity": "Category"
-        },
-        {
-            "id": 307,
-            "name": "organization name",
-            "entity": "Category"
-        },
-        {
-            "id": 308,
-            "name": "organization",
-            "entity": "Category"
-        },
-        {
-            "id": 309,
-            "name": "organizations",
-            "entity": "Category"
-        },
-        {
-            "id": 310,
-            "name": "description",
-            "entity": "Category"
-        },
-        {
-            "id": 311,
-            "name": "currency type",
-            "entity": "Category"
-        },
-        {
-            "id": 312,
-            "name": "currency types",
-            "entity": "Category"
-        },
-        {
-            "id": 313,
-            "name": "segment",
-            "entity": "Category"
-        },
-        {
-            "id": 314,
-            "name": "segments",
-            "entity": "Category"
-        },
-        {
-            "id": 315,
-            "name": "entity",
-            "entity": "Default"
-        },
-        {
-            "id": 316,
-            "name": "entities",
-            "entity": "Default"
-        },
-        {
-            "id": 317,
-            "name": "type of entity",
-            "entity": "Default"
-        },
-        {
-            "id": 318,
-            "name": "entity type",
-            "entity": "Default"
-        },
-        {
-            "id": 319,
-            "name": "designation",
-            "entity": "Designation"
-        },
-        {
-            "id": 320,
-            "name": "designations",
-            "entity": "Designation"
-        },
-        {
-            "id": 321,
-            "name": "designation type",
-            "entity": "Designation"
-        },
-        {
-            "id": 322,
-            "name": "designation types",
-            "entity": "Designation"
-        },
-        {
-            "id": 323,
-            "name": "type of designation",
-            "entity": "Designation"
-        },
-        {
-            "id": 324,
-            "name": "sales channel",
-            "entity": "Category"
-        },
-        {
-            "id": 325,
-            "name": "molecule",
-            "entity": "Product"
-        },
-        {
-            "id": 326,
-            "name": "name of doctor",
-            "entity": "Person"
-        },
-        {
-            "id": 327,
-            "name": "doctor name",
-            "entity": "Person"
-        },
-        {
-            "id": 328,
-            "name": "name of doctors",
-            "entity": "Person"
-        },
-        {
-            "id": 329,
-            "name": "ship mode",
-            "entity": "Category"
-        },
-        {
-            "id": 330,
-            "name": "shipping mode",
-            "entity": "Category"
-        },
-        {
-            "id": 331,
-            "name": "mode of shipping",
-            "entity": "Category"
-        },
-        {
-            "id": 332,
-            "name": "order priority",
-            "entity": "Category"
-        },
-        {
-            "id": 333,
-            "name": "priority of orders",
-            "entity": "Category"
-        },
-        {
-            "id": 334,
-            "name": "continent",
-            "entity": "Location"
-        },
-        {
-            "id": 335,
-            "name": "fund type",
-            "entity": "Category"
-        },
-        {
-            "id": 336,
-            "name": "type of fund",
-            "entity": "Category"
-        },
-        {
-            "id": 337,
-            "name": "mode of payment",
-            "entity": "Category"
-        },
-        {
-            "id": 338,
-            "name": "payment mode",
-            "entity": "Category"
-        },
-        {
-            "id": 339,
-            "name": "type",
-            "entity": "Category"
-        },
-        {
-            "id": 340,
-            "name": "name",
-            "entity": "Category"
-        },
-        {
-            "id": 341,
-            "name": "status",
-            "entity": "Category"
-        },
-        {
-            "id": 342,
-            "name": "time of call",
-            "entity": "Category"
-        },
-        {
-            "id": 343,
-            "name": "doctor type",
-            "entity": "Category"
-        },
-        {
-            "id": 344,
-            "name": "physician type",
-            "entity": "Category"
-        }
-    ],
-    "numerical_column_objects": [
-        {
-            "id": 1,
-            "name": "sales value",
-            "entity": "Sales"
-        },
-        {
-            "id": 2,
-            "name": "sales",
-            "entity": "Sales"
-        },
-        {
-            "id": 3,
-            "name": "sales volume",
-            "entity": "Sales"
-        },
-        {
-            "id": 4,
-            "name": "quantity",
-            "entity": "Sales"
-        },
-        {
-            "id": 5,
-            "name": "qty",
-            "entity": "Sales"
-        },
-        {
-            "id": 6,
-            "name": "value",
-            "entity": "Currency"
-        },
-        {
-            "id": 7,
-            "name": "net sales",
-            "entity": "Sales"
-        },
-        {
-            "id": 8,
-            "name": "target sales",
-            "entity": "Sales"
-        },
-        {
-            "id": 9,
-            "name": "sales target",
-            "entity": "Sales"
-        },
-        {
-            "id": 10,
-            "name": "target",
-            "entity": "Sales"
-        },
-        {
-            "id": 11,
-            "name": "ly net sales",
-            "entity": "Sales"
-        },
-        {
-            "id": 12,
-            "name": "net sales ly",
-            "entity": "Sales"
-        },
-        {
-            "id": 13,
-            "name": "last year net sales",
-            "entity": "Sales"
-        },
-        {
-            "id": 14,
-            "name": "achievement",
-            "entity": "Default"
-        },
-        {
-            "id": 15,
-            "name": "achievement(%)",
-            "entity": "Default"
-        },
-        {
-            "id": 16,
-            "name": "ach(%)",
-            "entity": "Default"
-        },
-        {
-            "id": 17,
-            "name": "ach",
-            "entity": "Default"
-        },
-        {
-            "id": 18,
-            "name": "growth",
-            "entity": "Default"
-        },
-        {
-            "id": 19,
-            "name": "growth(%)",
-            "entity": "Default"
-        },
-        {
-            "id": 20,
-            "name": "decline",
-            "entity": "Default"
-        },
-        {
-            "id": 21,
-            "name": "decline(%)",
-            "entity": "Default"
-        },
-        {
-            "id": 22,
-            "name": "change(%)",
-            "entity": "Default"
-        },
-        {
-            "id": 23,
-            "name": "change percent",
-            "entity": "Default"
-        },
-        {
-            "id": 24,
-            "name": "percentage change",
-            "entity": "Default"
-        },
-        {
-            "id": 25,
-            "name": "percent change",
-            "entity": "Default"
-        },
-        {
-            "id": 26,
-            "name": "primary sales",
-            "entity": "Sales"
-        },
-        {
-            "id": 27,
-            "name": "secondary sales",
-            "entity": "Sales"
-        },
-        {
-            "id": 28,
-            "name": "price",
-            "entity": "Currency"
-        },
-        {
-            "id": 29,
-            "name": "cost",
-            "entity": "Currency"
-        },
-        {
-            "id": 30,
-            "name": "rate",
-            "entity": "Default"
-        },
-        {
-            "id": 31,
-            "name": "rate(%)",
-            "entity": "Default"
-        },
-        {
-            "id": 32,
-            "name": "targeted sales",
-            "entity": "Sales"
-        },
-        {
-            "id": 33,
-            "name": "volume",
-            "entity": "Sales"
-        },
-        {
-            "id": 34,
-            "name": "targeted volume",
-            "entity": "Sales"
-        },
-        {
-            "id": 35,
-            "name": "net amount",
-            "entity": "Currency"
-        },
-        {
-            "id": 36,
-            "name": "netamount",
-            "entity": "Currency"
-        },
-        {
-            "id": 37,
-            "name": "amount",
-            "entity": "Currency"
-        },
-        {
-            "id": 38,
-            "name": "discount",
-            "entity": "Currency"
-        },
-        {
-            "id": 39,
-            "name": "discount(%)",
-            "entity": "Default"
-        },
-        {
-            "id": 40,
-            "name": "volume (tonnes)",
-            "entity": "Sales"
-        },
-        {
-            "id": 41,
-            "name": "ms value",
-            "entity": "Default"
-        },
-        {
-            "id": 42,
-            "name": "ms volume",
-            "entity": "Default"
-        },
-        {
-            "id": 43,
-            "name": "number of stores",
-            "entity": "Default"
-        },
-        {
-            "id": 44,
-            "name": "no of stores",
-            "entity": "Default"
-        },
-        {
-            "id": 45,
-            "name": "sales volume",
-            "entity": "Default"
-        },
-        {
-            "id": 46,
-            "name": "numeric distribution (%)",
-            "entity": "Default"
-        },
-        {
-            "id": 47,
-            "name": "numeric distribution(%)",
-            "entity": "Default"
-        },
-        {
-            "id": 48,
-            "name": "numeric distribution",
-            "entity": "Default"
-        },
-        {
-            "id": 49,
-            "name": "sah",
-            "entity": "Default"
-        },
-        {
-            "id": 50,
-            "name": "share amongst handlers",
-            "entity": "Default"
-        },
-        {
-            "id": 51,
-            "name": "share amongst handlers",
-            "entity": "Default"
-        },
-        {
-            "id": 52,
-            "name": "weighted distribution(%)",
-            "entity": "Default"
-        },
-        {
-            "id": 53,
-            "name": "weighted distribution (%)",
-            "entity": "Default"
-        },
-        {
-            "id": 54,
-            "name": "wtdd value",
-            "entity": "Default"
-        },
-        {
-            "id": 55,
-            "name": "wtdd val",
-            "entity": "Default"
-        },
-        {
-            "id": 56,
-            "name": "wtd distribution",
-            "entity": "Default"
-        },
-        {
-            "id": 57,
-            "name": "wtd distribution(%)",
-            "entity": "Default"
-        },
-        {
-            "id": 58,
-            "name": "pdo",
-            "entity": "Sales"
-        },
-        {
-            "id": 59,
-            "name": "per dealer offtake",
-            "entity": "Sales"
-        },
-        {
-            "id": 60,
-            "name": "pdo(kgs)",
-            "entity": "Sales"
-        },
-        {
-            "id": 61,
-            "name": "pdo (kgs)",
-            "entity": "Sales"
-        },
-        {
-            "id": 62,
-            "name": "pdo(rs)",
-            "entity": "Currency"
-        },
-        {
-            "id": 63,
-            "name": "pdo (rs)",
-            "entity": "Currency"
-        },
-        {
-            "id": 64,
-            "name": "average price",
-            "entity": "Currency"
-        },
-        {
-            "id": 65,
-            "name": "avg price",
-            "entity": "Currency"
-        },
-        {
-            "id": 66,
-            "name": "ms unit",
-            "entity": "Sales"
-        },
-        {
-            "id": 67,
-            "name": "delivery quantity",
-            "entity": "Sales"
-        },
-        {
-            "id": 68,
-            "name": "delivery qty",
-            "entity": "Sales"
-        },
-        {
-            "id": 69,
-            "name": "transactions",
-            "entity": "Default"
-        },
-        {
-            "id": 70,
-            "name": "no of transactions",
-            "entity": "Default"
-        },
-        {
-            "id": 71,
-            "name": "revenue",
-            "entity": "Currency"
-        },
-        {
-            "id": 72,
-            "name": "revenue amount",
-            "entity": "Currency"
-        },
-        {
-            "id": 73,
-            "name": "revenue amt",
-            "entity": "Currency"
-        },
-        {
-            "id": 74,
-            "name": "expense",
-            "entity": "Currency"
-        },
-        {
-            "id": 75,
-            "name": "expenditure amount",
-            "entity": "Currency"
-        },
-        {
-            "id": 76,
-            "name": "expenditure amt",
-            "entity": "Currency"
-        },
-        {
-            "id": 77,
-            "name": "expense amt",
-            "entity": "Currency"
-        },
-        {
-            "id": 78,
-            "name": "premium",
-            "entity": "Currency"
-        },
-        {
-            "id": 79,
-            "name": "premium amount",
-            "entity": "Currency"
-        },
-        {
-            "id": 80,
-            "name": "policies count",
-            "entity": "Sales"
-        },
-        {
-            "id": 81,
-            "name": "no of policies",
-            "entity": "Sales"
-        },
-        {
-            "id": 82,
-            "name": "number of policies",
-            "entity": "Sales"
-        },
-        {
-            "id": 83,
-            "name": "policies count for the period",
-            "entity": "Sales"
-        },
-        {
-            "id": 84,
-            "name": "policies count for period",
-            "entity": "Sales"
-        },
-        {
-            "id": 85,
-            "name": "policies count upto the period",
-            "entity": "Sales"
-        },
-        {
-            "id": 86,
-            "name": "policies count upto period",
-            "entity": "Sales"
-        },
-        {
-            "id": 87,
-            "name": "premium for the period",
-            "entity": "Currency"
-        },
-        {
-            "id": 88,
-            "name": "premium upto the period",
-            "entity": "Currency"
-        },
-        {
-            "id": 89,
-            "name": "premium upto the period",
-            "entity": "Currency"
-        },
-        {
-            "id": 90,
-            "name": "disbursed amount",
-            "entity": "Currency"
-        },
-        {
-            "id": 91,
-            "name": "disbursed amt",
-            "entity": "Currency"
-        },
-        {
-            "id": 92,
-            "name": "amount disbursed",
-            "entity": "Currency"
-        },
-        {
-            "id": 93,
-            "name": "amount disbursed",
-            "entity": "Currency"
-        },
-        {
-            "id": 94,
-            "name": "weighted irr",
-            "entity": "Currency"
-        },
-        {
-            "id": 95,
-            "name": "loan amount",
-            "entity": "Currency"
-        },
-        {
-            "id": 96,
-            "name": "loan amt",
-            "entity": "Currency"
-        },
-        {
-            "id": 97,
-            "name": "resignation count",
-            "entity": "Default"
-        },
-        {
-            "id": 98,
-            "name": "resignation count",
-            "entity": "Default"
-        },
-        {
-            "id": 99,
-            "name": "hire count",
-            "entity": "Default"
-        },
-        {
-            "id": 100,
-            "name": "hire count",
-            "entity": "Default"
-        },
-        {
-            "id": 101,
-            "name": "budget ",
-            "entity": "Currency"
-        },
-        {
-            "id": 102,
-            "name": "budget(rs)",
-            "entity": "Currency"
-        },
-        {
-            "id": 103,
-            "name": "hire cost",
-            "entity": "Currency"
-        },
-        {
-            "id": 104,
-            "name": "hiring cost",
-            "entity": "Currency"
-        },
-        {
-            "id": 105,
-            "name": "hiring cost",
-            "entity": "Currency"
-        },
-        {
-            "id": 106,
-            "name": "hire budget",
-            "entity": "Currency"
-        },
-        {
-            "id": 107,
-            "name": "hiring budget",
-            "entity": "Currency"
-        },
-        {
-            "id": 108,
-            "name": "hiring budget",
-            "entity": "Currency"
-        },
-        {
-            "id": 109,
-            "name": "no of users",
-            "entity": "Default"
-        },
-        {
-            "id": 110,
-            "name": "user count",
-            "entity": "Default"
-        },
-        {
-            "id": 111,
-            "name": "users count",
-            "entity": "Default"
-        },
-        {
-            "id": 112,
-            "name": "no of users",
-            "entity": "Default"
-        },
-        {
-            "id": 113,
-            "name": "user count",
-            "entity": "Default"
-        },
-        {
-            "id": 114,
-            "name": "current users",
-            "entity": "Default"
-        },
-        {
-            "id": 115,
-            "name": "last year users",
-            "entity": "Default"
-        },
-        {
-            "id": 116,
-            "name": "target users",
-            "entity": "Default"
-        },
-        {
-            "id": 117,
-            "name": "budget amount",
-            "entity": "Currency"
-        },
-        {
-            "id": 118,
-            "name": "budget amt",
-            "entity": "Currency"
-        },
-        {
-            "id": 119,
-            "name": "budget value",
-            "entity": "Currency"
-        },
-        {
-            "id": 120,
-            "name": "income",
-            "entity": "Currency"
-        },
-        {
-            "id": 121,
-            "name": "income amount",
-            "entity": "Currency"
-        },
-        {
-            "id": 122,
-            "name": "income amt",
-            "entity": "Currency"
-        },
-        {
-            "id": 123,
-            "name": "operating income",
-            "entity": "Currency"
-        },
-        {
-            "id": 124,
-            "name": "operating income",
-            "entity": "Currency"
-        },
-        {
-            "id": 125,
-            "name": "no of tickets",
-            "entity": "Default"
-        },
-        {
-            "id": 126,
-            "name": "tickets count",
-            "entity": "Default"
-        },
-        {
-            "id": 127,
-            "name": "tickets count",
-            "entity": "Default"
-        },
-        {
-            "id": 128,
-            "name": "tickets raised",
-            "entity": "Default"
-        },
-        {
-            "id": 129,
-            "name": "tickets raised",
-            "entity": "Default"
-        },
-        {
-            "id": 130,
-            "name": "budgeted fte count",
-            "entity": "Default"
-        },
-        {
-            "id": 131,
-            "name": "actual fte count",
-            "entity": "Default"
-        },
-        {
-            "id": 132,
-            "name": "fte count",
-            "entity": "Default"
-        },
-        {
-            "id": 133,
-            "name": "resolution time",
-            "entity": "Default"
-        },
-        {
-            "id": 134,
-            "name": "invoice amount",
-            "entity": "Currency"
-        },
-        {
-            "id": 135,
-            "name": "invoice amt",
-            "entity": "Currency"
-        },
-        {
-            "id": 136,
-            "name": "gross sales",
-            "entity": "Sales"
-        },
-        {
-            "id": 137,
-            "name": "industry gross sales",
-            "entity": "Sales"
-        },
-        {
-            "id": 138,
-            "name": "industry net sales",
-            "entity": "Sales"
-        },
-        {
-            "id": 139,
-            "name": "aum",
-            "entity": "Default"
-        },
-        {
-            "id": 140,
-            "name": "assets under management",
-            "entity": "Default"
-        },
-        {
-            "id": 141,
-            "name": "industry aum",
-            "entity": "Default"
-        },
-        {
-            "id": 142,
-            "name": "unit cost",
-            "entity": "Currency"
-        },
-        {
-            "id": 143,
-            "name": "unit price",
-            "entity": "Currency"
-        },
-        {
-            "id": 144,
-            "name": "quantity supplied",
-            "entity": "Sales"
-        },
-        {
-            "id": 145,
-            "name": "units purchased",
-            "entity": "Sales"
-        },
-        {
-            "id": 146,
-            "name": "total units purchased",
-            "entity": "Sales"
-        },
-        {
-            "id": 147,
-            "name": "units required",
-            "entity": "Default"
-        },
-        {
-            "id": 148,
-            "name": "total units required",
-            "entity": "Default"
-        },
-        {
-            "id": 149,
-            "name": "units sold",
-            "entity": "Sales"
-        },
-        {
-            "id": 150,
-            "name": "total units sold",
-            "entity": "Sales"
-        },
-        {
-            "id": 151,
-            "name": "units in inventory",
-            "entity": "Sales"
-        },
-        {
-            "id": 152,
-            "name": "inventory units",
-            "entity": "Sales"
-        },
-        {
-            "id": 153,
-            "name": "inventory units",
-            "entity": "Sales"
-        },
-        {
-            "id": 154,
-            "name": "duration",
-            "entity": "Default"
-        },
-        {
-            "id": 155,
-            "name": "credit note",
-            "entity": "Currency"
-        },
-        {
-            "id": 156,
-            "name": "credit notes",
-            "entity": "Currency"
-        },
-        {
-            "id": 157,
-            "name": "credit note qty",
-            "entity": "Sales"
-        },
-        {
-            "id": 158,
-            "name": "credit note sales",
-            "entity": "Sales"
-        },
-        {
-            "id": 159,
-            "name": "credit note quantity",
-            "entity": "Sales"
-        },
-        {
-            "id": 160,
-            "name": "call duration",
-            "entity": "Default"
-        },
-        {
-            "id": 161,
-            "name": "no of calls",
-            "entity": "Default"
-        },
-        {
-            "id": 162,
-            "name": "number of calls",
-            "entity": "Default"
-        },
-        {
-            "id": 163,
-            "name": "actuals",
-            "entity": "Currency"
-        },
-        {
-            "id": 164,
-            "name": "actual",
-            "entity": "Currency"
-        },
-        {
-            "id": 165,
-            "name": "variance",
-            "entity": "Currency"
-        },
-        {
-            "id": 166,
-            "name": "litre",
-            "entity": "Default"
-        },
-        {
-            "id": 167,
-            "name": "ltr",
-            "entity": "Default"
-        },
-        {
-            "id": 168,
-            "name": "down payment",
-            "entity": "Currency"
-        },
-        {
-            "id": 169,
-            "name": "down payment",
-            "entity": "Currency"
-        },
-        {
-            "id": 170,
-            "name": "tenure",
-            "entity": "Default"
-        },
-        {
-            "id": 171,
-            "name": "net sales value",
-            "entity": "Sales"
-        },
-        {
-            "id": 172,
-            "name": "net sales qty",
-            "entity": "Sales"
-        },
-        {
-            "id": 173,
-            "name": "target value",
-            "entity": "Sales"
-        },
-        {
-            "id": 174,
-            "name": "target qty",
-            "entity": "Sales"
-        },
-        {
-            "id": 175,
-            "name": "last yr value",
-            "entity": "Sales"
-        },
-        {
-            "id": 176,
-            "name": "last yr qty",
-            "entity": "Sales"
-        },
-        {
-            "id": 177,
-            "name": "credit note value",
-            "entity": "Sales"
-        },
-        {
-            "id": 178,
-            "name": "ms%",
-            "entity": "Default"
-        },
-        {
-            "id": 179,
-            "name": "visits/day",
-            "entity": "Default"
-        },
-        {
-            "id": 180,
-            "name": "calls/day",
-            "entity": "Default"
-        },
-        {
-            "id": 181,
-            "name": "no of doctor visits",
-            "entity": "Default"
-        },
-        {
-            "id": 182,
-            "name": "coverage(%)",
-            "entity": "Default"
-        },
-        {
-            "id": 183,
-            "name": "total coverage(%)",
-            "entity": "Default"
-        },
-        {
-            "id": 184,
-            "name": "doctor coverage(%)",
-            "entity": "Default"
-        },
-        {
-            "id": 185,
-            "name": "doctor coverage",
-            "entity": "Default"
-        },
-        {
-            "id": 186,
-            "name": "net cost",
-            "entity": "Currency"
-        },
-        {
-            "id": 187,
-            "name": "%ms value",
-            "entity": "Default"
-        },
-        {
-            "id": 188,
-            "name": "%ms volume",
-            "entity": "Default"
-        },
-        {
-            "id": 189,
-            "name": "%ms val",
-            "entity": "Default"
-        },
-        {
-            "id": 190,
-            "name": "%ms vol",
-            "entity": "Default"
-        },
-        {
-            "id": 191,
-            "name": "ms value(%)",
-            "entity": "Default"
-        },
-        {
-            "id": 192,
-            "name": "ms volume(%)",
-            "entity": "Default"
-        },
-        {
-            "id": 193,
-            "name": "value market share",
-            "entity": "Default"
-        },
-        {
-            "id": 194,
-            "name": "volume market share",
-            "entity": "Default"
-        },
-        {
-            "id": 195,
-            "name": "profit",
-            "entity": "Currency"
-        },
-        {
-            "id": 196,
-            "name": "shipping cost",
-            "entity": "Currency"
-        },
-        {
-            "id": 197,
-            "name": "profit(%)",
-            "entity": "Default"
-        },
-        {
-            "id": 198,
-            "name": "loss",
-            "entity": "Currency"
-        },
-        {
-            "id": 199,
-            "name": "loss(%)",
-            "entity": "Default"
-        },
-        {
-            "id": 200,
-            "name": "total profit",
-            "entity": "Currency"
-        },
-        {
-            "id": 201,
-            "name": "total loss",
-            "entity": "Currency"
-        },
-        {
-            "id": 202,
-            "name": "total shipping cost",
-            "entity": "Currency"
-        },
-        {
-            "id": 203,
-            "name": "annual target",
-            "entity": "Sales"
-        },
-        {
-            "id": 204,
-            "name": "taxes",
-            "entity": "Currency"
-        },
-        {
-            "id": 205,
-            "name": "recruitment cost",
-            "entity": "Currency"
-        },
-        {
-            "id": 206,
-            "name": "nav actuals",
-            "entity": "Currency"
-        },
-        {
-            "id": 207,
-            "name": "nav target",
-            "entity": "Currency"
-        },
-        {
-            "id": 208,
-            "name": "nav",
-            "entity": "Currency"
-        },
-        {
-            "id": 209,
-            "name": "ncib",
-            "entity": "Currency"
-        },
-        {
-            "id": 210,
-            "name": "inc val",
-            "entity": "Currency"
-        },
-        {
-            "id": 211,
-            "name": "incremental value",
-            "entity": "Currency"
-        },
-        {
-            "id": 212,
-            "name": "net asset value",
-            "entity": "Currency"
-        },
-        {
-            "id": 213,
-            "name": "no of vehicles",
-            "entity": "Default"
-        },
-        {
-            "id": 214,
-            "name": "no of vehicles sold",
-            "entity": "Sales"
-        },
-        {
-            "id": 215,
-            "name": "no of vehicles purchased",
-            "entity": "Default"
-        },
-        {
-            "id": 216,
-            "name": "vehicles sold",
-            "entity": "Sales"
-        },
-        {
-            "id": 217,
-            "name": "vehicles purchased",
-            "entity": "Default"
-        },
-        {
-            "id": 218,
-            "name": "total revenue",
-            "entity": "Currency"
-        },
-        {
-            "id": 219,
-            "name": "roi",
-            "entity": "Currency"
-        },
-        {
-            "id": 220,
-            "name": "return on investment",
-            "entity": "Currency"
-        },
-        {
-            "id": 221,
-            "name": "return on investment",
-            "entity": "Currency"
-        },
-        {
-            "id": 222,
-            "name": "profit margin(%)",
-            "entity": "Default"
-        },
-        {
-            "id": 223,
-            "name": "pbt",
-            "entity": "Currency"
-        },
-        {
-            "id": 224,
-            "name": "profit before tax",
-            "entity": "Currency"
-        },
-        {
-            "id": 225,
-            "name": "profit before tax",
-            "entity": "Currency"
-        },
-        {
-            "id": 226,
-            "name": "rwa",
-            "entity": "Currency"
-        },
-        {
-            "id": 227,
-            "name": "risk weighted assets",
-            "entity": "Currency"
-        },
-        {
-            "id": 228,
-            "name": "amount receivable",
-            "entity": "Currency"
-        },
-        {
-            "id": 229,
-            "name": "amount receivable",
-            "entity": "Currency"
-        },
-        {
-            "id": 230,
-            "name": "ebitda",
-            "entity": "Currency"
-        },
-        {
-            "id": 231,
-            "name": "primary sales actuals",
-            "entity": "Sales"
-        },
-        {
-            "id": 232,
-            "name": "primary sales target",
-            "entity": "Sales"
-        },
-        {
-            "id": 233,
-            "name": "secondary sales actuals",
-            "entity": "Sales"
-        },
-        {
-            "id": 234,
-            "name": "secondary sales target",
-            "entity": "Sales"
-        },
-        {
-            "id": 235,
-            "name": "calls",
-            "entity": "Default"
-        },
-        {
-            "id": 236,
-            "name": "no of calls",
-            "entity": "Default"
-        },
-        {
-            "id": 237,
-            "name": "visits",
-            "entity": "Default"
-        },
-        {
-            "id": 238,
-            "name": "no of visits",
-            "entity": "Default"
-        },
-        {
-            "id": 239,
-            "name": "dca",
-            "entity": "Default"
-        },
-        {
-            "id": 240,
-            "name": "doctor call average",
-            "entity": "Default"
-        },
-        {
-            "id": 241,
-            "name": "doctor call avg",
-            "entity": "Default"
-        },
-        {
-            "id": 242,
-            "name": "cca",
-            "entity": "Default"
-        },
-        {
-            "id": 243,
-            "name": "chemist call avg",
-            "entity": "Default"
-        },
-        {
-            "id": 244,
-            "name": "chemist call average",
-            "entity": "Default"
-        },
-        {
-            "id": 245,
-            "name": "call average",
-            "entity": "Default"
-        },
-        {
-            "id": 246,
-            "name": "doctor visits",
-            "entity": "Default"
-        },
-        {
-            "id": 247,
-            "name": "total budget",
-            "entity": "Currency"
-        },
-        {
-            "id": 248,
-            "name": "no of loans sanctioned",
-            "entity": "Default"
-        },
-        {
-            "id": 249,
-            "name": "no of loans disbursed",
-            "entity": "Default"
-        },
-        {
-            "id": 250,
-            "name": "new sip count",
-            "entity": "Default"
-        },
-        {
-            "id": 251,
-            "name": "sip count",
-            "entity": "Default"
-        },
-        {
-            "id": 252,
-            "name": "sip sales",
-            "entity": "Currency"
-        },
-        {
-            "id": 253,
-            "name": "net asset cost",
-            "entity": "Currency"
-        },
-        {
-            "id": 254,
-            "name": "gross weight",
-            "entity": "Default"
-        },
-        {
-            "id": 255,
-            "name": "current assets",
-            "entity": "Currency"
-        },
-        {
-            "id": 256,
-            "name": "current liabilities",
-            "entity": "Currency"
-        },
-        {
-            "id": 257,
-            "name": "investment amount",
-            "entity": "Currency"
-        },
-        {
-            "id": 258,
-            "name": "amount invested",
-            "entity": "Currency"
-        },
-        {
-            "id": 259,
-            "name": "net income",
-            "entity": "Currency"
-        },
-        {
-            "id": 260,
-            "name": "no of meetings",
-            "entity": "Default"
-        },
-        {
-            "id": 261,
-            "name": "purchase amount",
-            "entity": "Currency"
-        },
-        {
-            "id": 262,
-            "name": "purchase amt",
-            "entity": "Currency"
-        },
-        {
-            "id": 263,
-            "name": "exchange rate",
-            "entity": "Default"
-        },
-        {
-            "id": 264,
-            "name": "amount spent",
-            "entity": "Currency"
-        },
-        {
-            "id": 265,
-            "name": "trp",
-            "entity": "Default"
-        },
-        {
-            "id": 266,
-            "name": "grp",
-            "entity": "Default"
-        },
-        {
-            "id": 267,
-            "name": "equity",
-            "entity": "Currency"
-        },
-        {
-            "id": 268,
-            "name": "planned visits",
-            "entity": "Default"
-        },
-        {
-            "id": 269,
-            "name": "actual visits",
-            "entity": "Default"
-        },
-        {
-            "id": 270,
-            "name": "no of planned visits",
-            "entity": "Default"
-        },
-        {
-            "id": 271,
-            "name": "no of actual visits",
-            "entity": "Default"
-        },
-        {
-            "id": 272,
-            "name": "loan amount disbursed",
-            "entity": "Currency"
-        },
-        {
-            "id": 273,
-            "name": "emi",
-            "entity": "Currency"
-        },
-        {
-            "id": 274,
-            "name": "equated monthly instalments ",
-            "entity": "Currency"
-        },
-        {
-            "id": 275,
-            "name": "turnover",
-            "entity": "Currency"
-        },
-        {
-            "id": 276,
-            "name": "pbit",
-            "entity": "Currency"
-        },
-        {
-            "id": 277,
-            "name": "profit before interest & taxes",
-            "entity": "Currency"
-        },
-        {
-            "id": 278,
-            "name": "ebit",
-            "entity": "Currency"
-        },
-        {
-            "id": 279,
-            "name": "earnings before interest & taxes",
-            "entity": "Currency"
-        },
-        {
-            "id": 280,
-            "name": "finance cost",
-            "entity": "Currency"
-        },
-        {
-            "id": 281,
-            "name": "monthly cost",
-            "entity": "Currency"
-        },
-        {
-            "id": 282,
-            "name": "cogs",
-            "entity": "Currency"
-        },
-        {
-            "id": 283,
-            "name": "cost of goods sold",
-            "entity": "Currency"
-        },
-        {
-            "id": 284,
-            "name": "net turnover",
-            "entity": "Currency"
-        }
-    ]
-}
+[
+    {
+        "id": 1,
+        "name": "region",
+        "entity": "Location"
+    },
+    {
+        "id": 2,
+        "name": "region name",
+        "entity": "Location"
+    },
+    {
+        "id": 3,
+        "name": "regions",
+        "entity": "Location"
+    },
+    {
+        "id": 4,
+        "name": "division name",
+        "entity": "Default"
+    },
+    {
+        "id": 5,
+        "name": "division",
+        "entity": "Default"
+    },
+    {
+        "id": 6,
+        "name": "divisions",
+        "entity": "Default"
+    },
+    {
+        "id": 7,
+        "name": "zone",
+        "entity": "Location"
+    },
+    {
+        "id": 8,
+        "name": "zones",
+        "entity": "Location"
+    },
+    {
+        "id": 9,
+        "name": "zone name",
+        "entity": "Location"
+    },
+    {
+        "id": 10,
+        "name": "country",
+        "entity": "Location"
+    },
+    {
+        "id": 11,
+        "name": "countries",
+        "entity": "Location"
+    },
+    {
+        "id": 12,
+        "name": "country name",
+        "entity": "Location"
+    },
+    {
+        "id": 13,
+        "name": "state",
+        "entity": "Location"
+    },
+    {
+        "id": 14,
+        "name": "states",
+        "entity": "Location"
+    },
+    {
+        "id": 15,
+        "name": "state name",
+        "entity": "Location"
+    },
+    {
+        "id": 16,
+        "name": "branch",
+        "entity": "Location"
+    },
+    {
+        "id": 17,
+        "name": "branch name",
+        "entity": "Location"
+    },
+    {
+        "id": 18,
+        "name": "sub branch",
+        "entity": "Location"
+    },
+    {
+        "id": 19,
+        "name": "territory name",
+        "entity": "Location"
+    },
+    {
+        "id": 20,
+        "name": "territory",
+        "entity": "Location"
+    },
+    {
+        "id": 21,
+        "name": "territories",
+        "entity": "Location"
+    },
+    {
+        "id": 22,
+        "name": "area name",
+        "entity": "Location"
+    },
+    {
+        "id": 23,
+        "name": "area",
+        "entity": "Location"
+    },
+    {
+        "id": 24,
+        "name": "areas",
+        "entity": "Location"
+    },
+    {
+        "id": 25,
+        "name": "city name",
+        "entity": "Location"
+    },
+    {
+        "id": 26,
+        "name": "city",
+        "entity": "Location"
+    },
+    {
+        "id": 27,
+        "name": "cities",
+        "entity": "Location"
+    },
+    {
+        "id": 28,
+        "name": "brand",
+        "entity": "Product"
+    },
+    {
+        "id": 29,
+        "name": "brand name",
+        "entity": "Product"
+    },
+    {
+        "id": 30,
+        "name": "brands",
+        "entity": "Product"
+    },
+    {
+        "id": 31,
+        "name": "sub brand",
+        "entity": "Product"
+    },
+    {
+        "id": 32,
+        "name": "sub brand name",
+        "entity": "Product"
+    },
+    {
+        "id": 33,
+        "name": "sub brands",
+        "entity": "Product"
+    },
+    {
+        "id": 34,
+        "name": "category",
+        "entity": "Product"
+    },
+    {
+        "id": 35,
+        "name": "category name",
+        "entity": "Product"
+    },
+    {
+        "id": 36,
+        "name": "categories",
+        "entity": "Product"
+    },
+    {
+        "id": 37,
+        "name": "sub category",
+        "entity": "Product"
+    },
+    {
+        "id": 38,
+        "name": "sub category name",
+        "entity": "Product"
+    },
+    {
+        "id": 39,
+        "name": "sub categories",
+        "entity": "Product"
+    },
+    {
+        "id": 40,
+        "name": "employee name",
+        "entity": "Person"
+    },
+    {
+        "id": 41,
+        "name": "employee ",
+        "entity": "Person"
+    },
+    {
+        "id": 42,
+        "name": "employees ",
+        "entity": "Person"
+    },
+    {
+        "id": 43,
+        "name": "supplier name",
+        "entity": "Person"
+    },
+    {
+        "id": 44,
+        "name": "supplier",
+        "entity": "Person"
+    },
+    {
+        "id": 45,
+        "name": "suppliers",
+        "entity": "Person"
+    },
+    {
+        "id": 46,
+        "name": "supplier's",
+        "entity": "Person"
+    },
+    {
+        "id": 47,
+        "name": "vendor name",
+        "entity": "Person"
+    },
+    {
+        "id": 48,
+        "name": "vendor",
+        "entity": "Person"
+    },
+    {
+        "id": 49,
+        "name": "vendors",
+        "entity": "Person"
+    },
+    {
+        "id": 50,
+        "name": "distributor name",
+        "entity": "Person"
+    },
+    {
+        "id": 51,
+        "name": "distributor",
+        "entity": "Person"
+    },
+    {
+        "id": 52,
+        "name": "distributors",
+        "entity": "Person"
+    },
+    {
+        "id": 53,
+        "name": "headquarter name",
+        "entity": "Location"
+    },
+    {
+        "id": 54,
+        "name": "headquarter",
+        "entity": "Location"
+    },
+    {
+        "id": 55,
+        "name": "headquarter's",
+        "entity": "Location"
+    },
+    {
+        "id": 56,
+        "name": "headquarters",
+        "entity": "Location"
+    },
+    {
+        "id": 57,
+        "name": "hq name",
+        "entity": "Location"
+    },
+    {
+        "id": 58,
+        "name": "hq",
+        "entity": "Location"
+    },
+    {
+        "id": 59,
+        "name": "plant name",
+        "entity": "Location"
+    },
+    {
+        "id": 60,
+        "name": "plant",
+        "entity": "Location"
+    },
+    {
+        "id": 61,
+        "name": "sku",
+        "entity": "Product"
+    },
+    {
+        "id": 62,
+        "name": "sku's",
+        "entity": "Product"
+    },
+    {
+        "id": 63,
+        "name": "team",
+        "entity": "Category"
+    },
+    {
+        "id": 64,
+        "name": "market name",
+        "entity": "Default"
+    },
+    {
+        "id": 65,
+        "name": "market",
+        "entity": "Default"
+    },
+    {
+        "id": 66,
+        "name": "markets",
+        "entity": "Default"
+    },
+    {
+        "id": 67,
+        "name": "target market",
+        "entity": "Default"
+    },
+    {
+        "id": 68,
+        "name": "company name",
+        "entity": "Category"
+    },
+    {
+        "id": 69,
+        "name": "company",
+        "entity": "Category"
+    },
+    {
+        "id": 70,
+        "name": "companies",
+        "entity": "Category"
+    },
+    {
+        "id": 71,
+        "name": "company type",
+        "entity": "Category"
+    },
+    {
+        "id": 72,
+        "name": "material name",
+        "entity": "Product"
+    },
+    {
+        "id": 73,
+        "name": "material ",
+        "entity": "Product"
+    },
+    {
+        "id": 74,
+        "name": "materials",
+        "entity": "Product"
+    },
+    {
+        "id": 75,
+        "name": "product name",
+        "entity": "Product"
+    },
+    {
+        "id": 76,
+        "name": "product",
+        "entity": "Product"
+    },
+    {
+        "id": 77,
+        "name": "products",
+        "entity": "Product"
+    },
+    {
+        "id": 78,
+        "name": "product type",
+        "entity": "Product"
+    },
+    {
+        "id": 79,
+        "name": "business",
+        "entity": "Category"
+    },
+    {
+        "id": 80,
+        "name": "business name",
+        "entity": "Category"
+    },
+    {
+        "id": 81,
+        "name": "business type",
+        "entity": "Category"
+    },
+    {
+        "id": 82,
+        "name": "channel name",
+        "entity": "Category"
+    },
+    {
+        "id": 83,
+        "name": "channel",
+        "entity": "Category"
+    },
+    {
+        "id": 84,
+        "name": "channels",
+        "entity": "Category"
+    },
+    {
+        "id": 85,
+        "name": "department name",
+        "entity": "Category"
+    },
+    {
+        "id": 86,
+        "name": "department",
+        "entity": "Category"
+    },
+    {
+        "id": 87,
+        "name": "departments",
+        "entity": "Category"
+    },
+    {
+        "id": 88,
+        "name": "department type",
+        "entity": "Category"
+    },
+    {
+        "id": 89,
+        "name": "department types",
+        "entity": "Category"
+    },
+    {
+        "id": 90,
+        "name": "vertical name",
+        "entity": "Default"
+    },
+    {
+        "id": 91,
+        "name": "vertical",
+        "entity": "Default"
+    },
+    {
+        "id": 92,
+        "name": "verticals",
+        "entity": "Default"
+    },
+    {
+        "id": 93,
+        "name": "district name",
+        "entity": "Location"
+    },
+    {
+        "id": 94,
+        "name": "district",
+        "entity": "Location"
+    },
+    {
+        "id": 95,
+        "name": "districts",
+        "entity": "Location"
+    },
+    {
+        "id": 96,
+        "name": "cluster name",
+        "entity": "Default"
+    },
+    {
+        "id": 97,
+        "name": "cluster",
+        "entity": "Default"
+    },
+    {
+        "id": 98,
+        "name": "clusters",
+        "entity": "Default"
+    },
+    {
+        "id": 99,
+        "name": "circle name",
+        "entity": "Default"
+    },
+    {
+        "id": 100,
+        "name": "circle",
+        "entity": "Default"
+    },
+    {
+        "id": 101,
+        "name": "circles",
+        "entity": "Default"
+    },
+    {
+        "id": 102,
+        "name": "circle's",
+        "entity": "Default"
+    },
+    {
+        "id": 103,
+        "name": "zonal head",
+        "entity": "Person"
+    },
+    {
+        "id": 104,
+        "name": "zonal head's",
+        "entity": "Person"
+    },
+    {
+        "id": 105,
+        "name": "zonal heads",
+        "entity": "Person"
+    },
+    {
+        "id": 106,
+        "name": "zone head",
+        "entity": "Person"
+    },
+    {
+        "id": 107,
+        "name": "zone head's",
+        "entity": "Person"
+    },
+    {
+        "id": 108,
+        "name": "zone heads",
+        "entity": "Person"
+    },
+    {
+        "id": 109,
+        "name": "zonal manager",
+        "entity": "Person"
+    },
+    {
+        "id": 110,
+        "name": "zonal managers",
+        "entity": "Person"
+    },
+    {
+        "id": 111,
+        "name": "zonal manager's",
+        "entity": "Person"
+    },
+    {
+        "id": 112,
+        "name": "zone manager",
+        "entity": "Person"
+    },
+    {
+        "id": 113,
+        "name": "zone managers",
+        "entity": "Person"
+    },
+    {
+        "id": 114,
+        "name": "zone manager's",
+        "entity": "Person"
+    },
+    {
+        "id": 115,
+        "name": "regional head",
+        "entity": "Person"
+    },
+    {
+        "id": 116,
+        "name": "regional heads",
+        "entity": "Person"
+    },
+    {
+        "id": 117,
+        "name": "regional head's",
+        "entity": "Person"
+    },
+    {
+        "id": 118,
+        "name": "regional manager",
+        "entity": "Person"
+    },
+    {
+        "id": 119,
+        "name": "regional managers",
+        "entity": "Person"
+    },
+    {
+        "id": 120,
+        "name": "regional manager's",
+        "entity": "Person"
+    },
+    {
+        "id": 121,
+        "name": "region head",
+        "entity": "Person"
+    },
+    {
+        "id": 122,
+        "name": "region heads",
+        "entity": "Person"
+    },
+    {
+        "id": 123,
+        "name": "region head's",
+        "entity": "Person"
+    },
+    {
+        "id": 124,
+        "name": "region manager",
+        "entity": "Person"
+    },
+    {
+        "id": 125,
+        "name": "region managers",
+        "entity": "Person"
+    },
+    {
+        "id": 126,
+        "name": "region manager's",
+        "entity": "Person"
+    },
+    {
+        "id": 127,
+        "name": "circle head",
+        "entity": "Person"
+    },
+    {
+        "id": 128,
+        "name": "circle heads",
+        "entity": "Person"
+    },
+    {
+        "id": 129,
+        "name": "circle head's",
+        "entity": "Person"
+    },
+    {
+        "id": 130,
+        "name": "manager name",
+        "entity": "Person"
+    },
+    {
+        "id": 131,
+        "name": "manager",
+        "entity": "Person"
+    },
+    {
+        "id": 132,
+        "name": "managers",
+        "entity": "Person"
+    },
+    {
+        "id": 133,
+        "name": "manager type",
+        "entity": "Designation"
+    },
+    {
+        "id": 134,
+        "name": "manager types",
+        "entity": "Designation"
+    },
+    {
+        "id": 135,
+        "name": "cluster head",
+        "entity": "Person"
+    },
+    {
+        "id": 136,
+        "name": "cluster heads",
+        "entity": "Person"
+    },
+    {
+        "id": 137,
+        "name": "business unit",
+        "entity": "Default"
+    },
+    {
+        "id": 138,
+        "name": "bu",
+        "entity": "Default"
+    },
+    {
+        "id": 139,
+        "name": "bu's",
+        "entity": "Default"
+    },
+    {
+        "id": 140,
+        "name": "supervisor",
+        "entity": "Person"
+    },
+    {
+        "id": 141,
+        "name": "supervisor name",
+        "entity": "Person"
+    },
+    {
+        "id": 142,
+        "name": "supervisors",
+        "entity": "Person"
+    },
+    {
+        "id": 143,
+        "name": "process name",
+        "entity": "Product"
+    },
+    {
+        "id": 144,
+        "name": "process",
+        "entity": "Category"
+    },
+    {
+        "id": 145,
+        "name": "processes",
+        "entity": "Category"
+    },
+    {
+        "id": 146,
+        "name": "sub process name",
+        "entity": "Category"
+    },
+    {
+        "id": 147,
+        "name": "sub process",
+        "entity": "Category"
+    },
+    {
+        "id": 148,
+        "name": "sub processes",
+        "entity": "Category"
+    },
+    {
+        "id": 149,
+        "name": "location name",
+        "entity": "Location"
+    },
+    {
+        "id": 150,
+        "name": "location ",
+        "entity": "Location"
+    },
+    {
+        "id": 151,
+        "name": "locations",
+        "entity": "Location"
+    },
+    {
+        "id": 152,
+        "name": "hr name",
+        "entity": "Person"
+    },
+    {
+        "id": 153,
+        "name": "hr",
+        "entity": "Person"
+    },
+    {
+        "id": 154,
+        "name": "rm name",
+        "entity": "Person"
+    },
+    {
+        "id": 155,
+        "name": "rm",
+        "entity": "Person"
+    },
+    {
+        "id": 156,
+        "name": "am name",
+        "entity": "Person"
+    },
+    {
+        "id": 157,
+        "name": "am",
+        "entity": "Person"
+    },
+    {
+        "id": 158,
+        "name": "zm name",
+        "entity": "Person"
+    },
+    {
+        "id": 159,
+        "name": "zm",
+        "entity": "Person"
+    },
+    {
+        "id": 160,
+        "name": "bm name",
+        "entity": "Person"
+    },
+    {
+        "id": 161,
+        "name": "bm",
+        "entity": "Person"
+    },
+    {
+        "id": 162,
+        "name": "tm name",
+        "entity": "Person"
+    },
+    {
+        "id": 163,
+        "name": "tm",
+        "entity": "Person"
+    },
+    {
+        "id": 164,
+        "name": "sm",
+        "entity": "Person"
+    },
+    {
+        "id": 165,
+        "name": "business group",
+        "entity": "Category"
+    },
+    {
+        "id": 166,
+        "name": "business groups",
+        "entity": "Category"
+    },
+    {
+        "id": 167,
+        "name": "business type",
+        "entity": "Category"
+    },
+    {
+        "id": 168,
+        "name": "business types",
+        "entity": "Category"
+    },
+    {
+        "id": 169,
+        "name": "business model",
+        "entity": "Category"
+    },
+    {
+        "id": 170,
+        "name": "business models",
+        "entity": "Category"
+    },
+    {
+        "id": 171,
+        "name": "operating model",
+        "entity": "Category"
+    },
+    {
+        "id": 172,
+        "name": "operating models",
+        "entity": "Category"
+    },
+    {
+        "id": 173,
+        "name": "operational model",
+        "entity": "Category"
+    },
+    {
+        "id": 174,
+        "name": "operational models",
+        "entity": "Category"
+    },
+    {
+        "id": 175,
+        "name": "service name",
+        "entity": "Category"
+    },
+    {
+        "id": 176,
+        "name": "service",
+        "entity": "Category"
+    },
+    {
+        "id": 177,
+        "name": "services",
+        "entity": "Category"
+    },
+    {
+        "id": 178,
+        "name": "service's",
+        "entity": "Category"
+    },
+    {
+        "id": 179,
+        "name": "service type",
+        "entity": "Category"
+    },
+    {
+        "id": 180,
+        "name": "service types",
+        "entity": "Category"
+    },
+    {
+        "id": 181,
+        "name": "service region name",
+        "entity": "Location"
+    },
+    {
+        "id": 182,
+        "name": "service region",
+        "entity": "Location"
+    },
+    {
+        "id": 183,
+        "name": "service regions",
+        "entity": "Location"
+    },
+    {
+        "id": 184,
+        "name": "service resource",
+        "entity": "Category"
+    },
+    {
+        "id": 185,
+        "name": "service resources",
+        "entity": "Category"
+    },
+    {
+        "id": 186,
+        "name": "priority",
+        "entity": "Category"
+    },
+    {
+        "id": 187,
+        "name": "priorities",
+        "entity": "Category"
+    },
+    {
+        "id": 188,
+        "name": "coordinator",
+        "entity": "Person"
+    },
+    {
+        "id": 189,
+        "name": "coordinator name",
+        "entity": "Person"
+    },
+    {
+        "id": 190,
+        "name": "coordinators",
+        "entity": "Person"
+    },
+    {
+        "id": 191,
+        "name": "coordinator's",
+        "entity": "Person"
+    },
+    {
+        "id": 192,
+        "name": "customer",
+        "entity": "Person"
+    },
+    {
+        "id": 193,
+        "name": "customer name",
+        "entity": "Person"
+    },
+    {
+        "id": 194,
+        "name": "customers",
+        "entity": "Person"
+    },
+    {
+        "id": 195,
+        "name": "customer segment",
+        "entity": "Category"
+    },
+    {
+        "id": 196,
+        "name": "customer segments",
+        "entity": "Category"
+    },
+    {
+        "id": 197,
+        "name": "type of customer",
+        "entity": "Category"
+    },
+    {
+        "id": 198,
+        "name": "type of customers",
+        "entity": "Category"
+    },
+    {
+        "id": 199,
+        "name": "customer type",
+        "entity": "Category"
+    },
+    {
+        "id": 200,
+        "name": "customer types",
+        "entity": "Category"
+    },
+    {
+        "id": 201,
+        "name": "consumer name",
+        "entity": "Person"
+    },
+    {
+        "id": 202,
+        "name": "consumer",
+        "entity": "Person"
+    },
+    {
+        "id": 203,
+        "name": "consumers",
+        "entity": "Person"
+    },
+    {
+        "id": 204,
+        "name": "consumer type",
+        "entity": "Category"
+    },
+    {
+        "id": 205,
+        "name": "consumers types",
+        "entity": "Category"
+    },
+    {
+        "id": 206,
+        "name": "defect type",
+        "entity": "Product"
+    },
+    {
+        "id": 207,
+        "name": "defect types",
+        "entity": "Product"
+    },
+    {
+        "id": 208,
+        "name": "defect",
+        "entity": "Product"
+    },
+    {
+        "id": 209,
+        "name": "defect name",
+        "entity": "Product"
+    },
+    {
+        "id": 210,
+        "name": "defects",
+        "entity": "Product"
+    },
+    {
+        "id": 211,
+        "name": "defect location",
+        "entity": "Location"
+    },
+    {
+        "id": 212,
+        "name": "defect locations",
+        "entity": "Location"
+    },
+    {
+        "id": 213,
+        "name": "client",
+        "entity": "Person"
+    },
+    {
+        "id": 214,
+        "name": "client name",
+        "entity": "Person"
+    },
+    {
+        "id": 215,
+        "name": "clients",
+        "entity": "Person"
+    },
+    {
+        "id": 216,
+        "name": "client type",
+        "entity": "Category"
+    },
+    {
+        "id": 217,
+        "name": "client types",
+        "entity": "Category"
+    },
+    {
+        "id": 218,
+        "name": "stockist",
+        "entity": "Person"
+    },
+    {
+        "id": 219,
+        "name": "stockist name",
+        "entity": "Person"
+    },
+    {
+        "id": 220,
+        "name": "stockists",
+        "entity": "Person"
+    },
+    {
+        "id": 221,
+        "name": "retailer ",
+        "entity": "Person"
+    },
+    {
+        "id": 222,
+        "name": "retailers",
+        "entity": "Person"
+    },
+    {
+        "id": 223,
+        "name": "delivery centre",
+        "entity": "Location"
+    },
+    {
+        "id": 224,
+        "name": "delivery centres",
+        "entity": "Location"
+    },
+    {
+        "id": 225,
+        "name": "agency",
+        "entity": "Category"
+    },
+    {
+        "id": 226,
+        "name": "agencies",
+        "entity": "Category"
+    },
+    {
+        "id": 227,
+        "name": "bank",
+        "entity": "Category"
+    },
+    {
+        "id": 228,
+        "name": "banks",
+        "entity": "Category"
+    },
+    {
+        "id": 229,
+        "name": "bank name",
+        "entity": "Category"
+    },
+    {
+        "id": 230,
+        "name": "bank type",
+        "entity": "Category"
+    },
+    {
+        "id": 231,
+        "name": "bank types",
+        "entity": "Category"
+    },
+    {
+        "id": 232,
+        "name": "account name",
+        "entity": "Category"
+    },
+    {
+        "id": 233,
+        "name": "account names",
+        "entity": "Category"
+    },
+    {
+        "id": 234,
+        "name": "account type",
+        "entity": "Category"
+    },
+    {
+        "id": 235,
+        "name": "account types",
+        "entity": "Category"
+    },
+    {
+        "id": 236,
+        "name": "loan type",
+        "entity": "Category"
+    },
+    {
+        "id": 237,
+        "name": "loan types",
+        "entity": "Category"
+    },
+    {
+        "id": 238,
+        "name": "defaulter name",
+        "entity": "Person"
+    },
+    {
+        "id": 239,
+        "name": "defaulter",
+        "entity": "Person"
+    },
+    {
+        "id": 240,
+        "name": "defaulters",
+        "entity": "Person"
+    },
+    {
+        "id": 241,
+        "name": "phone type",
+        "entity": "Product"
+    },
+    {
+        "id": 242,
+        "name": "phone types",
+        "entity": "Product"
+    },
+    {
+        "id": 243,
+        "name": "phone model",
+        "entity": "Product"
+    },
+    {
+        "id": 244,
+        "name": "phone models",
+        "entity": "Product"
+    },
+    {
+        "id": 245,
+        "name": "item",
+        "entity": "Product"
+    },
+    {
+        "id": 246,
+        "name": "items",
+        "entity": "Product"
+    },
+    {
+        "id": 247,
+        "name": "item name",
+        "entity": "Product"
+    },
+    {
+        "id": 248,
+        "name": "item names",
+        "entity": "Product"
+    },
+    {
+        "id": 249,
+        "name": "item type",
+        "entity": "Product"
+    },
+    {
+        "id": 250,
+        "name": "item types",
+        "entity": "Product"
+    },
+    {
+        "id": 251,
+        "name": "medical representative",
+        "entity": "Person"
+    },
+    {
+        "id": 252,
+        "name": "medical representatives",
+        "entity": "Person"
+    },
+    {
+        "id": 253,
+        "name": "mr",
+        "entity": "Person"
+    },
+    {
+        "id": 254,
+        "name": "mr's",
+        "entity": "Person"
+    },
+    {
+        "id": 255,
+        "name": "mr name",
+        "entity": "Person"
+    },
+    {
+        "id": 256,
+        "name": "branch manager",
+        "entity": "Person"
+    },
+    {
+        "id": 257,
+        "name": "branch managers",
+        "entity": "Person"
+    },
+    {
+        "id": 258,
+        "name": "relationship manager",
+        "entity": "Person"
+    },
+    {
+        "id": 259,
+        "name": "relationship managers",
+        "entity": "Person"
+    },
+    {
+        "id": 260,
+        "name": "store name",
+        "entity": "Category"
+    },
+    {
+        "id": 261,
+        "name": "store",
+        "entity": "Category"
+    },
+    {
+        "id": 262,
+        "name": "stores",
+        "entity": "Category"
+    },
+    {
+        "id": 263,
+        "name": "agreement",
+        "entity": "Category"
+    },
+    {
+        "id": 264,
+        "name": "agreements",
+        "entity": "Category"
+    },
+    {
+        "id": 265,
+        "name": "agreement type",
+        "entity": "Category"
+    },
+    {
+        "id": 266,
+        "name": "agreement types",
+        "entity": "Category"
+    },
+    {
+        "id": 267,
+        "name": "industry",
+        "entity": "Category"
+    },
+    {
+        "id": 268,
+        "name": "industries",
+        "entity": "Category"
+    },
+    {
+        "id": 269,
+        "name": "industry name",
+        "entity": "Category"
+    },
+    {
+        "id": 270,
+        "name": "industry type",
+        "entity": "Category"
+    },
+    {
+        "id": 271,
+        "name": "industry types",
+        "entity": "Category"
+    },
+    {
+        "id": 272,
+        "name": "mode of transport",
+        "entity": "Category"
+    },
+    {
+        "id": 273,
+        "name": "modes of transport",
+        "entity": "Category"
+    },
+    {
+        "id": 274,
+        "name": "travel mode",
+        "entity": "Category"
+    },
+    {
+        "id": 275,
+        "name": "travel modes",
+        "entity": "Category"
+    },
+    {
+        "id": 276,
+        "name": "mode of travel",
+        "entity": "Category"
+    },
+    {
+        "id": 277,
+        "name": "transaction type",
+        "entity": "Category"
+    },
+    {
+        "id": 278,
+        "name": "type of transaction",
+        "entity": "Category"
+    },
+    {
+        "id": 279,
+        "name": "gender",
+        "entity": "Category"
+    },
+    {
+        "id": 280,
+        "name": "age group",
+        "entity": "Category"
+    },
+    {
+        "id": 281,
+        "name": "age groups",
+        "entity": "Category"
+    },
+    {
+        "id": 282,
+        "name": "customer age group",
+        "entity": "Category"
+    },
+    {
+        "id": 283,
+        "name": "customer age groups",
+        "entity": "Category"
+    },
+    {
+        "id": 284,
+        "name": "contractor name",
+        "entity": "Person"
+    },
+    {
+        "id": 285,
+        "name": "contractor",
+        "entity": "Person"
+    },
+    {
+        "id": 286,
+        "name": "contractors",
+        "entity": "Person"
+    },
+    {
+        "id": 287,
+        "name": "visit type",
+        "entity": "Category"
+    },
+    {
+        "id": 288,
+        "name": "type of visit",
+        "entity": "Category"
+    },
+    {
+        "id": 289,
+        "name": "invoice no.",
+        "entity": "Category"
+    },
+    {
+        "id": 290,
+        "name": "invoice number",
+        "entity": "Category"
+    },
+    {
+        "id": 291,
+        "name": "inventory",
+        "entity": "Product"
+    },
+    {
+        "id": 292,
+        "name": "inventories",
+        "entity": "Product"
+    },
+    {
+        "id": 293,
+        "name": "inventory name",
+        "entity": "Product"
+    },
+    {
+        "id": 294,
+        "name": "ticket type",
+        "entity": "Category"
+    },
+    {
+        "id": 295,
+        "name": "ticket types",
+        "entity": "Category"
+    },
+    {
+        "id": 296,
+        "name": "content type",
+        "entity": "Category"
+    },
+    {
+        "id": 297,
+        "name": "content types",
+        "entity": "Category"
+    },
+    {
+        "id": 298,
+        "name": "executive name",
+        "entity": "Person"
+    },
+    {
+        "id": 299,
+        "name": "executive",
+        "entity": "Person"
+    },
+    {
+        "id": 300,
+        "name": "executives",
+        "entity": "Person"
+    },
+    {
+        "id": 301,
+        "name": "project ",
+        "entity": "Default"
+    },
+    {
+        "id": 302,
+        "name": "project name",
+        "entity": "Default"
+    },
+    {
+        "id": 303,
+        "name": "projects",
+        "entity": "Default"
+    },
+    {
+        "id": 304,
+        "name": "organisation name",
+        "entity": "Category"
+    },
+    {
+        "id": 305,
+        "name": "organisation",
+        "entity": "Category"
+    },
+    {
+        "id": 306,
+        "name": "organisations",
+        "entity": "Category"
+    },
+    {
+        "id": 307,
+        "name": "organization name",
+        "entity": "Category"
+    },
+    {
+        "id": 308,
+        "name": "organization",
+        "entity": "Category"
+    },
+    {
+        "id": 309,
+        "name": "organizations",
+        "entity": "Category"
+    },
+    {
+        "id": 310,
+        "name": "description",
+        "entity": "Category"
+    },
+    {
+        "id": 311,
+        "name": "currency type",
+        "entity": "Category"
+    },
+    {
+        "id": 312,
+        "name": "currency types",
+        "entity": "Category"
+    },
+    {
+        "id": 313,
+        "name": "segment",
+        "entity": "Category"
+    },
+    {
+        "id": 314,
+        "name": "segments",
+        "entity": "Category"
+    },
+    {
+        "id": 315,
+        "name": "entity",
+        "entity": "Default"
+    },
+    {
+        "id": 316,
+        "name": "entities",
+        "entity": "Default"
+    },
+    {
+        "id": 317,
+        "name": "type of entity",
+        "entity": "Default"
+    },
+    {
+        "id": 318,
+        "name": "entity type",
+        "entity": "Default"
+    },
+    {
+        "id": 319,
+        "name": "designation",
+        "entity": "Designation"
+    },
+    {
+        "id": 320,
+        "name": "designations",
+        "entity": "Designation"
+    },
+    {
+        "id": 321,
+        "name": "designation type",
+        "entity": "Designation"
+    },
+    {
+        "id": 322,
+        "name": "designation types",
+        "entity": "Designation"
+    },
+    {
+        "id": 323,
+        "name": "type of designation",
+        "entity": "Designation"
+    },
+    {
+        "id": 324,
+        "name": "sales channel",
+        "entity": "Category"
+    },
+    {
+        "id": 325,
+        "name": "molecule",
+        "entity": "Product"
+    },
+    {
+        "id": 326,
+        "name": "name of doctor",
+        "entity": "Person"
+    },
+    {
+        "id": 327,
+        "name": "doctor name",
+        "entity": "Person"
+    },
+    {
+        "id": 328,
+        "name": "name of doctors",
+        "entity": "Person"
+    },
+    {
+        "id": 329,
+        "name": "ship mode",
+        "entity": "Category"
+    },
+    {
+        "id": 330,
+        "name": "shipping mode",
+        "entity": "Category"
+    },
+    {
+        "id": 331,
+        "name": "mode of shipping",
+        "entity": "Category"
+    },
+    {
+        "id": 332,
+        "name": "order priority",
+        "entity": "Category"
+    },
+    {
+        "id": 333,
+        "name": "priority of orders",
+        "entity": "Category"
+    },
+    {
+        "id": 334,
+        "name": "continent",
+        "entity": "Location"
+    },
+    {
+        "id": 335,
+        "name": "fund type",
+        "entity": "Category"
+    },
+    {
+        "id": 336,
+        "name": "type of fund",
+        "entity": "Category"
+    },
+    {
+        "id": 337,
+        "name": "mode of payment",
+        "entity": "Category"
+    },
+    {
+        "id": 338,
+        "name": "payment mode",
+        "entity": "Category"
+    },
+    {
+        "id": 339,
+        "name": "type",
+        "entity": "Category"
+    },
+    {
+        "id": 340,
+        "name": "name",
+        "entity": "Category"
+    },
+    {
+        "id": 341,
+        "name": "status",
+        "entity": "Category"
+    },
+    {
+        "id": 342,
+        "name": "time of call",
+        "entity": "Category"
+    },
+    {
+        "id": 343,
+        "name": "doctor type",
+        "entity": "Category"
+    },
+    {
+        "id": 344,
+        "name": "physician type",
+        "entity": "Category"
+    },
+    {
+        "id": 1,
+        "name": "sales value",
+        "entity": "Sales"
+    },
+    {
+        "id": 2,
+        "name": "sales",
+        "entity": "Sales"
+    },
+    {
+        "id": 3,
+        "name": "sales volume",
+        "entity": "Sales"
+    },
+    {
+        "id": 4,
+        "name": "quantity",
+        "entity": "Sales"
+    },
+    {
+        "id": 5,
+        "name": "qty",
+        "entity": "Sales"
+    },
+    {
+        "id": 6,
+        "name": "value",
+        "entity": "Currency"
+    },
+    {
+        "id": 7,
+        "name": "net sales",
+        "entity": "Sales"
+    },
+    {
+        "id": 8,
+        "name": "target sales",
+        "entity": "Sales"
+    },
+    {
+        "id": 9,
+        "name": "sales target",
+        "entity": "Sales"
+    },
+    {
+        "id": 10,
+        "name": "target",
+        "entity": "Sales"
+    },
+    {
+        "id": 11,
+        "name": "ly net sales",
+        "entity": "Sales"
+    },
+    {
+        "id": 12,
+        "name": "net sales ly",
+        "entity": "Sales"
+    },
+    {
+        "id": 13,
+        "name": "last year net sales",
+        "entity": "Sales"
+    },
+    {
+        "id": 14,
+        "name": "achievement",
+        "entity": "Default"
+    },
+    {
+        "id": 15,
+        "name": "achievement(%)",
+        "entity": "Default"
+    },
+    {
+        "id": 16,
+        "name": "ach(%)",
+        "entity": "Default"
+    },
+    {
+        "id": 17,
+        "name": "ach",
+        "entity": "Default"
+    },
+    {
+        "id": 18,
+        "name": "growth",
+        "entity": "Default"
+    },
+    {
+        "id": 19,
+        "name": "growth(%)",
+        "entity": "Default"
+    },
+    {
+        "id": 20,
+        "name": "decline",
+        "entity": "Default"
+    },
+    {
+        "id": 21,
+        "name": "decline(%)",
+        "entity": "Default"
+    },
+    {
+        "id": 22,
+        "name": "change(%)",
+        "entity": "Default"
+    },
+    {
+        "id": 23,
+        "name": "change percent",
+        "entity": "Default"
+    },
+    {
+        "id": 24,
+        "name": "percentage change",
+        "entity": "Default"
+    },
+    {
+        "id": 25,
+        "name": "percent change",
+        "entity": "Default"
+    },
+    {
+        "id": 26,
+        "name": "primary sales",
+        "entity": "Sales"
+    },
+    {
+        "id": 27,
+        "name": "secondary sales",
+        "entity": "Sales"
+    },
+    {
+        "id": 28,
+        "name": "price",
+        "entity": "Currency"
+    },
+    {
+        "id": 29,
+        "name": "cost",
+        "entity": "Currency"
+    },
+    {
+        "id": 30,
+        "name": "rate",
+        "entity": "Default"
+    },
+    {
+        "id": 31,
+        "name": "rate(%)",
+        "entity": "Default"
+    },
+    {
+        "id": 32,
+        "name": "targeted sales",
+        "entity": "Sales"
+    },
+    {
+        "id": 33,
+        "name": "volume",
+        "entity": "Sales"
+    },
+    {
+        "id": 34,
+        "name": "targeted volume",
+        "entity": "Sales"
+    },
+    {
+        "id": 35,
+        "name": "net amount",
+        "entity": "Currency"
+    },
+    {
+        "id": 36,
+        "name": "netamount",
+        "entity": "Currency"
+    },
+    {
+        "id": 37,
+        "name": "amount",
+        "entity": "Currency"
+    },
+    {
+        "id": 38,
+        "name": "discount",
+        "entity": "Currency"
+    },
+    {
+        "id": 39,
+        "name": "discount(%)",
+        "entity": "Default"
+    },
+    {
+        "id": 40,
+        "name": "volume (tonnes)",
+        "entity": "Sales"
+    },
+    {
+        "id": 41,
+        "name": "ms value",
+        "entity": "Default"
+    },
+    {
+        "id": 42,
+        "name": "ms volume",
+        "entity": "Default"
+    },
+    {
+        "id": 43,
+        "name": "number of stores",
+        "entity": "Default"
+    },
+    {
+        "id": 44,
+        "name": "no of stores",
+        "entity": "Default"
+    },
+    {
+        "id": 45,
+        "name": "sales volume",
+        "entity": "Default"
+    },
+    {
+        "id": 46,
+        "name": "numeric distribution (%)",
+        "entity": "Default"
+    },
+    {
+        "id": 47,
+        "name": "numeric distribution(%)",
+        "entity": "Default"
+    },
+    {
+        "id": 48,
+        "name": "numeric distribution",
+        "entity": "Default"
+    },
+    {
+        "id": 49,
+        "name": "sah",
+        "entity": "Default"
+    },
+    {
+        "id": 50,
+        "name": "share amongst handlers",
+        "entity": "Default"
+    },
+    {
+        "id": 51,
+        "name": "share amongst handlers",
+        "entity": "Default"
+    },
+    {
+        "id": 52,
+        "name": "weighted distribution(%)",
+        "entity": "Default"
+    },
+    {
+        "id": 53,
+        "name": "weighted distribution (%)",
+        "entity": "Default"
+    },
+    {
+        "id": 54,
+        "name": "wtdd value",
+        "entity": "Default"
+    },
+    {
+        "id": 55,
+        "name": "wtdd val",
+        "entity": "Default"
+    },
+    {
+        "id": 56,
+        "name": "wtd distribution",
+        "entity": "Default"
+    },
+    {
+        "id": 57,
+        "name": "wtd distribution(%)",
+        "entity": "Default"
+    },
+    {
+        "id": 58,
+        "name": "pdo",
+        "entity": "Sales"
+    },
+    {
+        "id": 59,
+        "name": "per dealer offtake",
+        "entity": "Sales"
+    },
+    {
+        "id": 60,
+        "name": "pdo(kgs)",
+        "entity": "Sales"
+    },
+    {
+        "id": 61,
+        "name": "pdo (kgs)",
+        "entity": "Sales"
+    },
+    {
+        "id": 62,
+        "name": "pdo(rs)",
+        "entity": "Currency"
+    },
+    {
+        "id": 63,
+        "name": "pdo (rs)",
+        "entity": "Currency"
+    },
+    {
+        "id": 64,
+        "name": "average price",
+        "entity": "Currency"
+    },
+    {
+        "id": 65,
+        "name": "avg price",
+        "entity": "Currency"
+    },
+    {
+        "id": 66,
+        "name": "ms unit",
+        "entity": "Sales"
+    },
+    {
+        "id": 67,
+        "name": "delivery quantity",
+        "entity": "Sales"
+    },
+    {
+        "id": 68,
+        "name": "delivery qty",
+        "entity": "Sales"
+    },
+    {
+        "id": 69,
+        "name": "transactions",
+        "entity": "Default"
+    },
+    {
+        "id": 70,
+        "name": "no of transactions",
+        "entity": "Default"
+    },
+    {
+        "id": 71,
+        "name": "revenue",
+        "entity": "Currency"
+    },
+    {
+        "id": 72,
+        "name": "revenue amount",
+        "entity": "Currency"
+    },
+    {
+        "id": 73,
+        "name": "revenue amt",
+        "entity": "Currency"
+    },
+    {
+        "id": 74,
+        "name": "expense",
+        "entity": "Currency"
+    },
+    {
+        "id": 75,
+        "name": "expenditure amount",
+        "entity": "Currency"
+    },
+    {
+        "id": 76,
+        "name": "expenditure amt",
+        "entity": "Currency"
+    },
+    {
+        "id": 77,
+        "name": "expense amt",
+        "entity": "Currency"
+    },
+    {
+        "id": 78,
+        "name": "premium",
+        "entity": "Currency"
+    },
+    {
+        "id": 79,
+        "name": "premium amount",
+        "entity": "Currency"
+    },
+    {
+        "id": 80,
+        "name": "policies count",
+        "entity": "Sales"
+    },
+    {
+        "id": 81,
+        "name": "no of policies",
+        "entity": "Sales"
+    },
+    {
+        "id": 82,
+        "name": "number of policies",
+        "entity": "Sales"
+    },
+    {
+        "id": 83,
+        "name": "policies count for the period",
+        "entity": "Sales"
+    },
+    {
+        "id": 84,
+        "name": "policies count for period",
+        "entity": "Sales"
+    },
+    {
+        "id": 85,
+        "name": "policies count upto the period",
+        "entity": "Sales"
+    },
+    {
+        "id": 86,
+        "name": "policies count upto period",
+        "entity": "Sales"
+    },
+    {
+        "id": 87,
+        "name": "premium for the period",
+        "entity": "Currency"
+    },
+    {
+        "id": 88,
+        "name": "premium upto the period",
+        "entity": "Currency"
+    },
+    {
+        "id": 89,
+        "name": "premium upto the period",
+        "entity": "Currency"
+    },
+    {
+        "id": 90,
+        "name": "disbursed amount",
+        "entity": "Currency"
+    },
+    {
+        "id": 91,
+        "name": "disbursed amt",
+        "entity": "Currency"
+    },
+    {
+        "id": 92,
+        "name": "amount disbursed",
+        "entity": "Currency"
+    },
+    {
+        "id": 93,
+        "name": "amount disbursed",
+        "entity": "Currency"
+    },
+    {
+        "id": 94,
+        "name": "weighted irr",
+        "entity": "Currency"
+    },
+    {
+        "id": 95,
+        "name": "loan amount",
+        "entity": "Currency"
+    },
+    {
+        "id": 96,
+        "name": "loan amt",
+        "entity": "Currency"
+    },
+    {
+        "id": 97,
+        "name": "resignation count",
+        "entity": "Default"
+    },
+    {
+        "id": 98,
+        "name": "resignation count",
+        "entity": "Default"
+    },
+    {
+        "id": 99,
+        "name": "hire count",
+        "entity": "Default"
+    },
+    {
+        "id": 100,
+        "name": "hire count",
+        "entity": "Default"
+    },
+    {
+        "id": 101,
+        "name": "budget ",
+        "entity": "Currency"
+    },
+    {
+        "id": 102,
+        "name": "budget(rs)",
+        "entity": "Currency"
+    },
+    {
+        "id": 103,
+        "name": "hire cost",
+        "entity": "Currency"
+    },
+    {
+        "id": 104,
+        "name": "hiring cost",
+        "entity": "Currency"
+    },
+    {
+        "id": 105,
+        "name": "hiring cost",
+        "entity": "Currency"
+    },
+    {
+        "id": 106,
+        "name": "hire budget",
+        "entity": "Currency"
+    },
+    {
+        "id": 107,
+        "name": "hiring budget",
+        "entity": "Currency"
+    },
+    {
+        "id": 108,
+        "name": "hiring budget",
+        "entity": "Currency"
+    },
+    {
+        "id": 109,
+        "name": "no of users",
+        "entity": "Default"
+    },
+    {
+        "id": 110,
+        "name": "user count",
+        "entity": "Default"
+    },
+    {
+        "id": 111,
+        "name": "users count",
+        "entity": "Default"
+    },
+    {
+        "id": 112,
+        "name": "no of users",
+        "entity": "Default"
+    },
+    {
+        "id": 113,
+        "name": "user count",
+        "entity": "Default"
+    },
+    {
+        "id": 114,
+        "name": "current users",
+        "entity": "Default"
+    },
+    {
+        "id": 115,
+        "name": "last year users",
+        "entity": "Default"
+    },
+    {
+        "id": 116,
+        "name": "target users",
+        "entity": "Default"
+    },
+    {
+        "id": 117,
+        "name": "budget amount",
+        "entity": "Currency"
+    },
+    {
+        "id": 118,
+        "name": "budget amt",
+        "entity": "Currency"
+    },
+    {
+        "id": 119,
+        "name": "budget value",
+        "entity": "Currency"
+    },
+    {
+        "id": 120,
+        "name": "income",
+        "entity": "Currency"
+    },
+    {
+        "id": 121,
+        "name": "income amount",
+        "entity": "Currency"
+    },
+    {
+        "id": 122,
+        "name": "income amt",
+        "entity": "Currency"
+    },
+    {
+        "id": 123,
+        "name": "operating income",
+        "entity": "Currency"
+    },
+    {
+        "id": 124,
+        "name": "operating income",
+        "entity": "Currency"
+    },
+    {
+        "id": 125,
+        "name": "no of tickets",
+        "entity": "Default"
+    },
+    {
+        "id": 126,
+        "name": "tickets count",
+        "entity": "Default"
+    },
+    {
+        "id": 127,
+        "name": "tickets count",
+        "entity": "Default"
+    },
+    {
+        "id": 128,
+        "name": "tickets raised",
+        "entity": "Default"
+    },
+    {
+        "id": 129,
+        "name": "tickets raised",
+        "entity": "Default"
+    },
+    {
+        "id": 130,
+        "name": "budgeted fte count",
+        "entity": "Default"
+    },
+    {
+        "id": 131,
+        "name": "actual fte count",
+        "entity": "Default"
+    },
+    {
+        "id": 132,
+        "name": "fte count",
+        "entity": "Default"
+    },
+    {
+        "id": 133,
+        "name": "resolution time",
+        "entity": "Default"
+    },
+    {
+        "id": 134,
+        "name": "invoice amount",
+        "entity": "Currency"
+    },
+    {
+        "id": 135,
+        "name": "invoice amt",
+        "entity": "Currency"
+    },
+    {
+        "id": 136,
+        "name": "gross sales",
+        "entity": "Sales"
+    },
+    {
+        "id": 137,
+        "name": "industry gross sales",
+        "entity": "Sales"
+    },
+    {
+        "id": 138,
+        "name": "industry net sales",
+        "entity": "Sales"
+    },
+    {
+        "id": 139,
+        "name": "aum",
+        "entity": "Default"
+    },
+    {
+        "id": 140,
+        "name": "assets under management",
+        "entity": "Default"
+    },
+    {
+        "id": 141,
+        "name": "industry aum",
+        "entity": "Default"
+    },
+    {
+        "id": 142,
+        "name": "unit cost",
+        "entity": "Currency"
+    },
+    {
+        "id": 143,
+        "name": "unit price",
+        "entity": "Currency"
+    },
+    {
+        "id": 144,
+        "name": "quantity supplied",
+        "entity": "Sales"
+    },
+    {
+        "id": 145,
+        "name": "units purchased",
+        "entity": "Sales"
+    },
+    {
+        "id": 146,
+        "name": "total units purchased",
+        "entity": "Sales"
+    },
+    {
+        "id": 147,
+        "name": "units required",
+        "entity": "Default"
+    },
+    {
+        "id": 148,
+        "name": "total units required",
+        "entity": "Default"
+    },
+    {
+        "id": 149,
+        "name": "units sold",
+        "entity": "Sales"
+    },
+    {
+        "id": 150,
+        "name": "total units sold",
+        "entity": "Sales"
+    },
+    {
+        "id": 151,
+        "name": "units in inventory",
+        "entity": "Sales"
+    },
+    {
+        "id": 152,
+        "name": "inventory units",
+        "entity": "Sales"
+    },
+    {
+        "id": 153,
+        "name": "inventory units",
+        "entity": "Sales"
+    },
+    {
+        "id": 154,
+        "name": "duration",
+        "entity": "Default"
+    },
+    {
+        "id": 155,
+        "name": "credit note",
+        "entity": "Currency"
+    },
+    {
+        "id": 156,
+        "name": "credit notes",
+        "entity": "Currency"
+    },
+    {
+        "id": 157,
+        "name": "credit note qty",
+        "entity": "Sales"
+    },
+    {
+        "id": 158,
+        "name": "credit note sales",
+        "entity": "Sales"
+    },
+    {
+        "id": 159,
+        "name": "credit note quantity",
+        "entity": "Sales"
+    },
+    {
+        "id": 160,
+        "name": "call duration",
+        "entity": "Default"
+    },
+    {
+        "id": 161,
+        "name": "no of calls",
+        "entity": "Default"
+    },
+    {
+        "id": 162,
+        "name": "number of calls",
+        "entity": "Default"
+    },
+    {
+        "id": 163,
+        "name": "actuals",
+        "entity": "Currency"
+    },
+    {
+        "id": 164,
+        "name": "actual",
+        "entity": "Currency"
+    },
+    {
+        "id": 165,
+        "name": "variance",
+        "entity": "Currency"
+    },
+    {
+        "id": 166,
+        "name": "litre",
+        "entity": "Default"
+    },
+    {
+        "id": 167,
+        "name": "ltr",
+        "entity": "Default"
+    },
+    {
+        "id": 168,
+        "name": "down payment",
+        "entity": "Currency"
+    },
+    {
+        "id": 169,
+        "name": "down payment",
+        "entity": "Currency"
+    },
+    {
+        "id": 170,
+        "name": "tenure",
+        "entity": "Default"
+    },
+    {
+        "id": 171,
+        "name": "net sales value",
+        "entity": "Sales"
+    },
+    {
+        "id": 172,
+        "name": "net sales qty",
+        "entity": "Sales"
+    },
+    {
+        "id": 173,
+        "name": "target value",
+        "entity": "Sales"
+    },
+    {
+        "id": 174,
+        "name": "target qty",
+        "entity": "Sales"
+    },
+    {
+        "id": 175,
+        "name": "last yr value",
+        "entity": "Sales"
+    },
+    {
+        "id": 176,
+        "name": "last yr qty",
+        "entity": "Sales"
+    },
+    {
+        "id": 177,
+        "name": "credit note value",
+        "entity": "Sales"
+    },
+    {
+        "id": 178,
+        "name": "ms%",
+        "entity": "Default"
+    },
+    {
+        "id": 179,
+        "name": "visits/day",
+        "entity": "Default"
+    },
+    {
+        "id": 180,
+        "name": "calls/day",
+        "entity": "Default"
+    },
+    {
+        "id": 181,
+        "name": "no of doctor visits",
+        "entity": "Default"
+    },
+    {
+        "id": 182,
+        "name": "coverage(%)",
+        "entity": "Default"
+    },
+    {
+        "id": 183,
+        "name": "total coverage(%)",
+        "entity": "Default"
+    },
+    {
+        "id": 184,
+        "name": "doctor coverage(%)",
+        "entity": "Default"
+    },
+    {
+        "id": 185,
+        "name": "doctor coverage",
+        "entity": "Default"
+    },
+    {
+        "id": 186,
+        "name": "net cost",
+        "entity": "Currency"
+    },
+    {
+        "id": 187,
+        "name": "%ms value",
+        "entity": "Default"
+    },
+    {
+        "id": 188,
+        "name": "%ms volume",
+        "entity": "Default"
+    },
+    {
+        "id": 189,
+        "name": "%ms val",
+        "entity": "Default"
+    },
+    {
+        "id": 190,
+        "name": "%ms vol",
+        "entity": "Default"
+    },
+    {
+        "id": 191,
+        "name": "ms value(%)",
+        "entity": "Default"
+    },
+    {
+        "id": 192,
+        "name": "ms volume(%)",
+        "entity": "Default"
+    },
+    {
+        "id": 193,
+        "name": "value market share",
+        "entity": "Default"
+    },
+    {
+        "id": 194,
+        "name": "volume market share",
+        "entity": "Default"
+    },
+    {
+        "id": 195,
+        "name": "profit",
+        "entity": "Currency"
+    },
+    {
+        "id": 196,
+        "name": "shipping cost",
+        "entity": "Currency"
+    },
+    {
+        "id": 197,
+        "name": "profit(%)",
+        "entity": "Default"
+    },
+    {
+        "id": 198,
+        "name": "loss",
+        "entity": "Currency"
+    },
+    {
+        "id": 199,
+        "name": "loss(%)",
+        "entity": "Default"
+    },
+    {
+        "id": 200,
+        "name": "total profit",
+        "entity": "Currency"
+    },
+    {
+        "id": 201,
+        "name": "total loss",
+        "entity": "Currency"
+    },
+    {
+        "id": 202,
+        "name": "total shipping cost",
+        "entity": "Currency"
+    },
+    {
+        "id": 203,
+        "name": "annual target",
+        "entity": "Sales"
+    },
+    {
+        "id": 204,
+        "name": "taxes",
+        "entity": "Currency"
+    },
+    {
+        "id": 205,
+        "name": "recruitment cost",
+        "entity": "Currency"
+    },
+    {
+        "id": 206,
+        "name": "nav actuals",
+        "entity": "Currency"
+    },
+    {
+        "id": 207,
+        "name": "nav target",
+        "entity": "Currency"
+    },
+    {
+        "id": 208,
+        "name": "nav",
+        "entity": "Currency"
+    },
+    {
+        "id": 209,
+        "name": "ncib",
+        "entity": "Currency"
+    },
+    {
+        "id": 210,
+        "name": "inc val",
+        "entity": "Currency"
+    },
+    {
+        "id": 211,
+        "name": "incremental value",
+        "entity": "Currency"
+    },
+    {
+        "id": 212,
+        "name": "net asset value",
+        "entity": "Currency"
+    },
+    {
+        "id": 213,
+        "name": "no of vehicles",
+        "entity": "Default"
+    },
+    {
+        "id": 214,
+        "name": "no of vehicles sold",
+        "entity": "Sales"
+    },
+    {
+        "id": 215,
+        "name": "no of vehicles purchased",
+        "entity": "Default"
+    },
+    {
+        "id": 216,
+        "name": "vehicles sold",
+        "entity": "Sales"
+    },
+    {
+        "id": 217,
+        "name": "vehicles purchased",
+        "entity": "Default"
+    },
+    {
+        "id": 218,
+        "name": "total revenue",
+        "entity": "Currency"
+    },
+    {
+        "id": 219,
+        "name": "roi",
+        "entity": "Currency"
+    },
+    {
+        "id": 220,
+        "name": "return on investment",
+        "entity": "Currency"
+    },
+    {
+        "id": 221,
+        "name": "return on investment",
+        "entity": "Currency"
+    },
+    {
+        "id": 222,
+        "name": "profit margin(%)",
+        "entity": "Default"
+    },
+    {
+        "id": 223,
+        "name": "pbt",
+        "entity": "Currency"
+    },
+    {
+        "id": 224,
+        "name": "profit before tax",
+        "entity": "Currency"
+    },
+    {
+        "id": 225,
+        "name": "profit before tax",
+        "entity": "Currency"
+    },
+    {
+        "id": 226,
+        "name": "rwa",
+        "entity": "Currency"
+    },
+    {
+        "id": 227,
+        "name": "risk weighted assets",
+        "entity": "Currency"
+    },
+    {
+        "id": 228,
+        "name": "amount receivable",
+        "entity": "Currency"
+    },
+    {
+        "id": 229,
+        "name": "amount receivable",
+        "entity": "Currency"
+    },
+    {
+        "id": 230,
+        "name": "ebitda",
+        "entity": "Currency"
+    },
+    {
+        "id": 231,
+        "name": "primary sales actuals",
+        "entity": "Sales"
+    },
+    {
+        "id": 232,
+        "name": "primary sales target",
+        "entity": "Sales"
+    },
+    {
+        "id": 233,
+        "name": "secondary sales actuals",
+        "entity": "Sales"
+    },
+    {
+        "id": 234,
+        "name": "secondary sales target",
+        "entity": "Sales"
+    },
+    {
+        "id": 235,
+        "name": "calls",
+        "entity": "Default"
+    },
+    {
+        "id": 236,
+        "name": "no of calls",
+        "entity": "Default"
+    },
+    {
+        "id": 237,
+        "name": "visits",
+        "entity": "Default"
+    },
+    {
+        "id": 238,
+        "name": "no of visits",
+        "entity": "Default"
+    },
+    {
+        "id": 239,
+        "name": "dca",
+        "entity": "Default"
+    },
+    {
+        "id": 240,
+        "name": "doctor call average",
+        "entity": "Default"
+    },
+    {
+        "id": 241,
+        "name": "doctor call avg",
+        "entity": "Default"
+    },
+    {
+        "id": 242,
+        "name": "cca",
+        "entity": "Default"
+    },
+    {
+        "id": 243,
+        "name": "chemist call avg",
+        "entity": "Default"
+    },
+    {
+        "id": 244,
+        "name": "chemist call average",
+        "entity": "Default"
+    },
+    {
+        "id": 245,
+        "name": "call average",
+        "entity": "Default"
+    },
+    {
+        "id": 246,
+        "name": "doctor visits",
+        "entity": "Default"
+    },
+    {
+        "id": 247,
+        "name": "total budget",
+        "entity": "Currency"
+    },
+    {
+        "id": 248,
+        "name": "no of loans sanctioned",
+        "entity": "Default"
+    },
+    {
+        "id": 249,
+        "name": "no of loans disbursed",
+        "entity": "Default"
+    },
+    {
+        "id": 250,
+        "name": "new sip count",
+        "entity": "Default"
+    },
+    {
+        "id": 251,
+        "name": "sip count",
+        "entity": "Default"
+    },
+    {
+        "id": 252,
+        "name": "sip sales",
+        "entity": "Currency"
+    },
+    {
+        "id": 253,
+        "name": "net asset cost",
+        "entity": "Currency"
+    },
+    {
+        "id": 254,
+        "name": "gross weight",
+        "entity": "Default"
+    },
+    {
+        "id": 255,
+        "name": "current assets",
+        "entity": "Currency"
+    },
+    {
+        "id": 256,
+        "name": "current liabilities",
+        "entity": "Currency"
+    },
+    {
+        "id": 257,
+        "name": "investment amount",
+        "entity": "Currency"
+    },
+    {
+        "id": 258,
+        "name": "amount invested",
+        "entity": "Currency"
+    },
+    {
+        "id": 259,
+        "name": "net income",
+        "entity": "Currency"
+    },
+    {
+        "id": 260,
+        "name": "no of meetings",
+        "entity": "Default"
+    },
+    {
+        "id": 261,
+        "name": "purchase amount",
+        "entity": "Currency"
+    },
+    {
+        "id": 262,
+        "name": "purchase amt",
+        "entity": "Currency"
+    },
+    {
+        "id": 263,
+        "name": "exchange rate",
+        "entity": "Default"
+    },
+    {
+        "id": 264,
+        "name": "amount spent",
+        "entity": "Currency"
+    },
+    {
+        "id": 265,
+        "name": "trp",
+        "entity": "Default"
+    },
+    {
+        "id": 266,
+        "name": "grp",
+        "entity": "Default"
+    },
+    {
+        "id": 267,
+        "name": "equity",
+        "entity": "Currency"
+    },
+    {
+        "id": 268,
+        "name": "planned visits",
+        "entity": "Default"
+    },
+    {
+        "id": 269,
+        "name": "actual visits",
+        "entity": "Default"
+    },
+    {
+        "id": 270,
+        "name": "no of planned visits",
+        "entity": "Default"
+    },
+    {
+        "id": 271,
+        "name": "no of actual visits",
+        "entity": "Default"
+    },
+    {
+        "id": 272,
+        "name": "loan amount disbursed",
+        "entity": "Currency"
+    },
+    {
+        "id": 273,
+        "name": "emi",
+        "entity": "Currency"
+    },
+    {
+        "id": 274,
+        "name": "equated monthly instalments ",
+        "entity": "Currency"
+    },
+    {
+        "id": 275,
+        "name": "turnover",
+        "entity": "Currency"
+    },
+    {
+        "id": 276,
+        "name": "pbit",
+        "entity": "Currency"
+    },
+    {
+        "id": 277,
+        "name": "profit before interest & taxes",
+        "entity": "Currency"
+    },
+    {
+        "id": 278,
+        "name": "ebit",
+        "entity": "Currency"
+    },
+    {
+        "id": 279,
+        "name": "earnings before interest & taxes",
+        "entity": "Currency"
+    },
+    {
+        "id": 280,
+        "name": "finance cost",
+        "entity": "Currency"
+    },
+    {
+        "id": 281,
+        "name": "monthly cost",
+        "entity": "Currency"
+    },
+    {
+        "id": 282,
+        "name": "cogs",
+        "entity": "Currency"
+    },
+    {
+        "id": 283,
+        "name": "cost of goods sold",
+        "entity": "Currency"
+    },
+    {
+        "id": 284,
+        "name": "net turnover",
+        "entity": "Currency"
+    }
+]
