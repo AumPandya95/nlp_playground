@@ -7,7 +7,8 @@ B. Future scope and experimentation
     - Implement a heuristic algorithm to funnel out wrong predictions from the predicted universe
         - Syntactic rules can be generalised and implemented
             1. Eg. "Date of user joining" 
-                "of" is an adposition (ADP) which we can use to decipher that the prior entity is an important keyword in the entity; which is "Date"
+                "of" is an adposition (ADP) which we can use to decipher that the prior entity is an important keyword
+                 in the entity; which is "Date"
             2. Eg. "units in inventory";
                 "Units" -> relates to "Sales";
                 "in" -> is the Adposition;
@@ -19,3 +20,12 @@ B. Future scope and experimentation
     - Try 300d vectors
     - Try 768d BERT embeddings (non context specific word embeddings)
     - Try extracting phrase (in this case column names) embeddings as a whole
+
+
+TASKS
+
+    - NLU Eg. NLQ (When India is mentioned instead of "Country" (which is the column) we should map it with "Country")
+    - NLG
+    - Entity Coverage
+    - Benchmark KB services on data having 30 trillion rows
+    - Optimisation, Caching strategies
