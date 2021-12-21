@@ -14,27 +14,10 @@ Approach 1
 	3. If not found, then search the most similar words in the corpus
 	4. Extract and output the entity
 
-	Challenges:
-		1. Storing most similar words in the corpus
-		2. Search and extraction will be time consuming
-
 Approach 2
 	1. Lookup sub-words in the corpus
 	2. If we find the subword directly, output the entity
 	3. If not found, then a semantic similarity between the sub-word and all words in the corpus
-	4. Sort and filter based on a threshold like 0.95
+	4. Sort and filter based on a threshold like 0.65
 	5. Extract and output the entity
 
-	Challenges:
-		1. There might be issues in filtering out the entities based on semantic similarities; Need to finalise a threshold and hard condition on number of recommendations
-		2. Finding similarity between vectors will consume time (Need to benchmark)
-
-Approach 3
-	1. Convert the corpus into a matrix
-	2. Searching a word is now reduced to a matrix multiplication problem with a few tweaks 
-	3. Find angle between each vector in the corpus.
-	4. Our aim is now to find a product which is 1.0 (if exact match) else product approaching 1.0 (like 0.99834) (Need to maintain a threshold)
-	5. Extract the entity based on the location of product
-
-	Challenges:
-		1. Need to maintain a mapping linking the location and respective entity
